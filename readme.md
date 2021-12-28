@@ -30,6 +30,19 @@ The following web pages shows the type of information that is configured in a se
 
 - All program flow, scheduling, security, data documentation, discovery and data quality rules are data driven and administered through an online UX.  The UX should allow online data entry and ideally batch updates via Excel.
 
+**Priorities and Approach**
+
+The largest impact to projects implementing the DAVT templates is based on development process changes rather than technical changes.  All implementations of DAVT should have a functioning report available in the first week and usually the first few days.  Note this is not produced with real data unless the client has existing reports where the data can be pasted in Excel. 
+
+The key rule in implementing DAVT is to begin with the end in mind.   For instance, during the first implementation of DAVT, the data from the current customer reports were pasted into Excel, analyzed and used to create a report mockup in the first three days loading from data from Excel files exported to csv format.  
+
+When the current reports were analyzed two common pitfalls were discovered in the report:
+
+- **Miracles:**  Much of the data the was in the current report such as captions, formulas, code lookups, etc. was not stored in any system.  The processes to implement the report were manual and only known by the author of the word or excel document.  Even some of the actual reported historical data was copy pasted from an old excel file each month and never stored in a formal system.  Much of the data was a "miracle" because the data appeared on report output but was never entered in a formal system.
+
+- **Blackholes:**  Much, if not most of the data, that was fed into the system as input was never used on report output or external data feeds.  Some of the inputs may have been used in the past, but never formally deprecated.  Many of the blackholes were simply intermediate variables created by past report developers that were never removed.  In short, most of the data going into the system went into a blackhole and was never used on any current report output, feed or intermediate calculation.
+
+
 
 **Business Need**
 
@@ -62,18 +75,6 @@ This project houses templates for Data, Analytics and Visualization that can be 
 **Need for Change**
 
 Currently, the current DAVT processes are primarily implemented by one technical data architect from Peraton and one Data Manager/Data Modernization Initiative (DMI) lead from the NCIRD center.  It is not possible for such as a small team to move the needle on the current 5,000+ opportunities.  The current workload of building reports is not sustainable.  There are many opportunities for individuals to lead each of the phases and epics listed below.  The scope of the opportunity is far broader than a couple of individuals.
-
-**Priorities and Approach**
-
-The largest impact to projects implementing the DAVT templates is based on development process changes rather than technical changes.  All implementations of DAVT should have a functioning report available in the first week and usually the first few days.  Note this is not produced with real data unless the client has existing reports where the data can be pasted in Excel. 
-
-The key rule in implementing DAVT is to begin with the end in mind.   For instance, during the first implementation of DAVT, the data from the current customer reports were pasted into Excel, analyzed and used to create a report mockup in the first three days loading from data from Excel files exported to csv format.  
-
-When the current reports were analyzed two common pitfalls were discovered in the report:
-
-- **Miracles:**  Much of the data the was in the current report such as captions, formulas, code lookups, etc. was not stored in any system.  The processes to implement the report were manual and only known by the author of the word or excel document.  Even some of the actual reported historical data was copy pasted from an old excel file each month and never stored in a formal system.  Much of the data was a "miracle" because the data appeared on report output but was never entered in a formal system.
-
-- **Blackholes:**  Much, if not most of the data, that was fed into the system as input was never used on report output or external data feeds.  Some of the inputs may have been used in the past, but never formally deprecated.  Many of the blackholes were simply intermediate variables created by past report developers that were never removed.  In short, most of the data going into the system went into a blackhole and was never used on any current report output, feed or intermediate calculation.
 
 
 **Current Projects**
