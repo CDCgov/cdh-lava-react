@@ -4,7 +4,7 @@
 
 Reusable Data, Analytics and Visualization Templates internally known as DAVT at the CDC.
 
-The project uses the DataBricks methodology of referencing system inputs as bronze data and system outputs as gold data.  Data transformation between bronze and gold are referred to as silver data.  The project is named gold idea first templates (GIFT) because a key principle of the architecture is to begin with the end in mind (gold data) and prioritize the ideas for generating end user output (gold data) first before delving into the technical details of expected bronze input.
+The project uses the DataBricks methodology of referencing system inputs as bronze data and system outputs as gold data.  Data transformations between bronze and gold are referred to as silver data.  The project is named gold idea first templates (GIFT) because a key principle of the architecture is to begin with the end in mind (gold data) and prioritize the ideas for generating end user output (gold data) first before delving into the technical details of expected bronze input.
 
 The templates are designed to be data driven through end user configuration.  Creating new ETL processes or reports are designed to be self-service and not require knowledge of procedural programming such as Python.
 
