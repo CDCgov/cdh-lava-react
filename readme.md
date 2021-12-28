@@ -215,7 +215,8 @@ The following template project plan outlines the implementation of DAVT Best Pra
   - [project name]-[bronze-input]-[file-type]
   - example (ndsp-pertussis-bronze-input-csv)
 
-![image.png](/.attachments/image-c34f0a7a-c637-488f-9870-9c0e616c00bb.png)
+TODO Insert image without senstive data
+
 
 **Azure Storage Folder Structures  (don’t use – in folder names)**
 1.	by project - ezdx (NCEZID), ndsp (NCIRD)
@@ -227,7 +228,7 @@ The following template project plan outlines the implementation of DAVT Best Pra
 
 Example:
 
-![image.png](/.attachments/image-6254ac9c-b862-4ff6-b6d4-483022993910.png)
+TODO Insert image without senstive data
 
 **DataBricks Repositories**
 1.  Name workspace project name-notebook
