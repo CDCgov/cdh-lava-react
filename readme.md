@@ -225,7 +225,9 @@ The following commercial products and services are used in the architecture:
 - Microsoft O365 Excel
 - Microsoft O365 PowerPoint
 - Microsoft O365 Visio
-- Microsoft O365 Power BI
+- Microsoft O365 Power BI Workspaces
+- Microsoft O365 Power BI Premium Workspaces
+- Microsoft O365 Power BI Apps
 - Microsoft O365 Power BI Desktop
 - Microsoft O365 Power BI Report Builder Desktop
 - Microsoft O365 One Drive
