@@ -207,7 +207,7 @@ The following template project plan outlines the implementation of DAVT Best Pra
   - P6_PBI1	Disposition Plan
 
 
-## GIFT - Software Component
+## GIFT - Software Components
 
 The following commercial products and services are used in the architecture:
 
@@ -258,6 +258,7 @@ The following open source libraries are used in the architecture:
 - hl7_pet_1_2_4_4 (python - databricks)
 - Code Search (microsoft devops)
 - DevOps for Azure Databricks (microsoft devops)
+- Teraform (cloud deployment)
 
 The following programming languages are used in the architecture:
 
@@ -284,6 +285,11 @@ The following data formats are supported:
 - parquet (databricks delta)
 - parquet (databricks delta live)
 
+The following security scanning components are supported:
+
+- put code scanning tools here
+
+ 
 ## GIFT - Code Standards and Naming Conventions
 
 **DevOps Branching**
