@@ -280,6 +280,7 @@ The following data formats are supported:
 - sas bdat
 - usv (unicode delimited)
 - tsv
+- fixed width
 - hl7
 - json
 - parquet
