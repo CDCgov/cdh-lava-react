@@ -260,6 +260,7 @@ The following open source libraries are used in the architecture:
 - Code Search (microsoft devops)
 - DevOps for Azure Databricks (microsoft devops)
 - Teraform (cloud deployment)
+- Pip (python)
 
 The following programming languages are used in the architecture:
 
