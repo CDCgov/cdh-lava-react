@@ -196,6 +196,28 @@ The following template project plan outlines the implementation of DAVT Best Pra
   - P6_PBI1	Disposition Plan
 
 
+## GIFT - Software Component
+
+The following Azure services have been used in the architecture:
+
+Azure DataBricks
+Azure Data Lake Gen2
+Microsoft Power BI
+Azure Active Directory
+Azure Cost Management
+Azure Key Vault
+Azure DevOps
+Azure Policy
+Azure Logic Apps
+GitHub
+Microsoft On Premise SQL Server
+Microsoft O365 SharePoint
+Microsoft O365 Teams
+Microsoft O365 Mail
+Microsoft O365 Power Automate
+SAS
+
+
 ## GIFT - Code Standards and Naming Conventions
 
 **DevOps Branching**
