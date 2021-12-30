@@ -31,7 +31,7 @@ The following web pages shows the type of information that is configured in a se
 - All program flow, scheduling, security, data documentation, discovery and data quality rules are data driven and administered through an online UX.  The UX should allow online data entry and ideally batch updates via Excel.
 
 **Definition of Multi-Vendor**
-- Currently no vendor provides a consistent roadmap to perform all of the functionality in the data, analytics and visualization templates.   The architecture currently uses over 30 software products from over a half dozen vendors components written more than a half dozen languages and supporting over a half dozen file formats for ingestion and ouput offered with a variety of encodign mechanisms.  More details of component services and technologies are provided below in the software component section. 
+- Currently no vendor provides a consistent roadmap to perform all of the functionality in the data, analytics and visualization templates.   The architecture currently uses over 30 software products from over a half dozen vendors written more than a half dozen languages and supporting over a half dozen file formats for ingestion and ouput offered with a variety of encodign mechanisms.  More details of component services and technologies are provided below in the software component section. 
 
 **Definition of Multi-Tenant**
 
