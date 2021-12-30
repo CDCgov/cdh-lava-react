@@ -6,7 +6,7 @@ Reusable Data, Analytics and Visualization Templates internally known as DAVT at
 
 The project uses the DataBricks methodology of referencing system inputs as bronze data and system outputs as gold data.  Data transformations between bronze and gold are referred to as silver data.  The project is named gold idea first templates (GIFT) because a key principle of the architecture is to begin with the end in mind (gold data) and prioritize the ideas for generating end user output (gold data) first before delving into the technical details of expected bronze input.
 
-The templates use an architecture designed to be self service, data driven and multi-tenant configured by end users.  The process of creating new ETL processes or reports is self-service and does not require knowledge of procedural programming such as Python.  Definitions of the archictectural patterns for self-service, data driven and multi-tenant are provided in the project description.
+The templates use an architecture designed to be self service, data driven, mult-vendor and multi-tenant configured by end users.  The process of creating new ETL processes or reports is self-service and does not require knowledge of procedural programming such as Python.  Definitions of the archictectural patterns for self-service, data driven and multi-tenant are provided in the project description.
 
 ![Delta-Lake-Multi-Hop-Architecture-Bronze](https://user-images.githubusercontent.com/2504540/147579076-395a7f22-fff7-490e-9cf8-847a2adfbd95.png)
 
@@ -29,6 +29,9 @@ The following web pages shows the type of information that is configured in a se
 **Definition of Data Driven**
 
 - All program flow, scheduling, security, data documentation, discovery and data quality rules are data driven and administered through an online UX.  The UX should allow online data entry and ideally batch updates via Excel.
+
+**Definition of Multi-Vendor**
+- Currently no vendor provides a consistent roadmap to perform all of the functionality in the data, analytics and visualization templates.   The architecture currently uses over 30 software products from over a half dozen vendors components in written more than a half dozen languages.  More details of component services and technologies are provided below in the software component section. 
 
 **Definition of Multi-Tenant**
 
