@@ -231,6 +231,8 @@ The following commercial products and services are used in the architecture:
 - Microsoft O365 One Drive
 - Microsoft Azure Data Explorer Desktop
 - Microsoft DevOps Integration Tool for Office 2019
+- Microsoft VS Code
+- R Studio
 - SAS
 - JIRA
 - Tableau
@@ -240,6 +242,27 @@ The following open source libraries are used in the architecture:
 
 - saurfang:spark-sas7bdat (python)
 - hl7_pet_1_2_4_4 (python)
+
+The following programming languages are used in the architecture:
+
+- Spark SQL (primary)
+- Python
+- R
+- Microsoft M (Power B/Excel/PowerQuery)
+- Microsoft Dax (Power BI)
+- SAS
+
+The following data formats are supported:
+
+- csv
+- sas bdat
+- usv (unicode delimited)
+- tsv
+- hl7
+- json
+- parquet
+- parquet (databricks delta)
+- parquet (databricks delta live)
 
 ## GIFT - Code Standards and Naming Conventions
 
