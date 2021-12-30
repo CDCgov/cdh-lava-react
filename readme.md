@@ -6,7 +6,7 @@ Reusable Data, Analytics and Visualization Templates internally known as DAVT at
 
 The project uses the DataBricks methodology of referencing system inputs as bronze data and system outputs as gold data.  Data transformations between bronze and gold are referred to as silver data.  The project is named gold idea first templates (GIFT) because a key principle of the architecture is to begin with the end in mind (gold data) and prioritize the ideas for generating end user output (gold data) first before delving into the technical details of expected bronze input.
 
-The templates are designed to be self service, data driven and provide a multi-tenant architecture configured by end users.  Creating new ETL processes or reports are designed to be self-service and not require knowledge of procedural programming such as Python.  Definitions of self-service, data driven and multi-tenant are provided in the project description.
+The templates use an architecture designed to be self service, data driven and multi-tenant configured by end users.  The process of creating new ETL processes or reports is self-service and does not require knowledge of procedural programming such as Python.  Definitions of the archictecutral patterns for self-service, data driven and multi-tenant are provided in the project description.
 
 ![Delta-Lake-Multi-Hop-Architecture-Bronze](https://user-images.githubusercontent.com/2504540/147579076-395a7f22-fff7-490e-9cf8-847a2adfbd95.png)
 
