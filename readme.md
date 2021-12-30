@@ -259,6 +259,9 @@ The following programming languages are used in the architecture:
 - Microsoft M (Power B/Excel/PowerQuery)
 - Microsoft Dax (Power BI)
 - SAS
+- YAML
+- Powershell
+- Bash
 
 The following data formats are supported:
 
