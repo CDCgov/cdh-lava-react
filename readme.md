@@ -243,6 +243,7 @@ The following commercial products and services are used in the architecture:
 - Microsoft DevOps Integration Tool for Office 2019
 - Microsoft VS Code
 - R Studio
+- DAX Studio
 - SAS
 - JIRA
 - Tableau
