@@ -200,26 +200,29 @@ The following template project plan outlines the implementation of DAVT Best Pra
 
 The following Azure services have been used in the architecture:
 
-
-Azure Active Directory
-Azure Cost Management
-Azure DataBricks
-Azure Data Lake Gen2
-Azure Key Vault
-Azure DevOps
-Azure Policy
-Azure Logic Apps
-GitHub
-Microsoft On Premise SQL Server
-Microsoft On Premise Folder Shares (MUST)
-Microsoft O365 SharePoint
-Microsoft O365 Teams
-Microsoft O365 Mail
-Microsoft O365 Power Automate
-Microsoft O365 Power BI
-Microsoft O365 Power BI Desktop
-Microsoft O365 Power BI Report Builder Desktop
-SAS
+- Azure Active Directory
+- Azure Cost Management
+- Azure DataBricks
+- Azure Data Lake Gen2
+- Azure Key Vault
+- Azure DevOps
+- Azure Policy
+- Azure Logic Apps
+- GitHub
+- Microsoft On Premise SQL Server
+- Microsoft On Premise Folder Shares (MUST)
+- Microsoft O365 SharePoint
+- Microsoft O365 Teams
+- Microsoft O365 Mail
+- Microsoft O365 Power Automate
+- Microsoft O365 Power BI
+- Microsoft O365 Power BI Desktop
+- Microsoft O365 Power BI Report Builder Desktop
+- Microsoft O365 One Drive
+- Microsoft Azure Data Explorer Desktop
+- Microsoft DevOps Integration Tool for Office 2019
+- SAS
+- JIRA
 
 
 ## GIFT - Code Standards and Naming Conventions
