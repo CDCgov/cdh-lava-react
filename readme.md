@@ -32,7 +32,7 @@ The following web pages shows the type of information that is configured in a se
 
 **Definition of Multi-Tenant**
 
-- The core databricks repositories are designed to be shared and reused by multiple tenants.  Enhancements and release can be deployed to all tenants and there is currently one codebase for the 5 onboarded projects.  While the common code crosses project boundaries, data, azure subscriptions, billing, and all prorprietary information stay within the Azure subscriptions of each onboarded project.  The shared metadata for each system is stored in a common sharepoint list which is used by the common code to filter to input metadata for the appropriate project and deploy to the appropriate locations.  This provides the optimal amount of code reuse while eliminating security and financial risks of shared compute and data resources.
+- The core databricks repositories are designed to be shared and reused by multiple tenants.  Enhancements and released can be deployed to all tenants and there is currently one codebase for the 5 onboarded projects.  While the common code crosses project boundaries, it is individually deployed to azure subscriptions for each project so that data, billing, and all prorprietary information stay within the individual Azure subscriptions of each onboarded project.  Only shared non proprietary metadata for each system is stored in a common sharepoint list which is used by the common code to filter metadata for the appropriate project and deploy to the appropriate locations.  No sensitve information is shared.  This provides the optimal amount of code reuse while eliminating security and financial risks of shared compute and data resources.
 
 **Priorities and Approach**
 
