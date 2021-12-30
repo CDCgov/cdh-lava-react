@@ -288,6 +288,11 @@ The following data formats are supported:
 - parquet (databricks delta)
 - parquet (databricks delta live)
 
+Output storage:
+
+- Azure Storage for large files designed for automated consumption
+- Sharepoint / OneDrive fro smaller files designed for individual consumption
+
 The following security scanning components are supported:
 
 - put code scanning tools here
