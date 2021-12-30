@@ -211,6 +211,7 @@ Azure Policy
 Azure Logic Apps
 GitHub
 Microsoft On Premise SQL Server
+Microsoft On Premise Folder Shares (MUST)
 Microsoft O365 SharePoint
 Microsoft O365 Teams
 Microsoft O365 Mail
