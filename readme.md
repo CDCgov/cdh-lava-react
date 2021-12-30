@@ -272,6 +272,7 @@ The following programming languages are used in the architecture:
 - SAS
 - YAML
 - RDL/XML
+- HTML/Markdown
 - Powershell
 - Bash
 
