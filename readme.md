@@ -198,11 +198,13 @@ The following template project plan outlines the implementation of DAVT Best Pra
 
 ## GIFT - Software Component
 
-The following Azure services have been used in the architecture:
+The following commercial products and services are used in the architecture:
 
 - Azure Active Directory
 - Azure Cost Management
-- Azure DataBricks
+- Azure DataBricks Data Science and Engineering
+- Azure DataBricks SQL
+- Azure DataBricks Delta Live Tables
 - Azure Data Lake Gen2
 - Azure Key Vault
 - Azure DevOps
@@ -228,6 +230,10 @@ The following Azure services have been used in the architecture:
 - JIRA
 - Tableau
 
+The following open source libraries are used in the architecture:
+
+- saurfang:spark-sas7bdat (python)
+- hl7_pet_1_2_4_4 (python)
 
 ## GIFT - Code Standards and Naming Conventions
 
