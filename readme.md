@@ -200,11 +200,11 @@ The following template project plan outlines the implementation of DAVT Best Pra
 
 The following Azure services have been used in the architecture:
 
-Azure DataBricks
-Azure Data Lake Gen2
-Microsoft Power BI
+
 Azure Active Directory
 Azure Cost Management
+Azure DataBricks
+Azure Data Lake Gen2
 Azure Key Vault
 Azure DevOps
 Azure Policy
@@ -215,6 +215,9 @@ Microsoft O365 SharePoint
 Microsoft O365 Teams
 Microsoft O365 Mail
 Microsoft O365 Power Automate
+Microsoft O365 Power BI
+Microsoft O365 Power BI Desktop
+Microsoft O365 Power BI Report Builder Desktop
 SAS
 
 
