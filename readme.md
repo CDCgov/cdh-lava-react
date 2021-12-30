@@ -206,10 +206,12 @@ The following commercial products and services are used in the architecture:
 - Azure DataBricks SQL
 - Azure DataBricks Delta Live Tables
 - Azure Data Lake Gen2
+- Azure Data Factory
 - Azure Key Vault
 - Azure DevOps
 - Azure Policy
 - Azure Logic Apps
+- Azure Synapse
 - GitHub
 - Microsoft On Premise SQL Server
 - Microsoft On Premise Folder Shares (MUST)
@@ -229,6 +231,7 @@ The following commercial products and services are used in the architecture:
 - SAS
 - JIRA
 - Tableau
+- Alation
 
 The following open source libraries are used in the architecture:
 
