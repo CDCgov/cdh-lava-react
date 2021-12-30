@@ -215,6 +215,9 @@ The following Azure services have been used in the architecture:
 - Microsoft O365 Teams
 - Microsoft O365 Mail
 - Microsoft O365 Power Automate
+- Microsoft O365 Excel
+- Microsoft O365 PowerPoint
+- Microsoft O365 Visio
 - Microsoft O365 Power BI
 - Microsoft O365 Power BI Desktop
 - Microsoft O365 Power BI Report Builder Desktop
@@ -223,6 +226,7 @@ The following Azure services have been used in the architecture:
 - Microsoft DevOps Integration Tool for Office 2019
 - SAS
 - JIRA
+- Tableau
 
 
 ## GIFT - Code Standards and Naming Conventions
