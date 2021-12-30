@@ -268,6 +268,7 @@ The following programming languages are used in the architecture:
 - Microsoft Dax (Power BI)
 - SAS
 - YAML
+- RDL/XML
 - Powershell
 - Bash
 
