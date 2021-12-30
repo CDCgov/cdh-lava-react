@@ -30,6 +30,10 @@ The following web pages shows the type of information that is configured in a se
 
 - All program flow, scheduling, security, data documentation, discovery and data quality rules are data driven and administered through an online UX.  The UX should allow online data entry and ideally batch updates via Excel.
 
+**Definition of Multi Tenant **
+
+- The core databricks repositories are designed to be shared and reused by multiple tenants.  Enhancements and release can be deployed to all tenants and there is currently one codebase for the 5 onboarded projects.  While the common code crosses project boundaries, data, azure subscriptions, billing, and all prorprietary information stay within the Azure subscriptions of each onboarded project.  The shared metadata for each system is stored in a common sharepoint list which is used by the common code to filter to input metadata for the appropriate project and deploy to the appropriate locations.  This provides the optimal amount of code reuse while eliminating security and financial risks of shared compute and data resources.
+
 **Priorities and Approach**
 
 The largest impact to projects implementing the DAVT templates is based on development process changes rather than technical changes.  All implementations of DAVT should have a functioning report available in the first week and usually the first few days.  Note this is not produced with real data unless the client has existing reports where the data can be pasted in Excel. 
