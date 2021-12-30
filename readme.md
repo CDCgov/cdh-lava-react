@@ -239,11 +239,17 @@ The following commercial products and services are used in the architecture:
 - JIRA
 - Tableau
 - Alation
+- Git
+- Git Desktop
+- GitHub
+- GitLab
 
 The following open source libraries are used in the architecture:
 
-- saurfang:spark-sas7bdat (python)
-- hl7_pet_1_2_4_4 (python)
+- saurfang:spark-sas7bdat (python - databricks)
+- hl7_pet_1_2_4_4 (python - databricks)
+- Code Search (microsoft devops)
+- DevOps for Azure Databricks (microsoft devops)
 
 The following programming languages are used in the architecture:
 
