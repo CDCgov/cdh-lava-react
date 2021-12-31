@@ -208,9 +208,11 @@ The following template project plan outlines the implementation of DAVT Best Pra
 
 ## Reference Practices and Patterns
 
+- [DataBricks Solution Accelerators](https://databricks.com/solutions/accelerators)
+- [Power BI Adoption Framework Videos](https://www.youtube.com/playlist?list=PL1N57mwBHtN0UZbEgLHtA1yxqPlae3B90)
 - [Microsoft Analytics End to End With Azure Synapse](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/dataplate2e/data-platform-end-to-end)
 - [Power CAT Adoption Maturity Model](https://powerapps.microsoft.com/en-us/blog/power-cat-adoption-maturity-model-repeatable-patterns-for-successful-power-platform-adoption/)
-- [DataBricks Solution Accelerators](https://databricks.com/solutions/accelerators)
+
 
 
 ## GIFT - Software Components
