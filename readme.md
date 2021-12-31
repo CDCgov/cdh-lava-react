@@ -206,9 +206,12 @@ The following template project plan outlines the implementation of DAVT Best Pra
 
   - P6_PBI1	Disposition Plan
 
-## Reference Practicces and Patterns
+## Reference Practices and Patterns
 
 - [Microsoft Analytics End to End With Azure Synapse](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/dataplate2e/data-platform-end-to-end)
+- [Power CAT Adoption Maturity Model](https://powerapps.microsoft.com/en-us/blog/power-cat-adoption-maturity-model-repeatable-patterns-for-successful-power-platform-adoption/)
+- [DataBricks Solution Accelerators](https://databricks.com/solutions/accelerators)
+
 
 ## GIFT - Software Components
 
