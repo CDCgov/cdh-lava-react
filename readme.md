@@ -298,7 +298,7 @@ The following programming languages are used in the custom web portal
 - Javascript
 - Angular
 
-The following programming languagese are used in teh oauth security component
+The following programming languagese are used in the oauth security component
 - C#
 
 The following data formats are supported:
