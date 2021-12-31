@@ -206,6 +206,9 @@ The following template project plan outlines the implementation of DAVT Best Pra
 
   - P6_PBI1	Disposition Plan
 
+## Reference Practicces and Patterns
+
+- [Microsoft Analytics End to End With Azure Synapse](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/dataplate2e/data-platform-end-to-end)
 
 ## GIFT - Software Components
 
