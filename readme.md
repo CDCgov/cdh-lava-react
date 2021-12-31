@@ -270,6 +270,7 @@ The following open source standards are used in the architecure:
 - OAuth2 (Security)
 - OpenID (Security)
 - OData (Data and restful api)
+- BootStrap (HTML Layout)
 
 The following open source libraries are used in the architecture:
 
