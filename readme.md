@@ -271,9 +271,11 @@ The following open source standards are used in the architecure:
 - OpenID (Security)
 - OData (Data and restful api)
 - BootStrap (HTML Layout)
+- ASPNET Core
 
 The following open source libraries are used in the architecture:
 
+- Identity Server 4 https://identityserver4.readthedocs.io/en/latest/
 - saurfang:spark-sas7bdat (python - databricks)
 - hl7_pet_1_2_4_4 (python - databricks)
 - Code Search (microsoft devops)
