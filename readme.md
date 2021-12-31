@@ -261,6 +261,15 @@ The following commercial products and services are used in the architecture:
 - Git Desktop
 - GitHub
 - GitLab
+- Progress Kendo Angular UI (UX)
+- Redhat Openshift
+- Kubernetes
+
+The following open source standards are used in the architecure:
+- OpenDoc (Swagger)
+- OAuth2 (Security)
+- OpenID (Security)
+- OData (Data and restful api)
 
 The following open source libraries are used in the architecture:
 
@@ -271,7 +280,7 @@ The following open source libraries are used in the architecture:
 - Teraform (cloud deployment)
 - Pip (python)
 
-The following programming languages are used in the architecture:
+The following programming languages are used in the architecture for the data layer:
 
 - Spark SQL (primary)
 - Python
@@ -284,6 +293,13 @@ The following programming languages are used in the architecture:
 - HTML/Markdown
 - Powershell
 - Bash
+
+The following programming languages are used in the custom web portal
+- Javascript
+- Angular
+
+The following programming languagese are used in teh oauth security component
+- C#
 
 The following data formats are supported:
 
@@ -307,6 +323,12 @@ The following security scanning components are supported:
 
 - put code scanning tools here
 
+## OAuth Secuirty
+
+The OAuth security component has been tested and deployed in 
+- AWS Public Cloud via kubernetes
+- AWS Private Cloud at CDC via openshift
+- Azure Cloud via kubernetes
  
 ## GIFT - Code Standards and Naming Conventions
 
