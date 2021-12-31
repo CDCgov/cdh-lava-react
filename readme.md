@@ -329,6 +329,11 @@ The OAuth security component has been tested and deployed in
 - AWS Public Cloud via kubernetes
 - AWS Private Cloud at CDC via openshift
 - Azure Cloud via kubernetes
+
+The Ouath Security component has been tested integrating with
+- HHS SAMS OAuth for CDC
+- KeyCloak OAuth for APHL
+- GitHub OAuth
  
 ## GIFT - Code Standards and Naming Conventions
 
