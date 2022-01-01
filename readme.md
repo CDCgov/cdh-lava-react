@@ -251,6 +251,7 @@ The following commercial products and services are used in the architecture:
 - Microsoft Azure Data Explorer Desktop
 - Microsoft DevOps Integration Tool for Office 2019
 - Microsoft VS Code
+- Postman
 - R Studio
 - DAX Studio
 - SAS
