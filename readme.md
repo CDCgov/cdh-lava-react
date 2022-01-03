@@ -370,7 +370,32 @@ The Ouath Security component has been tested integrating with
 - HHS SAMS OAuth for CDC
 - KeyCloak OAuth for APHL
 - GitHub OAuth
- 
+
+
+
+## PR Conventions
+
+The convention for branch naming on this project is {firstName}/{ticketNumber}-{short-description}. This makes it easier for other developers to find your changes.
+
+If you're merging large or complex changes, it is strongly recommended that you smoke test them in `dev`, `test`, or `pentest`. These three environments are roughly the same, with small configuration changes between each (`test` sends text results for pxp while `dev` and `pentest` do not, for example.)
+
+For all changes, please ensure the PR checklist is completed before sending out for review. If you're making UI changes, make sure to screenshot and get approval from a designer or product manager, in addition to engineers.
+
+We require two reviewers per changeset, and you cannot merge until all commits have been reviewed.
+
+## Cloud Environments
+
+| **Name** |                                   **Frontend**                                    |                                  **API**                                  |            **Deployment**             |                                **Intended Use**                                |
+| :------: | :-------------------------------------------------------------------------------: | :-----------------------------------------------------------------------: | :-----------------------------------: | :----------------------------------------------------------------------------: |
+|   prod   |     [/app/static/commit.txt](https://simplereport.gov/app/static/commit.txt)      |     [/api/actuator/info](https://gift.community.one/api/actuator/info)      | Dispatched on success of `onboard` deploy |                               Used by end users                                |
+|   demo   |   [/app/static/commit.txt](https://demo.simplereport.gov/app/static/commit.txt)   |   [/api/actuator/info](https://demo.gift.community.one/api/actuator/info)   |  Worflow on success of `onboard` deploy   |         Used internally to demo the application to potential end users         |
+| training | [/app/static/commit.txt](https://training.simplereport.gov/app/static/commit.txt) | [/api/actuator/info](https://training.gift.community.one/api/actuator/info) | Dispatched on success of `onboard` deploy | Used externally by potential users to get a better uderstanding of the product |
+|   onboard    |   [/app/static/commit.txt](https://stg.simplereport.gov/app/static/commit.txt)    |   [/api/actuator/info](https://onboard.gift.community.one/api/actuator/info)    |            Push to `main`             |  To validate the application work in the cloud and works with prod like data   |
+|   dev    |   [/app/static/commit.txt](https://dev.simplereport.gov/app/static/commit.txt)    |   [/api/actuator/info](https://dev.gift.community.one/api/actuator/info)    |     [Action](#deploy-with-action)     |                     To validate PRs before merging to main                     |
+|   qa   |   [/app/static/commit.txt](https://test.simplereport.gov/app/static/commit.txt)   |   [/api/actuator/info](https://qa.gift.community.one/api/actuator/info)   |     [Action](#deploy-with-action)     |                     To validate PRs before merging to main                     |
+             |
+
+
 ## GIFT - Code Standards and Naming Conventions
 
 **DevOps Branching**
