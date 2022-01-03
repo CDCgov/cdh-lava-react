@@ -38,6 +38,10 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited.  Se
 
 ## Getting Started
 
+### Set up local enviroment
+1.  It is recommended to set up teams channel and store your work in onedrive to increase transparency during development
+
+### Set up repository
 1. Fork this repository.  Example, I forked this reporitory to github.com/jcbowyer/gift
 2. Edit code and make changes.  TODO.  
 - From VS Code choose source control from the left hand-side bar
