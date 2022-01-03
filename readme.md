@@ -4,65 +4,69 @@
 
 Reusable Data, Analytics and Visualization Templates internally known as DAVT at the CDC.
 
-The project uses the DataBricks methodology of referencing system inputs as bronze data and system outputs as gold data.  Data transformations between bronze and gold are referred to as silver data.  The project is named gold idea first templates (GIFT) because a key principle of the architecture is to begin with the end in mind (gold data) and prioritize the ideas for generating end user output (gold data) first before delving into the technical details of expected bronze input.
+The project uses the DataBricks methodology of referencing system inputs as bronze data and system outputs as gold data. Data transformations between bronze and gold are referred to as silver data. The project is named gold idea first templates (GIFT) because a key principle of the architecture is to begin with the end in mind (gold data) and prioritize the ideas for generating end user output (gold data) first before delving into the technical details of expected bronze input.
 
-The templates use an architecture designed to be self service, data driven, event-driven, loosely coupled, multi-vendor and multi-tenant.  The process of creating new ETL processes or reports is self-service and does not require knowledge of procedural programming such as Python.  Definitions of the archictectural patterns for self-service, data driven, event-driven, loosely coupled, and multi-tenant are provided in the project description.
+The templates use an architecture designed to be self service, data driven, event-driven, loosely coupled, multi-vendor and multi-tenant. The process of creating new ETL processes or reports is self-service and does not require knowledge of procedural programming such as Python. Definitions of the archictectural patterns for self-service, data driven, event-driven, loosely coupled, and multi-tenant are provided in the project description.
 
 ![Delta-Lake-Multi-Hop-Architecture-Bronze](https://user-images.githubusercontent.com/2504540/147579076-395a7f22-fff7-490e-9cf8-847a2adfbd95.png)
 
 ## Example Gold Use Cases
 
-### UC1:  Report Management
+### UC1: Report Management
 
-The basic functionalily ot report subscriptions in PowerBI is quite limited.  Self-service susbscriptions in the Gift Templates allow the following functionality that is not available in other off the shelf products.
+The basic functionalily ot report subscriptions in PowerBI is quite limited. Self-service susbscriptions in the Gift Templates allow the following functionality that is not available in other off the shelf products.
 
-1.  Configure Report Meta-Data and Subscriptions for delivering ouput to  email recpients, SharePoint/OneDrive folders or Azure Storage.  A centralized repository is available to all users with configured access to the SharePoint list regardless of PowerBI, Tableau or Alataion license status that catalogs all report data products and links the reports to the corresponding internal project.  
-2.  Any users with SharePoint list access can subscribe to a report.  External users do not require PowerBI access to subscribe. 
+1.  Configure Report Meta-Data and Subscriptions for delivering ouput to email recpients, SharePoint/OneDrive folders or Azure Storage. A centralized repository is available to all users with configured access to the SharePoint list regardless of PowerBI, Tableau or Alataion license status that catalogs all report data products and links the reports to the corresponding internal project.
+2.  Any users with SharePoint list access can subscribe to a report. External users do not require PowerBI access to subscribe.
 3.  If access approval is required, this can easily be implemented through SharePoint workflow and approvals.
-4.  Reports can be configured to source from any environment such as dev and prod or both.  The environment used on the reports is noted in the deilvery.
+4.  Reports can be configured to source from any environment such as dev and prod or both. The environment used on the reports is noted in the deilvery.
 5.  Reports can be published to Email or a storage location that is in SharePoint or Azure Storage.
 6.  Reports are named consistently based on a standard naming convention that includes, the date, the environment and whether the reprot is for internal or extenal consumption.
 7.  Reports can have different columns, rows or sections that are either shared or excluded based on the audience, internal or external.
 8.  Reports can be delivered in a variety of formats such as Excel, PDF, Word, PPT and online.
 9.  Reports can be distributed to any user inside or outside the organization.
-10.  Report publication can be scheduled via a standard recurring time based schedule or via trigger email or http call. Triggers allow for the earliest possible distribution of report when an ETL job finishes.
-11.  An audit log report is available for all report runs with status, duration and other meta data.  A retry interval can be configured.
-12.  There is no limit on the number of external subscribers or subscriptions per report.
-13.  The report text is configurable via email  Different email aliases are allowed for different environments such as dev and test.  Report email text include a default link to the SharePoint library that includes a history of output from preivous report runs.   
+10. Report publication can be scheduled via a standard recurring time based schedule or via trigger email or http call. Triggers allow for the earliest possible distribution of report when an ETL job finishes.
+11. An audit log report is available for all report runs with status, duration and other meta data. A retry interval can be configured.
+12. There is no limit on the number of external subscribers or subscriptions per report.
+13. The report text is configurable via email Different email aliases are allowed for different environments such as dev and test. Report email text include a default link to the SharePoint library that includes a history of output from preivous report runs.
 
-### UC2:  Standard Reports
+### UC2: Standard Reports
 
-1.  Data Dictionary.  A standard data dictionary report is available for all projects using the GIFT meta data features.  The basic data dictionaries created by off the shelf products are quite limited.  In addition, to the standard data points of name, data type, and text, the GIFT templates allow for  a) automatically listing available data elements for datasets with less than 100 distinct values.  b) providing full data lineage and traceability.  c) linking and filtering to report projects and other meta-data. d) number of unique elements, number of null values and range of data elements.
+1.  Data Dictionary. A standard data dictionary report is available for all projects using the GIFT meta data features. The basic data dictionaries created by off the shelf products are quite limited. In addition, to the standard data points of name, data type, and text, the GIFT templates allow for a) automatically listing available data elements for datasets with less than 100 distinct values. b) providing full data lineage and traceability. c) linking and filtering to report projects and other meta-data. d) number of unique elements, number of null values and range of data elements.
 
-2.  Automated Data Quality.   A standard data quality report is available for all projects.  The automated components of the report for bronze data compare the data lake tables to initial source input and acccount for differences in 1) data types 2) nullability 3) field name 4) column count 5) row count and 6) count of distinct valus.  
+2.  Automated Data Quality. A standard data quality report is available for all projects. The automated components of the report for bronze data compare the data lake tables to initial source input and acccount for differences in 1) data types 2) nullability 3) field name 4) column count 5) row count and 6) count of distinct valus.
 
 ## Getting Started
 
 ### Set up local enviroment
+
 1.  It is recommended to set up teams channel and store your work in onedrive to increase transparency during development
 2.  Create a new channel in teams named GIFT-Analytics or subscribe to this channel if at the CDC
 3.  Go to the files tab for the channel
 4.  Choose open in SharePoint
 5.  In SharePoint choose add shortcut to OneDrive, this will add the folder to your windows explorer
-6.  Create a folder inside GIFT-Analytics with your alias - for example:  C:\Users\zfi4\OneDrive - CDC\GIFT-Analytics\zfi4
+6.  Create a folder inside GIFT-Analytics with your alias - for example: C:\Users\zfi4\OneDrive - CDC\GIFT-Analytics\zfi4
 7.  Note the location to initialize your repository in the next step
 
 ### Set up repository
-1. Fork this repository.  Example, I forked this reporitory to github.com/jcbowyer/gift
-2. Edit code and make changes.  
-- From VS Code choose source control from the left hand-side bar
-- Choose initialize repository
-- Choose your folder location: example:  C:\Users\zfi4\OneDrive - CDC\GIFT-Analytics\zfi4
+
+1. Fork this repository. Example, I forked this reporitory to github.com/jcbowyer/gift
+2. Edit code and make changes.
+
+-   From VS Code choose source control from the left hand-side bar
+-   Choose initialize repository
+-   Choose your folder location: example: C:\Users\zfi4\OneDrive - CDC\GIFT-Analytics\zfi4
+
 4. Submit a pull request to publish changes.
 5. After approval, we will accept your pull request, and github site will update soon after.
 
 ## Project Description
 
-**Definition of Self Service** 
+**Definition of Self Service**
 
-- Self Service means that a user should have the ability consume data, transform data, create reports and distribute them via email or SharePoint without any programming skills for simple reports.  Prescriptive templates, samples and training are provided both at the business and technical process level to guide users through creating  and deploying reports without code
-- Self Service means that in more complex scenarios where code is used, the code will be declarative and simple as possible, either SQL, PowerBI or other end user declarative programming languages.  Users do not need to learn a procedural programming language such as SAS, Python,  R, etc. to develop self service reports.
-- Users certainly can, and are encouraged to learn Python, R and other procedural languages to create complex AI models and predictive analytics.  However, for purposes here, the use of DataBricks and Jupyter notebooks by end users with procedural code is not considered Self Service.  This type of work is considered an IT pipeline.  Certainly end users are encouraged to be engaged and enabled in the development of IT pipelines.  The technicalities and complexities of IT pipelines, however, are out of scope for the GIFT project.  Personally, as a data architect working at the CDC for NCEZID, NCIRD and Chronic over the last 4 years on over 50 reports, I have never worked on a report where the reporting requirements I was responsible for could not be met by the self service model.
+-   Self Service means that a user should have the ability consume data, transform data, create reports and distribute them via email or SharePoint without any programming skills for simple reports. Prescriptive templates, samples and training are provided both at the business and technical process level to guide users through creating and deploying reports without code
+-   Self Service means that in more complex scenarios where code is used, the code will be declarative and simple as possible, either SQL, PowerBI or other end user declarative programming languages. Users do not need to learn a procedural programming language such as SAS, Python, R, etc. to develop self service reports.
+-   Users certainly can, and are encouraged to learn Python, R and other procedural languages to create complex AI models and predictive analytics. However, for purposes here, the use of DataBricks and Jupyter notebooks by end users with procedural code is not considered Self Service. This type of work is considered an IT pipeline. Certainly end users are encouraged to be engaged and enabled in the development of IT pipelines. The technicalities and complexities of IT pipelines, however, are out of scope for the GIFT project. Personally, as a data architect working at the CDC for NCEZID, NCIRD and Chronic over the last 4 years on over 50 reports, I have never worked on a report where the reporting requirements I was responsible for could not be met by the self service model.
 
 The following web pages shows the type of information that is configured in a self-service manner through SharePoint lists in the current architecture.
 
@@ -70,45 +74,45 @@ The following web pages shows the type of information that is configured in a se
 
 **Definition of Data Driven**
 
-- All program flow, scheduling, security, data documentation, discovery and data quality rules are data driven and administered through an online UX.  The UX should allow online data entry and ideally batch updates via Excel.
+-   All program flow, scheduling, security, data documentation, discovery and data quality rules are data driven and administered through an online UX. The UX should allow online data entry and ideally batch updates via Excel.
 
 **Definition of Event Driven**
 
-- Process are triggered by events whenever possible versus schedules.  For example, whenever a SharePoint list is update and event is raised and the corresponding csv file in Azure is updated within 3 minutes.  Additionally, when a pipeline finishes it fires and event to send a data quality report via email and archive on SharePoint.  This allows users to receive reports at the earliest time possible and not wait for an artificially predefined schedule.
+-   Process are triggered by events whenever possible versus schedules. For example, whenever a SharePoint list is update and event is raised and the corresponding csv file in Azure is updated within 3 minutes. Additionally, when a pipeline finishes it fires and event to send a data quality report via email and archive on SharePoint. This allows users to receive reports at the earliest time possible and not wait for an artificially predefined schedule.
 
 **Definition of Loosely Coupled**
 
--  Processes are designed to operated in independently and allow for adapting components.  For instance, SharePoint is currently used to modify the metadata but the data is exported to an intermediate csv format before it is consumed by databricks or other resources.  If a user of the templates, prefers to use a different front end tool to update the metdata, this can easily be accomplished.  Similarly, the PowerBI components of the architecture can be used if an organization is not ready to move data storage to parquet or databricks and prefers to operate in a legacy on premise SQL Server format.
+-   Processes are designed to operated in independently and allow for adapting components. For instance, SharePoint is currently used to modify the metadata but the data is exported to an intermediate csv format before it is consumed by databricks or other resources. If a user of the templates, prefers to use a different front end tool to update the metdata, this can easily be accomplished. Similarly, the PowerBI components of the architecture can be used if an organization is not ready to move data storage to parquet or databricks and prefers to operate in a legacy on premise SQL Server format.
 
 **Definition of Multi-Vendor**
-- Currently no vendor provides a consistent roadmap to perform all of the functionality in the data, analytics and visualization templates.   The architecture currently uses over 30 software products from over a half dozen vendors written in more than a half dozen languages and supporting over a half dozen file formats for ingestion and ouput offered with a variety of encoding mechanisms.  More details of component services and technologies are provided below in the software component section. 
+
+-   Currently no vendor provides a consistent roadmap to perform all of the functionality in the data, analytics and visualization templates. The architecture currently uses over 30 software products from over a half dozen vendors written in more than a half dozen languages and supporting over a half dozen file formats for ingestion and ouput offered with a variety of encoding mechanisms. More details of component services and technologies are provided below in the software component section.
 
 **Definition of Multi-Tenant**
 
-- The core databricks repositories are designed to be shared and reused by multiple tenants.  Enhancements and released can be deployed to all tenants and there is currently one codebase for the 5 onboarded projects.  While the common code crosses project boundaries, it is individually deployed to azure subscriptions for each project so that data, billing, and all prorprietary information stay within the individual Azure subscriptions of each onboarded project.  Only shared non proprietary metadata for each system is stored in a common sharepoint list which is used by the common code to filter metadata for the appropriate project and deploy to the appropriate locations.  No sensitve information is shared.  This provides the optimal amount of code reuse while eliminating security and financial risks of shared compute and data resources.
-- An additional benefit of shared meta-data with a common codebase, is resource standardization and naming.  The metadata for all projects and naming conventions are easily comparable in a shared list.  The code currently has different paths to support the different conventions of naming containers, files, etc in different centers but there is a default/standard/recommended path.  This transparency allows for the eventual migration to standard best practices and naming across centers as well as shared data dictionary, qa and other report templates.
+-   The core databricks repositories are designed to be shared and reused by multiple tenants. Enhancements and released can be deployed to all tenants and there is currently one codebase for the 5 onboarded projects. While the common code crosses project boundaries, it is individually deployed to azure subscriptions for each project so that data, billing, and all prorprietary information stay within the individual Azure subscriptions of each onboarded project. Only shared non proprietary metadata for each system is stored in a common sharepoint list which is used by the common code to filter metadata for the appropriate project and deploy to the appropriate locations. No sensitve information is shared. This provides the optimal amount of code reuse while eliminating security and financial risks of shared compute and data resources.
+-   An additional benefit of shared meta-data with a common codebase, is resource standardization and naming. The metadata for all projects and naming conventions are easily comparable in a shared list. The code currently has different paths to support the different conventions of naming containers, files, etc in different centers but there is a default/standard/recommended path. This transparency allows for the eventual migration to standard best practices and naming across centers as well as shared data dictionary, qa and other report templates.
 
 **Priorities and Approach**
 
-The largest impact to projects implementing the DAVT templates is based on development process changes rather than technical changes.  All implementations of DAVT should have a functioning report available in the first week and usually the first few days.  Note this is not produced with real data unless the client has existing reports where the data can be pasted in Excel. 
+The largest impact to projects implementing the DAVT templates is based on development process changes rather than technical changes. All implementations of DAVT should have a functioning report available in the first week and usually the first few days. Note this is not produced with real data unless the client has existing reports where the data can be pasted in Excel.
 
-The key rule in implementing DAVT is to begin with the end in mind.   For instance, during the first implementation of DAVT, the data from the current customer reports were pasted into Excel, analyzed and used to create a report mockup in the first three days loading from data from Excel files exported to csv format.  
+The key rule in implementing DAVT is to begin with the end in mind. For instance, during the first implementation of DAVT, the data from the current customer reports were pasted into Excel, analyzed and used to create a report mockup in the first three days loading from data from Excel files exported to csv format.
 
 When the current reports were analyzed two common pitfalls were discovered in the report:
 
-- **Miracles:**  Much of the data the was in the current report such as captions, formulas, code lookups, etc. was not stored in any system.  The processes to implement the report were manual and only known by the author of the word or excel document.  Even some of the actual reported historical data was copy pasted from an old excel file each month and never stored in a formal system.  Much of the data was a "miracle" because the data appeared on report output but was never entered in a formal system.
+-   **Miracles:** Much of the data the was in the current report such as captions, formulas, code lookups, etc. was not stored in any system. The processes to implement the report were manual and only known by the author of the word or excel document. Even some of the actual reported historical data was copy pasted from an old excel file each month and never stored in a formal system. Much of the data was a "miracle" because the data appeared on report output but was never entered in a formal system.
 
-- **Blackholes:**  Much, if not most of the data, that was fed into the system as input was never used on report output or external data feeds.  Some of the inputs may have been used in the past, but never formally deprecated.  Many of the blackholes were simply intermediate variables created by past report developers that were never removed.  In short, most of the data going into the system went into a blackhole and was never used on any current report output, feed or intermediate calculation.
-
-
+-   **Blackholes:** Much, if not most of the data, that was fed into the system as input was never used on report output or external data feeds. Some of the inputs may have been used in the past, but never formally deprecated. Many of the blackholes were simply intermediate variables created by past report developers that were never removed. In short, most of the data going into the system went into a blackhole and was never used on any current report output, feed or intermediate calculation.
 
 **Business Need**
 
-Over the last 4 years the DAVT team has worked with 
-- 4 Centers
-- 10 Projects
-- 15 Project Areas
-- 400 Best Practices
+Over the last 4 years the DAVT team has worked with
+
+-   4 Centers
+-   10 Projects
+-   15 Project Areas
+-   400 Best Practices
 
 **Current Process**
 
@@ -116,275 +120,275 @@ There are currently few documented Data, Analytics and Visualization standards a
 
 **DMI Project Goals**
 
-Uncover, document and work to optimize quality, security, efficiency and reuse across the over 5,000 opportunities for implementing best practices listed above. 
+Uncover, document and work to optimize quality, security, efficiency and reuse across the over 5,000 opportunities for implementing best practices listed above.
 
 **Approach**
 
-The DAVT architecture consists of business and technical processes and use cases that are implemented in a self service manner.  The templates are optimized for incremental deployment and changes to current systems do not require a "big bang" implementation to see business value.  A project could choose to implement Power BI best practices without migrating from SQL Server data to a DataBricks Delta Lake architecture or vice versa.  Similarly, business logic may be maintained in SAS before moving to  DataBricks SQL Analytics or reside in a combination of locations during the implementation process.  While many of the business best practice templates are optimized for Azure DevOps they can easily be ported to Jira.  The Azure DevOps repository best practices likewise can be implemented in GitLab. 
+The DAVT architecture consists of business and technical processes and use cases that are implemented in a self service manner. The templates are optimized for incremental deployment and changes to current systems do not require a "big bang" implementation to see business value. A project could choose to implement Power BI best practices without migrating from SQL Server data to a DataBricks Delta Lake architecture or vice versa. Similarly, business logic may be maintained in SAS before moving to DataBricks SQL Analytics or reside in a combination of locations during the implementation process. While many of the business best practice templates are optimized for Azure DevOps they can easily be ported to Jira. The Azure DevOps repository best practices likewise can be implemented in GitLab.
 
-Indeed, there is an enormous business opportunity for implementing naming conventions and standardization of business processes using standard Microsoft Office 365 technology through applying conventions to Microsoft Teams as well as Microsoft SharePoint Document Libraries and Lists.  Other low to no code self service solutions offered in PowerAutomate and PowerBI can also deliver rapid business value.
+Indeed, there is an enormous business opportunity for implementing naming conventions and standardization of business processes using standard Microsoft Office 365 technology through applying conventions to Microsoft Teams as well as Microsoft SharePoint Document Libraries and Lists. Other low to no code self service solutions offered in PowerAutomate and PowerBI can also deliver rapid business value.
 
 **Overview**
 
 The DAVT Platform provides a consistent architecture to create analytics and visualizations that can be shared across centers and published to the Enterprise Data and Visualization (EDAV) platform.
 
-This project houses templates for Data, Analytics and Visualization that can be used in different centers such as NCIRD and NCEZID.  Some features of the architecture have also been evaluated by NCCDPHP (Chronic).  We are also in the process of deploying the gold output of certain projects to the EDAV centrally managed platform maintained by the OCIO.
+This project houses templates for Data, Analytics and Visualization that can be used in different centers such as NCIRD and NCEZID. Some features of the architecture have also been evaluated by NCCDPHP (Chronic). We are also in the process of deploying the gold output of certain projects to the EDAV centrally managed platform maintained by the OCIO.
 
 **Need for Change**
 
-Currently, the current DAVT processes are primarily implemented by one technical data architect from Peraton and one Data Manager/Data Modernization Initiative (DMI) lead from the NCIRD center.  It is not possible for such as a small team to move the needle on the current 5,000+ opportunities.  The current workload of building reports is not sustainable.  There are many opportunities for individuals to lead each of the phases and epics listed below.  The scope of the opportunity is far broader than a couple of individuals.
-
+Currently, the current DAVT processes are primarily implemented by one technical data architect from Peraton and one Data Manager/Data Modernization Initiative (DMI) lead from the NCIRD center. It is not possible for such as a small team to move the needle on the current 5,000+ opportunities. The current workload of building reports is not sustainable. There are many opportunities for individuals to lead each of the phases and epics listed below. The scope of the opportunity is far broader than a couple of individuals.
 
 **Current Projects**
 
-There are currently two platform projects and with 4 project areas implementing the templates in active development.  Two other platforms and four other projects have also started to evaluate elements of the architecture.
+There are currently two platform projects and with 4 project areas implementing the templates in active development. Two other platforms and four other projects have also started to evaluate elements of the architecture.
 
 These projects contain over 50 reports that are in the process of onboarding to the architecture.
 
 **NCIRD - NDSP**
-- ndsp-pertussis
-- ndsp-phlip
-- ndsp-izdl-ddt
-           - Data Curation
-           - Vacadmin - Add / Update
-           - Pharmacy 
-           - DDT- Dozens of other reports
+
+-   ndsp-pertussis
+-   ndsp-phlip
+-   ndsp-izdl-ddt - Data Curation - Vacadmin - Add / Update - Pharmacy - DDT- Dozens of other reports
 
 **NCEZID - EZDX**
-- ezdx-foodnet-davt
-- ezdx-legionella-davt (data driven report alerts)
-- ezdx-ribd-davt (dictionary /mmg)
+
+-   ezdx-foodnet-davt
+-   ezdx-legionella-davt (data driven report alerts)
+-   ezdx-ribd-davt (dictionary /mmg)
 
 **NCCDPHP (Chronic)**
-- lung-response (power query)
-- pfs-partner portal (gantt chart)
-- mmria - overdose (security)
-- dph-cdi-davt (maps)
+
+-   lung-response (power query)
+-   pfs-partner portal (gantt chart)
+-   mmria - overdose (security)
+-   dph-cdi-davt (maps)
 
 **OCIO - EDAV**
- - davt-analytics
+
+-   davt-analytics
 
 **DAVT Best Practice Epics grouped by EPLC Phase**
 
 The following template project plan outlines the implementation of DAVT Best Practices based on the CDC Enterprise Performance Life Cycle (EPLC) adapted for the Agile Scrum methodology.
 
-**P1 -	Concept and Initiation**
+**P1 - Concept and Initiation**
 
-  **- Deliverables**
-  - P1_PBI1	Business Need Statement
-  - P1_PBI2	Business Case
-  - P1_PBI3	Decision on best approach to meet business need
-  - P1_PBI4	Project Selection of Agile Method
+**- Deliverables**
 
-  **- Reviews**
-  - P1_R1	Architecture Review
+-   P1_PBI1 Business Need Statement
+-   P1_PBI2 Business Case
+-   P1_PBI3 Decision on best approach to meet business need
+-   P1_PBI4 Project Selection of Agile Method
 
-**P2 - 		Preliminary Requirements and Design**
+**- Reviews**
 
-  **- Deliverables**
+-   P1_R1 Architecture Review
 
-  - P2_PBI1	Project Roadmap & Release Plan
-  - P2_PBI2	Preliminary Design
-  - P2_PBI3	Security Risk Assessment
-  - P2_PBI4	Agile Management Plan
-  - P2_PBI5	Concept of Operations (conops)
+**P2 - Preliminary Requirements and Design**
 
-  **- Reviews**
+**- Deliverables**
 
-  - P2_R1	Integrated Baseline Review
+-   P2_PBI1 Project Roadmap & Release Plan
+-   P2_PBI2 Preliminary Design
+-   P2_PBI3 Security Risk Assessment
+-   P2_PBI4 Agile Management Plan
+-   P2_PBI5 Concept of Operations (conops)
 
-**P3 -	Agile Development**
+**- Reviews**
 
-  **- Deliverables**
+-   P2_R1 Integrated Baseline Review
 
-  - P3_PBI1	User Stories
-  - P3_PBI2	Prioritized Backlog
-  - P3_PBI3	Testing Results
-  - P3_PBI4	Show & Tell User Acceptance
-  - P3_PBI5	Compliance Checks
-  - P3_PBI6	Packaged Product
-  - P3_PBI7	Security Risk Assessment
+**P3 - Agile Development**
 
-  **- Reviews**
+**- Deliverables**
 
-  - P3_R1	Agile Scrum Sprint Plan
-  - P3_R2	Agile Scrum Sprint Retrospective
+-   P3_PBI1 User Stories
+-   P3_PBI2 Prioritized Backlog
+-   P3_PBI3 Testing Results
+-   P3_PBI4 Show & Tell User Acceptance
+-   P3_PBI5 Compliance Checks
+-   P3_PBI6 Packaged Product
+-   P3_PBI7 Security Risk Assessment
 
+**- Reviews**
 
-**P4 -	Final User Testing and Implementation**
+-   P3_R1 Agile Scrum Sprint Plan
+-   P3_R2 Agile Scrum Sprint Retrospective
 
-  **- Deliverables**
+**P4 - Final User Testing and Implementation**
 
-  - P4_PBI1	Implementation Plan
-  - P4_PBI2	SLAs / MOUs
-  - P4_PBI3	End User Functionality
-  - P4_PBI4	User Acceptance
-  - P4_PBI5	Project Completion Report
-  - P4_PBI6	Security Risk Assessment
+**- Deliverables**
 
-  **- Reviews**
+-   P4_PBI1 Implementation Plan
+-   P4_PBI2 SLAs / MOUs
+-   P4_PBI3 End User Functionality
+-   P4_PBI4 User Acceptance
+-   P4_PBI5 Project Completion Report
+-   P4_PBI6 Security Risk Assessment
 
-  - P4_R1	Readiness Review End User
-  - P4_R2	Post-Implementation Review
-  - P4_R3	Security Control Assessment
-  - P4_R4	System Accreditation
+**- Reviews**
 
-**P5 -	Operations & Maintenance**
+-   P4_R1 Readiness Review End User
+-   P4_R2 Post-Implementation Review
+-   P4_R3 Security Control Assessment
+-   P4_R4 System Accreditation
 
-  **- Deliverables**
+**P5 - Operations & Maintenance**
 
-  - P5_PBI1	Annual Operational Analysis Report
-  - P5_PBI2	Continued Authority to Operate
-  - P5_PBI3	Security Risk Assessment
+**- Deliverables**
 
-  **- Reviews**
+-   P5_PBI1 Annual Operational Analysis Report
+-   P5_PBI2 Continued Authority to Operate
+-   P5_PBI3 Security Risk Assessment
 
-  - P5_R1	Security Authorization
-  - P5_R2	Annual Operational Analysis
+**- Reviews**
 
-**P6 -	Disposition**
+-   P5_R1 Security Authorization
+-   P5_R2 Annual Operational Analysis
 
-  **- Deliverables**
+**P6 - Disposition**
 
-  - P6_PBI1	Disposition Plan
+**- Deliverables**
+
+-   P6_PBI1 Disposition Plan
 
 ## Reference Practices and Patterns
 
-- [DataBricks Solution Accelerators](https://databricks.com/solutions/accelerators)
-- [Power BI Adoption Framework Videos](https://www.youtube.com/playlist?list=PL1N57mwBHtN0UZbEgLHtA1yxqPlae3B90)
-- [Power BI Adoption Framework Repository](https://github.com/pbiaf/powerbiadoption)
-- [Microsoft Analytics End to End With Azure Synapse](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/dataplate2e/data-platform-end-to-end)
-- [Power CAT Adoption Maturity Model](https://powerapps.microsoft.com/en-us/blog/power-cat-adoption-maturity-model-repeatable-patterns-for-successful-power-platform-adoption/)
-
-
+-   [DataBricks Solution Accelerators](https://databricks.com/solutions/accelerators)
+-   [Power BI Adoption Framework Videos](https://www.youtube.com/playlist?list=PL1N57mwBHtN0UZbEgLHtA1yxqPlae3B90)
+-   [Power BI Adoption Framework Repository](https://github.com/pbiaf/powerbiadoption)
+-   [Microsoft Analytics End to End With Azure Synapse](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/dataplate2e/data-platform-end-to-end)
+-   [Power CAT Adoption Maturity Model](https://powerapps.microsoft.com/en-us/blog/power-cat-adoption-maturity-model-repeatable-patterns-for-successful-power-platform-adoption/)
 
 ## GIFT - Software Components
 
 The following commercial products and services are used in the architecture:
 
-- Azure Active Directory
-- Azure Cost Management
-- Azure DataBricks Data Science and Engineering
-- Azure DataBricks SQL
-- Azure DataBricks Delta Live Tables
-- Azure Data Lake Gen2
-- Azure Data Factory
-- Azure Key Vault
-- Azure DevOps
-- Azure Policy
-- Azure Logic Apps
-- Azure Synapse
-- GitHub
-- Microsoft On Premise SQL Server
-- Microsoft On Premise Folder Shares (MUST)
-- Microsoft O365 SharePoint
-- Microsoft O365 Teams
-- Microsoft O365 Mail
-- Microsoft O365 Power Automate
-- Microsoft O365 Excel
-- Microsoft O365 PowerPoint
-- Microsoft O365 Visio
-- Microsoft O365 Power BI Workspaces
-- Microsoft O365 Power BI Premium Workspaces
-- Microsoft O365 Power BI Apps
-- Microsoft O365 Power BI Desktop
-- Microsoft O365 Power BI Report Builder Desktop
-- Microsoft O365 One Drive
-- Microsoft Azure Data Explorer Desktop
-- Microsoft DevOps Integration Tool for Office 2019
-- Microsoft VS Code
-- Postman
-- R Studio
-- DAX Studio
-- SAS
-- JIRA
-- Tableau
-- Alation
-- Git
-- Git Desktop
-- GitHub
-- GitLab
-- Progress Kendo Angular UI (UX)
-- Redhat Openshift
-- Kubernetes
+-   Azure Active Directory
+-   Azure Cost Management
+-   Azure DataBricks Data Science and Engineering
+-   Azure DataBricks SQL
+-   Azure DataBricks Delta Live Tables
+-   Azure Data Lake Gen2
+-   Azure Data Factory
+-   Azure Key Vault
+-   Azure DevOps
+-   Azure Policy
+-   Azure Logic Apps
+-   Azure Synapse
+-   GitHub
+-   Microsoft On Premise SQL Server
+-   Microsoft On Premise Folder Shares (MUST)
+-   Microsoft O365 SharePoint
+-   Microsoft O365 Teams
+-   Microsoft O365 Mail
+-   Microsoft O365 Power Automate
+-   Microsoft O365 Excel
+-   Microsoft O365 PowerPoint
+-   Microsoft O365 Visio
+-   Microsoft O365 Power BI Workspaces
+-   Microsoft O365 Power BI Premium Workspaces
+-   Microsoft O365 Power BI Apps
+-   Microsoft O365 Power BI Desktop
+-   Microsoft O365 Power BI Report Builder Desktop
+-   Microsoft O365 One Drive
+-   Microsoft Azure Data Explorer Desktop
+-   Microsoft DevOps Integration Tool for Office 2019
+-   Microsoft VS Code
+-   Postman
+-   R Studio
+-   DAX Studio
+-   SAS
+-   JIRA
+-   Tableau
+-   Alation
+-   Git
+-   Git Desktop
+-   GitHub
+-   GitLab
+-   Progress Kendo Angular UI (UX)
+-   Redhat Openshift
+-   Kubernetes
 
 The following open source standards are used in the architecure:
-- OpenDoc (Swagger)
-- OAuth2 (Security)
-- OpenID (Security)
-- OData (Data and restful api)
-- BootStrap (HTML Layout)
-- ASPNET Core
-- NodeJS
-- D3
+
+-   OpenDoc (Swagger)
+-   OAuth2 (Security)
+-   OpenID (Security)
+-   OData (Data and restful api)
+-   BootStrap (HTML Layout)
+-   ASPNET Core
+-   NodeJS
+-   D3
 
 The following open source libraries are used in the architecture:
 
-- Identity Server 4 https://identityserver4.readthedocs.io/en/latest/
-- saurfang:spark-sas7bdat (python - databricks)
-- hl7_pet_1_2_4_4 (python - databricks)
-- Code Search (microsoft devops)
-- DevOps for Azure Databricks (microsoft devops)
-- Teraform (cloud deployment)
-- Pip (python)
-
+-   Identity Server 4 https://identityserver4.readthedocs.io/en/latest/
+-   saurfang:spark-sas7bdat (python - databricks)
+-   hl7_pet_1_2_4_4 (python - databricks)
+-   Code Search (microsoft devops)
+-   DevOps for Azure Databricks (microsoft devops)
+-   Teraform (cloud deployment)
+-   Pip (python)
 
 The following programming languages are used in the architecture for the data layer:
 
-- Spark SQL (primary)
-- Python
-- R
-- Microsoft M (Power B/Excel/PowerQuery)
-- Microsoft Dax (Power BI)
-- SAS
-- YAML
-- RDL/XML
-- HTML/Markdown
-- Powershell
-- Bash
+-   Spark SQL (primary)
+-   Python
+-   R
+-   Microsoft M (Power B/Excel/PowerQuery)
+-   Microsoft Dax (Power BI)
+-   SAS
+-   YAML
+-   RDL/XML
+-   HTML/Markdown
+-   Powershell
+-   Bash
 
 The following programming languages are used in the custom web portal
-- Javascript
-- Angular
+
+-   Javascript
+-   Angular
 
 The following programming languagese are used in the oauth security component
-- C#
+
+-   C#
 
 The following data formats are supported:
 
-- csv
-- sas bdat
-- usv (unicode delimited)
-- tsv
-- fixed width
-- hl7
-- json
-- parquet
-- parquet (databricks delta)
-- parquet (databricks delta live)
+-   csv
+-   sas bdat
+-   usv (unicode delimited)
+-   tsv
+-   fixed width
+-   hl7
+-   json
+-   parquet
+-   parquet (databricks delta)
+-   parquet (databricks delta live)
 
 Output storage:
 
-- Azure Storage for large files designed for automated consumption
-- Sharepoint / OneDrive fro smaller files designed for individual consumption
+-   Azure Storage for large files designed for automated consumption
+-   Sharepoint / OneDrive fro smaller files designed for individual consumption
 
 The following security scanning components are supported:
 
-- put code scanning tools here
+-   put code scanning tools here
 
 ## OAuth Secuirty
 
-The OAuth security component has been tested and deployed in 
-- AWS Public Cloud via kubernetes
-- AWS Private Cloud at CDC via openshift
-- Azure Cloud via kubernetes
+The OAuth security component has been tested and deployed in
+
+-   AWS Public Cloud via kubernetes
+-   AWS Private Cloud at CDC via openshift
+-   Azure Cloud via kubernetes
 
 The Ouath Security component has been tested integrating with
-- HHS SAMS OAuth for CDC
-- KeyCloak OAuth for APHL
-- GitHub OAuth
 
-
+-   HHS SAMS OAuth for CDC
+-   KeyCloak OAuth for APHL
+-   GitHub OAuth
 
 ## PR Conventions
 
@@ -398,137 +402,144 @@ We require two reviewers per changeset, and you cannot merge until all commits h
 
 ## Cloud Environments
 
-| **Name** |                                   **Frontend**                                    |                                  **API**                                  |            **Deployment**             |                                **Intended Use**                                |
-| :------: | :-------------------------------------------------------------------------------: | :-----------------------------------------------------------------------: | :-----------------------------------: | :----------------------------------------------------------------------------: |
+| **Name** |                                   **Frontend**                                    |                                   **API**                                   |              **Deployment**               |                                **Intended Use**                                |
+| :------: | :-------------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :---------------------------------------: | :----------------------------------------------------------------------------: |
 |   prod   |     [/app/static/commit.txt](https://simplereport.gov/app/static/commit.txt)      |     [/api/actuator/info](https://gift.community.one/api/actuator/info)      | Dispatched on success of `onboard` deploy |                               Used by end users                                |
 |   demo   |   [/app/static/commit.txt](https://demo.simplereport.gov/app/static/commit.txt)   |   [/api/actuator/info](https://demo.gift.community.one/api/actuator/info)   |  Worflow on success of `onboard` deploy   |         Used internally to demo the application to potential end users         |
 | training | [/app/static/commit.txt](https://training.simplereport.gov/app/static/commit.txt) | [/api/actuator/info](https://training.gift.community.one/api/actuator/info) | Dispatched on success of `onboard` deploy | Used externally by potential users to get a better uderstanding of the product |
-|   onboard    |   [/app/static/commit.txt](https://stg.simplereport.gov/app/static/commit.txt)    |   [/api/actuator/info](https://onboard.gift.community.one/api/actuator/info)    |            Push to `main`             |  To validate the application work in the cloud and works with prod like data   |
-|   dev    |   [/app/static/commit.txt](https://dev.simplereport.gov/app/static/commit.txt)    |   [/api/actuator/info](https://dev.gift.community.one/api/actuator/info)    |     [Action](#deploy-with-action)     |                     To validate PRs before merging to main                     |
-|   qa   |   [/app/static/commit.txt](https://test.simplereport.gov/app/static/commit.txt)   |   [/api/actuator/info](https://qa.gift.community.one/api/actuator/info)   |     [Action](#deploy-with-action)     |                     To validate PRs before merging to main                     |
-            
+| onboard  |   [/app/static/commit.txt](https://stg.simplereport.gov/app/static/commit.txt)    | [/api/actuator/info](https://onboard.gift.community.one/api/actuator/info)  |              Push to `main`               |  To validate the application work in the cloud and works with prod like data   |
+|   dev    |   [/app/static/commit.txt](https://dev.simplereport.gov/app/static/commit.txt)    |   [/api/actuator/info](https://dev.gift.community.one/api/actuator/info)    |       [Action](#deploy-with-action)       |                     To validate PRs before merging to main                     |
+|    qa    |   [/app/static/commit.txt](https://test.simplereport.gov/app/static/commit.txt)   |    [/api/actuator/info](https://qa.gift.community.one/api/actuator/info)    |       [Action](#deploy-with-action)       |                     To validate PRs before merging to main                     |
 
+## Deploy
+
+GIFT uses a continuous deployment deployment (CD) process
+
+![CD](docs/images/deploy.png)
 
 ## GIFT - Code Standards and Naming Conventions
 
 **DevOps Branching**
-1.	Currently using user->main->dev->qa->onboard->prod  
+
+1. Currently using user->main->dev->qa->onboard->prod
 
 **Databases**
-1.	Currently using dev->qa->onboard->prod
+
+1. Currently using dev->qa->onboard->prod
 
 **SQL**
-1.	Using parameterized sql with environment variables to automate deployment from dev -> qa -> onboard -> prod
 
-**SharePoint List Storage structure prior to upload to Azure**  
+1. Using parameterized sql with environment variables to automate deployment from dev -> qa -> onboard -> prod
+
+**SharePoint List Storage structure prior to upload to Azure**
 
 1. NCIRD lists to maintain configuration data should be created in SharePoint at [GIFT SharePoint](todo reference SharePoint when approved )
-2. The lists should be named ndsp_[system]_config_[table] where system is a 3 digit abbreviation of the system name and table is the entity you want to configure.  If the table applies to multiple system/project add a column name project_id to distinguish each project and use all as the system name.
+2. The lists should be named ndsp*[system]\_config*[table] where system is a 3 digit abbreviation of the system name and table is the entity you want to configure. If the table applies to multiple system/project add a column name project_id to distinguish each project and use all as the system name.
 
 **On Premise Storage Folder structure prior to upload to Azure**
+
 1.  Do not store file on you local hard drive, store on project team site one drive
 2.  Store in ndsp team site in a folder structure based on the template below
 
-- Have a top level folder with project linked to teamsite
-- have subdirectories for bronze input that will be uploaded to azure prefixed with
-  - [project name]-[bronze-input]-[file-type]
-  - example (ndsp-pertussis-bronze-input-csv)
+-   Have a top level folder with project linked to teamsite
+-   have subdirectories for bronze input that will be uploaded to azure prefixed with
+    -   [project name]-[bronze-input]-[file-type]
+    -   example (ndsp-pertussis-bronze-input-csv)
 
 TODO Insert image without senstive data
 
+**Azure Storage Folder Structures (don’t use – in folder names)**
 
-**Azure Storage Folder Structures  (don’t use – in folder names)**
-1.	by project - ezdx (NCEZID), ndsp (NCIRD)
-2.      by project area 
-3.	by environment: dev, qa, onboard, prod
-3.	by delta and in 
-4.	for in In broken out by file type – csv, tsv, sas, etc
-5.      for tables - by tables - then bronze, silver, gold
+1.  by project - ezdx (NCEZID), ndsp (NCIRD)
+2.       by project area
+3.  by environment: dev, qa, onboard, prod
+4.  by delta and in
+5.  for in In broken out by file type – csv, tsv, sas, etc
+6.       for tables - by tables - then bronze, silver, gold
 
 Example:
 
 TODO Insert image without senstive data
 
 **DataBricks Repositories**
+
 1.  Name workspace project name-notebook
-Example:  pertussis-notebooks
+    Example: pertussis-notebooks
 
 **ndsp-pertussis-bronze-input-csv**
 
-1.	Top level folder by project
-2.	Subdirectories by environment: dev, qa, onboard, prod
-3.	Subdirectories bronze, common, silver and gold
+1. Top level folder by project
+2. Subdirectories by environment: dev, qa, onboard, prod
+3. Subdirectories bronze, common, silver and gold
 
 **DataBricks Deployment**
 
-1.	Top level folder by project
-2.	Subdirectories by environment: dev, qa, onboard, prod
-3.	Subdirectories bronze, common, silver and gold
-
-
+1. Top level folder by project
+2. Subdirectories by environment: dev, qa, onboard, prod
+3. Subdirectories bronze, common, silver and gold
 
 **DataBricks Tables and Columns**
 
-1.	 Prefixes
+1.  Prefixes
 
- We already had one meeting where I explained the methodogy of prefixing  tables and views with 
--	Bronze_[sys]
--	Silver
--	Gold
+We already had one meeting where I explained the methodogy of prefixing tables and views with
 
-2.	Suffixes
-Suffix objects based on type with either 
-- _tbl for table
-- _vw for view
+-   Bronze\_[sys]
+-   Silver
+-   Gold
 
-3.	Columns
-  - All columns in the bronzes tables are sorted in alphabetical order
-  - Naming Conventions
-  - Need to sort column names alphabetically
-  - Use _ to represent space
-  - Default to lower case, if legacy camel case naming is used for any reason and columns are named ID use suffix ID rather than Id
-  - unique business id columns should be created for for all bronze tables and labeled row_id
-  - Datatypes
-Other datatypes are inferred but can be over written
-Timestamps are inferred to timestamps
-Dates are converted to dates can’t be inferred
-Blanks default to nulls
-Need to trim all strings with trim function
+2. Suffixes
+   Suffix objects based on type with either
 
+-   \_tbl for table
+-   \_vw for view
+
+3. Columns
+
+-   All columns in the bronzes tables are sorted in alphabetical order
+-   Naming Conventions
+-   Need to sort column names alphabetically
+-   Use \_ to represent space
+-   Default to lower case, if legacy camel case naming is used for any reason and columns are named ID use suffix ID rather than Id
+-   unique business id columns should be created for for all bronze tables and labeled row_id
+-   Datatypes
+    Other datatypes are inferred but can be over written
+    Timestamps are inferred to timestamps
+    Dates are converted to dates can’t be inferred
+    Blanks default to nulls
+    Need to trim all strings with trim function
 
 **Systems**
 
-1.	Create a project id for each system, currently, ndsp_pertussis, ndsp_phlip and ndsp_ddt and (ndsp – shared)
-There are lots of other components to documents, powerbi, logicapps, sharepoint, requirements, security, unit test, devops deployment, archive.
-
-
+1. Create a project id for each system, currently, ndsp_pertussis, ndsp_phlip and ndsp_ddt and (ndsp – shared)
+   There are lots of other components to documents, powerbi, logicapps, sharepoint, requirements, security, unit test, devops deployment, archive.
 
 **Logic App List Synchronization**
 
 1.  Logic apps should be stored in devops at [Logic App Repo](TODO referece repo when approved)
 2.  The logic apps should following the naming conventions in the following example:
--for exporting a list that applies to multiple projects
-ndsp-list-export-all-config-codes
--for export a list that applies to pertussis project
-ndsp-list-export-prt-config-transmission-period
--for migrations lists that apply to multiple project from one SharePoint List to a different List
-ndsp-list-migrate-all
-3.  Logic apps should be created in Azure on the DDID-NCIRD-PRD-C1 subscription.  Name should match the repo name such as ndsp-list-export-all-config-codes
+    -for exporting a list that applies to multiple projects
+    ndsp-list-export-all-config-codes
+    -for export a list that applies to pertussis project
+    ndsp-list-export-prt-config-transmission-period
+    -for migrations lists that apply to multiple project from one SharePoint List to a different List
+    ndsp-list-migrate-all
+3.  Logic apps should be created in Azure on the DDID-NCIRD-PRD-C1 subscription. Name should match the repo name such as ndsp-list-export-all-config-codes
 4.  Currently we are defaulting the logic apps to consumption based
 5.  SharePoint List are currently configured to run off either a list change event or an email.
 
-- **Important:**:  Some legacy logic apps are triggered by http endpoints which are publicly accessible.  We have mission critical email notifications that can currently be triggered by anyone located on any public network anywhere.  This is a huge security issue.  Do not create logic apps with http endpoints that have publicly accessible endpoints.
+-   **Important:**: Some legacy logic apps are triggered by http endpoints which are publicly accessible. We have mission critical email notifications that can currently be triggered by anyone located on any public network anywhere. This is a huge security issue. Do not create logic apps with http endpoints that have publicly accessible endpoints.
 
 **Azure Data Factory (ADF) Scheduling**
 
 1. Naming Conventions for triggers
-- [project_name[-[report]-[schedule]
-- example: ndsp_pertussis_reporting_standard_sundays
+
+-   [project_name[-[report]-[schedule]
+-   example: ndsp_pertussis_reporting_standard_sundays
 
 2. Repositories for ADF
 
-- Ensure that all adf job and triggers are under source control, ideally though automated integration with devops
-
+-   Ensure that all adf job and triggers are under source control, ideally though automated integration with devops
 
 ### Location
 
@@ -536,7 +547,7 @@ By default, you should use this to start a new project on CDC internal git serve
 
 If you already have access, or anticipate people outside CDC needing to view or work on this code, use this to start a new project on CDC's private GitHub cloud, <https://github.com/cdcent>. [You can request access](https://forms.office.com/Pages/ResponsePage.aspx?id=aQjnnNtg_USr6NJ2cHf8j44WSiOI6uNOvdWse4I-C2NUQjVJVDlKS1c0SlhQSUxLNVBaOEZCNUczVS4u). This is in the cloud so you can get to it off network.
 
-If you have special requirements, you can check out the [other locations](https://it-guides.cdc.gov/source-code/knownRepos/) (intranet only)    where you can use this template.
+If you have special requirements, you can check out the [other locations](https://it-guides.cdc.gov/source-code/knownRepos/) (intranet only) where you can use this template.
 
 ### Structure
 
@@ -562,25 +573,26 @@ These folders are meant to help organize and make it easier for others to unders
 
 ### References
 
-* <https://github.com/lazappi/cookiecutter-r-analysis>
-* <https://git.cdc.gov/oet5/premier_ehr>
-* <https://git.biotech.cdc.gov/fya1/spock>
-* <https://github.com/drivendata/cookiecutter-data-science>
+-   <https://github.com/lazappi/cookiecutter-r-analysis>
+-   <https://git.cdc.gov/oet5/premier_ehr>
+-   <https://git.biotech.cdc.gov/fya1/spock>
+-   <https://github.com/drivendata/cookiecutter-data-science>
 
 ## Housekeeping
 
 This section contains info [useful for organization](https://github.com/cdcent/enterprise_practices).
 
-* Point of contact: SRRG
-* Organizational unit: EOC/SRRG
-* Related projects: N/A
-* Related investments: COVID-19 Response
-* Governance status: Under design
-* Program official: Brian Lee
+-   Point of contact: SRRG
+-   Organizational unit: EOC/SRRG
+-   Related projects: N/A
+-   Related investments: COVID-19 Response
+-   Governance status: Under design
+-   Program official: Brian Lee
 
 The participants of this project are required to adhere to [our code of conduct](https://github.com/CDCgov/template/blob/master/code-of-conduct.md). Although the contents of this project are available under the [Apache Software License](https://github.com/cdcent/enterprise_practices/blob/master/LICENSE) distribution is restricted to only appropriate CDC staff due to cybersecurity regulations. Unless otherwise noted, all contributions to this project are accepted by the contributor as containing unlimited data usage rights by CDC and under the same license of the project.
 
 ## Public Domain Standard Notice
+
 This repository constitutes a work of the United States Government and is not
 subject to domestic copyright protection under 17 USC § 105. This repository is in
 the public domain within the United States, and copyright and related rights in
@@ -590,6 +602,7 @@ submitting a pull request you are agreeing to comply with this waiver of
 copyright interest.
 
 ## License Standard Notice
+
 The repository utilizes code licensed under the terms of the Apache Software
 License and therefore is licensed under ASL v2 or later.
 
@@ -607,6 +620,7 @@ program. If not, see http://www.apache.org/licenses/LICENSE-2.0.html
 The source code forked from other open source projects will inherit its license.
 
 ## Privacy Standard Notice
+
 This repository contains only non-sensitive, publicly available data and
 information. All material and community participation is covered by the
 [Disclaimer](https://github.com/CDCgov/template/blob/master/DISCLAIMER.md)
@@ -614,6 +628,7 @@ and [Code of Conduct](https://github.com/CDCgov/template/blob/master/code-of-con
 For more information about CDC's privacy policy, please visit [http://www.cdc.gov/other/privacy.html](https://www.cdc.gov/other/privacy.html).
 
 ## Contributing Standard Notice
+
 Anyone is encouraged to contribute to the repository by [forking](https://help.github.com/articles/fork-a-repo)
 and submitting a pull request. (If you are new to GitHub, you might start with a
 [basic tutorial](https://help.github.com/articles/set-up-git).) By contributing
@@ -626,11 +641,13 @@ All comments, messages, pull requests, and other submissions received through
 CDC including this GitHub page may be subject to applicable federal law, including but not limited to the Federal Records Act, and may be archived. Learn more at [http://www.cdc.gov/other/privacy.html](http://www.cdc.gov/other/privacy.html).
 
 ## Records Management Standard Notice
+
 This repository is not a source of government records, but is a copy to increase
 collaboration and collaborative potential. All government records will be
 published through the [CDC web site](http://www.cdc.gov).
 
 ## Additional Standard Notices
+
 Please refer to [CDC's Template Repository](https://github.com/CDCgov/template)
 for more information about [contributing to this repository](https://github.com/CDCgov/template/blob/master/CONTRIBUTING.md),
 [public domain notices and disclaimers](https://github.com/CDCgov/template/blob/master/DISCLAIMER.md),
