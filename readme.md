@@ -14,7 +14,7 @@ The templates use an architecture designed to be self service, data driven, even
 
 The basic functionalily ot report subscriptions in PowerBI is quite limited.  Self-service susbscriptions in the Gift Templates allow the following functionality that is not available in other off the shelf products.
 
-1.  Configure Report Meta-Data and Subscriptions for delivery via Email and SharePoint.  A centralized repository that is available to all users with configured access to the SharePoint list regardless of PowerBI, Tableau or Alataion license status that catalogs all report data products and links the reports to the corresponding internal project.  
+1.  Configure Report Meta-Data and Subscriptions for delivery via Email and SharePoint.  A centralized repository is available to all users with configured access to the SharePoint list regardless of PowerBI, Tableau or Alataion license status that catalogs all report data products and links the reports to the corresponding internal project.  
 2.  Any users with SharePoint list access can subscribe to a report.  External users do not require PowerBI access to subscribe. 
 3.  If access approval is required, this can easily be implemented through SharePoint workflow and approvals.
 4.  Reports can be configured to source from any environment such as dev and prod or both.  The environment used on the reports is noted in the deilvery.
