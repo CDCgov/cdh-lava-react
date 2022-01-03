@@ -12,6 +12,8 @@ The templates use an architecture designed to be self service, data driven, even
 
 ## Example Gold Use Cases
 
+### UC1:  Report Management
+
 The basic functionalily ot report subscriptions in PowerBI is quite limited.  Self-service susbscriptions in the Gift Templates allow the following functionality that is not available in other off the shelf products.
 
 1.  Configure Report Meta-Data and Subscriptions for delivery via Email and SharePoint.  A centralized repository is available to all users with configured access to the SharePoint list regardless of PowerBI, Tableau or Alataion license status that catalogs all report data products and links the reports to the corresponding internal project.  
@@ -27,6 +29,12 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited.  Se
 11.  An audit log report is available for all report runs with status, duration and other meta data.  A retry interval can be configured.
 12.  There is no limit on the number of external subscribers or subscriptions per report.
 13.  The report text is configurable via email  Different email aliases are allowed for different environments such as dev and test.  Report email text include a default link to the SharePoint library that includes a history of output from preivous report runs.   
+
+### UC2:  Standard Reports
+
+1.  Data Dictionary.  A standard data dictionary report is available for all projects using the GIFT meta data features.  The basic data dictionaries created by off the shelf products are quite limited.  In addition, to the standard data points of name, data type, and text, the GIFT templates allow for  a) automatically listing available data elements for datasets with less than 100 distinct values.  b) providing full data lineage and traceability.  c) linking and filtering to report projects and other meta-data. d) number of unique elements, number of null values and range of data elements.
+
+2.  Automated Data Quality.   A standard data quality report is available for all projects.  The automated components of the report for bronze data compare the data lake tables to initial source input and acccount for differences in 1) data types 2) nullability 3) field name 4) column count 5) row count and 6) count of distinct valus.  
 
 ## Getting Started
 
