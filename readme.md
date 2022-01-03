@@ -10,6 +10,21 @@ The templates use an architecture designed to be self service, data driven, even
 
 ![Delta-Lake-Multi-Hop-Architecture-Bronze](https://user-images.githubusercontent.com/2504540/147579076-395a7f22-fff7-490e-9cf8-847a2adfbd95.png)
 
+## Example Gold Use Cases
+
+1.  Configure Report Meta-Data and Subscriptions for delivery via Email and SharePoint
+
+The basic functionalily ot report subscriptions in PowerBI is quite limited.  Self-service susbscriptions in the Gift Templates allow the following functionality that is not avalaible in other off the shelf products.
+
+1.  A centralized repository that is available to all users with configured access to the SharePoint list regardless of PowerBI, Tableau or Alataion license status that catalogs all report data products and links the reports to the corresponding internal project.  
+2.  Any users with SharePoint list access can subscribe to a report.
+3.  If access approval is required, this can easily be implemented through SharePoint workflow and approvals.
+4.  Reports can be configured to source from any environment such as dev and prod or both.  The environment used on the reports is noted in the deilvery.
+5.  Reports are named consistently based on a standard naming convention that includes, the date, the environment and whether the reprot is for internal or extenal consumption.
+6.  Reports can have different columns, rows or sections that are either shared or excluded based on the audience, internal or external.
+7.  Reports can be delivered in a variety of formats such as Excel, PDF, Word, PPT and online.
+8.  Reports can be distributed to any user inside or outside the organization.
+
 ## Getting Started
 
 1. TODO
