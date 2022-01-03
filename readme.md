@@ -393,7 +393,7 @@ We require two reviewers per changeset, and you cannot merge until all commits h
 |   onboard    |   [/app/static/commit.txt](https://stg.simplereport.gov/app/static/commit.txt)    |   [/api/actuator/info](https://onboard.gift.community.one/api/actuator/info)    |            Push to `main`             |  To validate the application work in the cloud and works with prod like data   |
 |   dev    |   [/app/static/commit.txt](https://dev.simplereport.gov/app/static/commit.txt)    |   [/api/actuator/info](https://dev.gift.community.one/api/actuator/info)    |     [Action](#deploy-with-action)     |                     To validate PRs before merging to main                     |
 |   qa   |   [/app/static/commit.txt](https://test.simplereport.gov/app/static/commit.txt)   |   [/api/actuator/info](https://qa.gift.community.one/api/actuator/info)   |     [Action](#deploy-with-action)     |                     To validate PRs before merging to main                     |
-             |
+            
 
 
 ## GIFT - Code Standards and Naming Conventions
