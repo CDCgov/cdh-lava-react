@@ -40,12 +40,19 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited.  Se
 
 ### Set up local enviroment
 1.  It is recommended to set up teams channel and store your work in onedrive to increase transparency during development
+2.  Create a new channel in teams named GIFT-Analytics or subscribe to this channel if at the CDC
+3.  Go to the files tab for the channel
+4.  Choose open in SharePoint
+5.  In SharePoint choose add shortcut to OneDrive, this will add the folder to your windows explorer
+6.  Create a folder inside GIFT-Analytics with your alias - for example:  C:\Users\zfi4\OneDrive - CDC\GIFT-Analytics\zfi4
+7.  Note the location to initialize your repository in the next step
 
 ### Set up repository
 1. Fork this repository.  Example, I forked this reporitory to github.com/jcbowyer/gift
 2. Edit code and make changes.  TODO.  
 - From VS Code choose source control from the left hand-side bar
-- 
+- Choose initialize repository
+- Choose your folder location: example:  C:\Users\zfi4\OneDrive - CDC\GIFT-Analytics\zfi4
 4. Submit a pull request to publish changes.
 5. After approval, we will accept your pull request, and github site will update soon after.
 
