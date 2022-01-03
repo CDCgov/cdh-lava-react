@@ -50,8 +50,9 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 
 ### Set up repository
 
-1. Fork this repository. Example, I forked this reporitory to github.com/jcbowyer/gift
-2. Edit code and make changes.
+1. Fork this repository. Example, I forked this repository to github.com/jcbowyer/gift
+2. Rename the the default branch of you local repository to dev-githubalias - for example, dev-jcbowyer
+3. Edit code and make changes to your branch
 
 -   From VS Code choose source control from the left hand-side bar
 -   Choose initialize repository
