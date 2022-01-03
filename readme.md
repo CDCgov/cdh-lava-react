@@ -18,10 +18,12 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited.  Se
 2.  Any users with SharePoint list access can subscribe to a report.
 3.  If access approval is required, this can easily be implemented through SharePoint workflow and approvals.
 4.  Reports can be configured to source from any environment such as dev and prod or both.  The environment used on the reports is noted in the deilvery.
-5.  Reports are named consistently based on a standard naming convention that includes, the date, the environment and whether the reprot is for internal or extenal consumption.
-6.  Reports can have different columns, rows or sections that are either shared or excluded based on the audience, internal or external.
-7.  Reports can be delivered in a variety of formats such as Excel, PDF, Word, PPT and online.
-8.  Reports can be distributed to any user inside or outside the organization.
+5.  Reports can be published to Email or a storage location that is in SharePoint or Azure Storage.
+6.  Reports are named consistently based on a standard naming convention that includes, the date, the environment and whether the reprot is for internal or extenal consumption.
+7.  Reports can have different columns, rows or sections that are either shared or excluded based on the audience, internal or external.
+8.  Reports can be delivered in a variety of formats such as Excel, PDF, Word, PPT and online.
+9.  Reports can be distributed to any user inside or outside the organization.
+10.  Report publication can be scheduled via a standard recurring time based schedule or via trigger email or http call.
 
 ## Getting Started
 
