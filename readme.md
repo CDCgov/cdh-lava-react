@@ -38,7 +38,10 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited.  Se
 
 ## Getting Started
 
-1. TODO
+1. Fork this repository.
+2. Edit code and make changes.  TODO.  
+3. Submit a pull request to publish changes.
+4. After approval, we will accept your pull request, and github site will update soon after.
 
 ## Project Description
 
