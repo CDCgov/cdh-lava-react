@@ -12,7 +12,7 @@ The templates use an architecture designed to be self service, data driven, even
 
 ## Example Gold Use Cases
 
-The basic functionalily ot report subscriptions in PowerBI is quite limited.  Self-service susbscriptions in the Gift Templates allow the following functionality that is not avalaible in other off the shelf products.
+The basic functionalily ot report subscriptions in PowerBI is quite limited.  Self-service susbscriptions in the Gift Templates allow the following functionality that is not available in other off the shelf products.
 
 1.  Configure Report Meta-Data and Subscriptions for delivery via Email and SharePoint.  A centralized repository that is available to all users with configured access to the SharePoint list regardless of PowerBI, Tableau or Alataion license status that catalogs all report data products and links the reports to the corresponding internal project.  
 2.  Any users with SharePoint list access can subscribe to a report.
@@ -23,7 +23,7 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited.  Se
 7.  Reports can have different columns, rows or sections that are either shared or excluded based on the audience, internal or external.
 8.  Reports can be delivered in a variety of formats such as Excel, PDF, Word, PPT and online.
 9.  Reports can be distributed to any user inside or outside the organization.
-10.  Report publication can be scheduled via a standard recurring time based schedule or via trigger email or http call.
+10.  Report publication can be scheduled via a standard recurring time based schedule or via trigger email or http call. Triggers allow for the earliest possible distribution of report when an ETL job finishes.
 
 ## Getting Started
 
