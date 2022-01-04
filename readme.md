@@ -6,7 +6,7 @@ Reusable Data, Analytics and Visualization Templates internally known as DAVT at
 
 The project uses the DataBricks methodology of referencing system inputs as bronze data and system outputs as gold data. Data transformations between bronze and gold are referred to as silver data. The project is named gold idea first templates (GIFT) because a key principle of the architecture is to begin with the end in mind (gold data) and prioritize the ideas for generating end user output (gold data) first before delving into the technical details of expected bronze input.
 
-The templates use an architecture designed to be self service, data driven, event-driven, loosely coupled, multi-vendor and multi-tenant. The process of creating new ETL processes or reports is self-service and does not require knowledge of procedural programming such as Python. Definitions of the archictectural patterns for self-service, data driven, event-driven, loosely coupled, and multi-tenant are provided in the project description.
+The templates use an architecture designed to be self service, data driven, event-driven, loosely coupled, multi-vendor and multi-tenant. The process of creating new ETL processes or reports is self-service and does not require knowledge of procedural programming such as Python. Definitions of the architectural patterns for self-service, data driven, event-driven, loosely coupled, and multi-tenant are provided in the project description.
 
 ![Delta-Lake-Multi-Hop-Architecture-Bronze](https://user-images.githubusercontent.com/2504540/147579076-395a7f22-fff7-490e-9cf8-847a2adfbd95.png)
 
@@ -35,6 +35,43 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 1.  Data Dictionary. A standard data dictionary report is available for all projects using the GIFT meta data features. The basic data dictionaries created by off the shelf products are quite limited. In addition, to the standard data points of name, data type, and text, the GIFT templates allow for a) automatically listing available data elements for datasets with less than 100 distinct values. b) providing full data lineage and traceability. c) linking and filtering to report projects and other meta-data. d) number of unique elements, number of null values and range of data elements.
 
 2.  Automated Data Quality. A standard data quality report is available for all projects. The automated components of the report for bronze data compare the data lake tables to initial source input and acccount for differences in 1) data types 2) nullability 3) field name 4) column count 5) row count and 6) count of distinct valus.
+
+## Freqently Asked Questions:  Are GIFT templates useful for your organization?
+
+### Question 1:  Can we use the templates if we don't have a license for Microsoft Office365, Teams, SharePoint, Power Automate or Power BI Premium?  
+- Answer: Yes, you can use components.  The notebooks bronze input data is driven by csv files and not tightly coupled to SharePoint.  We are currently investigating creating an alternate path to create the csv files via Google Sheets as an alternative to SharePoint.  There are standard notebooks to create csv and parquet output that do not require Power BI premium.  You can use these notebooks to generate csv and even excel output if a Power BI premium license is not available.  Similary there are alternative to all of the functionity in power automate to send emails, generate and export to SharePoint.
+
+### Question 2:  Can we use the templates if we are we are a Microsoft legacy shop using on premise SQL Server and not operating in the cloud?
+- Answer:  Yes, you can use components.  All of the reporting stack, email stack, and SharePoint stack can operate on rdl, active directory and other components that work fine with legacy technologies.  The templates also provide a path to transition to a Cloud first strategy.
+
+### Question 3:  Can we use the templates if we are not a Microsoft shop, we don't use C#, .Net Core or Azure?
+-  Answer:  Yes, you can use components.  Most of the bronze, silver and gold data components are based on Spark SQL from DataBricks which supports a variety of programming languages such as Python and Scala and will deploy to AWS.  The primary langauge of most of the code is SQL.
+
+### Question 4:  Can we use the templates if we are a Microsoft shop, we don't use Python, Scala, etc.?
+- Answer:  Yes, you can use components.  Most of the reporting layer uses drag and drop tools like Microsoft Power BI or Tableau.  Some middleware components such as the OAuth security layer are written in C#.    The primary language of most of the code is SQL.
+
+### Question 5:  Can we use the templates if we are a Tableau shop, we don't use Power BI.
+- Answer:  Yes, you can use components.
+
+### Question 6:  Can we use the templates if we are an AWS shop, we don't use Azure?
+- Answer:  Yes, you can use components.
+
+### Question 7:  We are already using technology X to product Excel, PDF, or online reports.   Is it worth it to change?
+- Answer:  Possibly.  Would your users prefer reports
+    - delivered scheduled or triggered by events without waiting to process via email, SharePoint, OneDrive or other cloud storage? 
+    - configurable in terms of recipients, text and contents with self service subscribe and unsubscribe?
+    - cataloged and all the reports discoverable?
+    - secured with a common security model with documented traceability to users, projects and roles?
+    - monitored and reported for cost and value based on usage and spend?
+    - monitored and reported based on failure and success with fault tolerance and retry capabilities?
+    - data cached where applicable so that expensive database resource use is minimized?
+- If you answered yes to any of these questions and that functionality is not currently offered in your organization, you may benefit from using the GIFT templates.
+
+### Question 8:  Can we use the templates if we are a public external facing website that can't incur per user charges?
+-  Answer:  Yes, you can use components.  We have a sample Angular web portal, OAuth code and other components to designed to address this use case.
+
+### Question 9:  Can we use the templates if we don't have strong naming conventions and accountability?
+-  Answer:  Yes, the GIFT templates promote the naming conventions documented in the standards section but the conventions are not requirements.  Moving to the templates can highlight where standards are not consistent through common documentation.  This is particularly helpful when using the templates across multiple projects with different teams and different standards to highlight the differences in conventions.
 
 ## Getting Started
 
