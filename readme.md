@@ -38,7 +38,7 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 
 ## Freqent Questions:  Are GIFT templates useful for your organization?
 
-### Question 1:  Can we use the templates if we don't have a license for SharePoint, Power Automate or Power BI premium?  
+### Question 1:  Can we use the templates if we don't have a license for Microsoft Office365, Teams, SharePoint, Power Automate or Power BI Premium?  
 - Answer: Yes, you can use components.  The notebooks bronze input data is driven by csv files and not tightly coupled to SharePoint.  We are currently investigating creating an alternate path to create the csv files via Google Sheets as an alternative to SharePoint.  There are standard notebooks to create csv and parquest output that do not require Power BI premium.  You can use these notebooks to generate csv and even excel output if a Power BI premium license is not available.  Similary there are alternative to all of the functionity in power automate to send emails, generate and export to SharePoint.
 
 ### Question 2:  Can we use the templates if we are we are a Microsoft legacy shop using on premise SQL Server and not operating in the Cloud.
