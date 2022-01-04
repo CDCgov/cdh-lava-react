@@ -36,10 +36,10 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 
 2.  Automated Data Quality. A standard data quality report is available for all projects. The automated components of the report for bronze data compare the data lake tables to initial source input and acccount for differences in 1) data types 2) nullability 3) field name 4) column count 5) row count and 6) count of distinct valus.
 
-## Freqent Questions:  Are GIFT templates useful for your organization?
+## Freqently Asked Questions:  Are GIFT templates useful for your organization?
 
 ### Question 1:  Can we use the templates if we don't have a license for Microsoft Office365, Teams, SharePoint, Power Automate or Power BI Premium?  
-- Answer: Yes, you can use components.  The notebooks bronze input data is driven by csv files and not tightly coupled to SharePoint.  We are currently investigating creating an alternate path to create the csv files via Google Sheets as an alternative to SharePoint.  There are standard notebooks to create csv and parquest output that do not require Power BI premium.  You can use these notebooks to generate csv and even excel output if a Power BI premium license is not available.  Similary there are alternative to all of the functionity in power automate to send emails, generate and export to SharePoint.
+- Answer: Yes, you can use components.  The notebooks bronze input data is driven by csv files and not tightly coupled to SharePoint.  We are currently investigating creating an alternate path to create the csv files via Google Sheets as an alternative to SharePoint.  There are standard notebooks to create csv and parquet output that do not require Power BI premium.  You can use these notebooks to generate csv and even excel output if a Power BI premium license is not available.  Similary there are alternative to all of the functionity in power automate to send emails, generate and export to SharePoint.
 
 ### Question 2:  Can we use the templates if we are we are a Microsoft legacy shop using on premise SQL Server and not operating in the cloud.
 - Answer:  Yes, you can use components.  All of the reporting stack, email stack, and SharePoint stack can operate on rdl, active directory and other components that work fine with legacy technologies.  The templates also provide a path to transition to a Cloud first strategy.
