@@ -62,6 +62,10 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 - configurable in terms of recipients, text and contents with self service subscribe and unsubscribe?
 - cataloged and all the reports discoverable?
 - secured with a common security model with documented traceability to users, projects and roles?
+- monitored and reported for cost and value based on usage and spend?
+- monitored and reported based on failure and success with fault tolerance and retry capabilities?
+- data cached where applicable so that expensive database resource use is minimized?
+If you answered yes to any of these questions and that functionality is not currently offered in your organization, you may benefit from using the GIFT templates.
 
 ## Getting Started
 
