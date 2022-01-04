@@ -56,7 +56,7 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 ### Question 6:  Can we use the templates if we are an AWS shop, we don't use Azure?
 - Answer:  Yes, you can use components.
 
-### Question 7:  We are already using technology X to product Excel, PDF, or online reports.   Is it worth it to change?
+### Question 7:  We are already using technology X to produce Excel, PDF, or online reports.   Is it worth it to change?
 - Answer:  Possibly.  Would your users prefer reports
     - delivered scheduled or triggered by events without waiting to process via email, SharePoint, OneDrive or other cloud storage? 
     - configurable in terms of recipients, text and contents with self service subscribe and unsubscribe?
