@@ -145,6 +145,8 @@ When the current reports were analyzed two common pitfalls were discovered in th
 
 -   **Blackholes:** Much, if not most of the data, that was fed into the system as input was never used on report output or external data feeds. Some of the inputs may have been used in the past, but never formally deprecated. Many of the blackholes were simply intermediate variables created by past report developers that were never removed. In short, most of the data going into the system went into a blackhole and was never used on any current report output, feed or intermediate calculation.
 
+## CDC Use Case
+
 **CDC Use Case Example: Business Need**
 
 Over the last 4 years the DAVT team has worked with
@@ -210,6 +212,8 @@ These projects contain over 50 reports that are in the process of onboarding to 
 **DAVT Best Practice Epics grouped by EPLC Phase**
 
 The following template project plan outlines the implementation of DAVT Best Practices based on the CDC Enterprise Performance Life Cycle (EPLC) adapted for the Agile Scrum methodology.
+
+## GIFT Business Methodology:  Sample Project Plan Structure
 
 **P1 - Concept and Initiation**
 
