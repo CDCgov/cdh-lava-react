@@ -76,65 +76,9 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 ### Question 10:  Can we use the templates if we don't want to change our technoglogy stack?
 - Answer:  Yes, the primary value of the GIFT templates are in business process improvements.  Regardless of your technology stack, there is a high probability that there are 1) blackholes in your bronze data store where data is input via feeds or data entry and it is never output in a gold data product.  2) miracles in your executive reports where data labels, captions, aggregates and other data elements emerge as miracles in your gold output but are never catlaoged in your bronze data store 3)  Similarly, there are probably missing metadata management best practices for discoverability and security that could benefit your organization 4) inefficient data types such varchar(max) or missing primary keys that are impacting the effiency of your data store.
 
-## Getting Started
 
-### Set up local enviroment
-
-1.  It is recommended to set up teams channel and store your work in onedrive to increase transparency during development
-2.  Create a new channel in teams named GIFT-Analytics or subscribe to this channel if at the CDC
-3.  Go to the files tab for the channel
-4.  Choose open in SharePoint
-5.  In SharePoint choose add shortcut to OneDrive, this will add the folder to your windows explorer
-6.  Create a folder inside GIFT-Analytics with your alias - for example: C:\Users\zfi4\OneDrive - CDC\GIFT-Analytics\zfi4
-7.  Note the location to initialize your repository in the next step
-
-### Set up repository
-
-1. Fork this repository. Example, I forked this reporitory to github.com/jcbowyer/gift
-2. Edit code and make changes.
-
--   From VS Code choose source control from the left hand-side bar
--   Choose initialize repository
--   Choose your folder location: example: C:\Users\zfi4\OneDrive - CDC\GIFT-Analytics\zfi4
-
-4. Submit a pull request to publish changes.
-5. After approval, we will accept your pull request, and github site will update soon after.
-
-## Project Description
-
-**Definition of Self Service**
-
--   Self Service means that a user should have the ability consume data, transform data, create reports and distribute them via email or SharePoint without any programming skills for simple reports. Prescriptive templates, samples and training are provided both at the business and technical process level to guide users through creating and deploying reports without code
--   Self Service means that in more complex scenarios where code is used, the code will be declarative and simple as possible, either SQL, PowerBI or other end user declarative programming languages. Users do not need to learn a procedural programming language such as SAS, Python, R, etc. to develop self service reports.
--   Users certainly can, and are encouraged to learn Python, R and other procedural languages to create complex AI models and predictive analytics. However, for purposes here, the use of DataBricks and Jupyter notebooks by end users with procedural code is not considered Self Service. This type of work is considered an IT pipeline. Certainly end users are encouraged to be engaged and enabled in the development of IT pipelines. The technicalities and complexities of IT pipelines, however, are out of scope for the GIFT project. Personally, as a data architect working at the CDC for NCEZID, NCIRD and Chronic over the last 4 years on over 50 reports, I have never worked on a report where the reporting requirements I was responsible for could not be met by the self service model.
-
-The following web pages shows the type of information that is configured in a self-service manner through SharePoint lists in the current architecture.
-
-![CaptureSelfService](https://user-images.githubusercontent.com/2504540/147579107-65fa0f9b-797c-45a2-a94a-0ead7f1cfbcd.PNG)
-
-**Definition of Data Driven**
-
--   All program flow, scheduling, security, data documentation, discovery and data quality rules are data driven and administered through an online UX. The UX should allow online data entry and ideally batch updates via Excel.
-
-**Definition of Event Driven**
-
--   Process are triggered by events whenever possible versus schedules. For example, whenever a SharePoint list is update and event is raised and the corresponding csv file in Azure is updated within 3 minutes. Additionally, when a pipeline finishes it fires and event to send a data quality report via email and archive on SharePoint. This allows users to receive reports at the earliest time possible and not wait for an artificially predefined schedule.
-
-**Definition of Loosely Coupled**
-
--   Processes are designed to operated in independently and allow for adapting components. For instance, SharePoint is currently used to modify the metadata but the data is exported to an intermediate csv format before it is consumed by databricks or other resources. If a user of the templates, prefers to use a different front end tool to update the metdata, this can easily be accomplished. Similarly, the PowerBI components of the architecture can be used if an organization is not ready to move data storage to parquet or databricks and prefers to operate in a legacy on premise SQL Server format.
-
-**Definition of Multi-Vendor**
-
--   Currently no vendor provides a consistent roadmap to perform all of the functionality in the data, analytics and visualization templates. The architecture currently uses over 30 software products from over a half dozen vendors written in more than a half dozen languages and supporting over a half dozen file formats for ingestion and ouput offered with a variety of encoding mechanisms. More details of component services and technologies are provided below in the software component section.
-
-**Definition of Multi-Tenant**
-
--   The core databricks repositories are designed to be shared and reused by multiple tenants. Enhancements and released can be deployed to all tenants and there is currently one codebase for the 5 onboarded projects. While the common code crosses project boundaries, it is individually deployed to azure subscriptions for each project so that data, billing, and all prorprietary information stay within the individual Azure subscriptions of each onboarded project. Only shared non proprietary metadata for each system is stored in a common sharepoint list which is used by the common code to filter metadata for the appropriate project and deploy to the appropriate locations. No sensitve information is shared. This provides the optimal amount of code reuse while eliminating security and financial risks of shared compute and data resources.
--   An additional benefit of shared meta-data with a common codebase, is resource standardization and naming. The metadata for all projects and naming conventions are easily comparable in a shared list. The code currently has different paths to support the different conventions of naming containers, files, etc in different centers but there is a default/standard/recommended path. This transparency allows for the eventual migration to standard best practices and naming across centers as well as shared data dictionary, qa and other report templates.
-
-**Priorities and Approach**
-
+## GIFT Priorities and Approach
+ 
 The largest impact to projects implementing the DAVT templates is based on development process changes rather than technical changes. All implementations of DAVT should have a functioning report available in the first week and usually the first few days. Note this is not produced with real data unless the client has existing reports where the data can be pasted in Excel.
 
 The key rule in implementing DAVT is to begin with the end in mind. For instance, during the first implementation of DAVT, the data from the current customer reports were pasted into Excel, analyzed and used to create a report mockup in the first three days loading from data from Excel files exported to csv format.
@@ -145,71 +89,8 @@ When the current reports were analyzed two common pitfalls were discovered in th
 
 -   **Blackholes:** Much, if not most of the data, that was fed into the system as input was never used on report output or external data feeds. Some of the inputs may have been used in the past, but never formally deprecated. Many of the blackholes were simply intermediate variables created by past report developers that were never removed. In short, most of the data going into the system went into a blackhole and was never used on any current report output, feed or intermediate calculation.
 
-**Business Need**
 
-Over the last 4 years the DAVT team has worked with
-
--   4 Centers
--   10 Projects
--   15 Project Areas
--   400 Best Practices
-
-**Current Process**
-
-There are currently few documented Data, Analytics and Visualization standards and naming conventions for business or technical processes across centers, projects and project areas.
-
-**DMI Project Goals**
-
-Uncover, document and work to optimize quality, security, efficiency and reuse across the over 5,000 opportunities for implementing best practices listed above.
-
-**Approach**
-
-The DAVT architecture consists of business and technical processes and use cases that are implemented in a self service manner. The templates are optimized for incremental deployment and changes to current systems do not require a "big bang" implementation to see business value. A project could choose to implement Power BI best practices without migrating from SQL Server data to a DataBricks Delta Lake architecture or vice versa. Similarly, business logic may be maintained in SAS before moving to DataBricks SQL Analytics or reside in a combination of locations during the implementation process. While many of the business best practice templates are optimized for Azure DevOps they can easily be ported to Jira. The Azure DevOps repository best practices likewise can be implemented in GitLab.
-
-Indeed, there is an enormous business opportunity for implementing naming conventions and standardization of business processes using standard Microsoft Office 365 technology through applying conventions to Microsoft Teams as well as Microsoft SharePoint Document Libraries and Lists. Other low to no code self service solutions offered in PowerAutomate and PowerBI can also deliver rapid business value.
-
-**Overview**
-
-The DAVT Platform provides a consistent architecture to create analytics and visualizations that can be shared across centers and published to the Enterprise Data and Visualization (EDAV) platform.
-
-This project houses templates for Data, Analytics and Visualization that can be used in different centers such as NCIRD and NCEZID. Some features of the architecture have also been evaluated by NCCDPHP (Chronic). We are also in the process of deploying the gold output of certain projects to the EDAV centrally managed platform maintained by the OCIO.
-
-**Need for Change**
-
-Currently, the current DAVT processes are primarily implemented by one technical data architect from Peraton and one Data Manager/Data Modernization Initiative (DMI) lead from the NCIRD center. It is not possible for such as a small team to move the needle on the current 5,000+ opportunities. The current workload of building reports is not sustainable. There are many opportunities for individuals to lead each of the phases and epics listed below. The scope of the opportunity is far broader than a couple of individuals.
-
-**Current Projects**
-
-There are currently two platform projects and with 4 project areas implementing the templates in active development. Two other platforms and four other projects have also started to evaluate elements of the architecture.
-
-These projects contain over 50 reports that are in the process of onboarding to the architecture.
-
-**NCIRD - NDSP**
-
--   ndsp-pertussis
--   ndsp-phlip
--   ndsp-izdl-ddt - Data Curation - Vacadmin - Add / Update - Pharmacy - DDT- Dozens of other reports
-
-**NCEZID - EZDX**
-
--   ezdx-foodnet-davt
--   ezdx-legionella-davt (data driven report alerts)
--   ezdx-ribd-davt (dictionary /mmg)
-
-**NCCDPHP (Chronic)**
-
--   lung-response (power query)
--   pfs-partner portal (gantt chart)
--   mmria - overdose (security)
--   dph-cdi-davt (maps)
-
-**OCIO - EDAV**
-
--   davt-analytics
-
-**DAVT Best Practice Epics grouped by EPLC Phase**
-
-The following template project plan outlines the implementation of DAVT Best Practices based on the CDC Enterprise Performance Life Cycle (EPLC) adapted for the Agile Scrum methodology.
+## GIFT Business Methodology:  Sample Project Plan Structure
 
 **P1 - Concept and Initiation**
 
@@ -291,6 +172,135 @@ The following template project plan outlines the implementation of DAVT Best Pra
 **- Deliverables**
 
 -   P6_PBI1 Disposition Plan
+
+
+## GIFT Project Description with Definitions
+
+**Definition of Self Service**
+
+-   Self Service means that a user should have the ability consume data, transform data, create reports and distribute them via email or SharePoint without any programming skills for simple reports. Prescriptive templates, samples and training are provided both at the business and technical process level to guide users through creating and deploying reports without code
+-   Self Service means that in more complex scenarios where code is used, the code will be declarative and simple as possible, either SQL, PowerBI or other end user declarative programming languages. Users do not need to learn a procedural programming language such as SAS, Python, R, etc. to develop self service reports.
+-   Users certainly can, and are encouraged to learn Python, R and other procedural languages to create complex AI models and predictive analytics. However, for purposes here, the use of DataBricks and Jupyter notebooks by end users with procedural code is not considered Self Service. This type of work is considered an IT pipeline. Certainly end users are encouraged to be engaged and enabled in the development of IT pipelines. The technicalities and complexities of IT pipelines, however, are out of scope for the GIFT project. Personally, as a data architect working at the CDC for NCEZID, NCIRD and Chronic over the last 4 years on over 50 reports, I have never worked on a report where the reporting requirements I was responsible for could not be met by the self service model.
+
+The following web pages shows the type of information that is configured in a self-service manner through SharePoint lists in the current architecture.
+
+![CaptureSelfService](https://user-images.githubusercontent.com/2504540/147579107-65fa0f9b-797c-45a2-a94a-0ead7f1cfbcd.PNG)
+
+**Definition of Data Driven**
+
+-   All program flow, scheduling, security, data documentation, discovery and data quality rules are data driven and administered through an online UX. The UX should allow online data entry and ideally batch updates via Excel.
+
+**Definition of Event Driven**
+
+-   Process are triggered by events whenever possible versus schedules. For example, whenever a SharePoint list is update and event is raised and the corresponding csv file in Azure is updated within 3 minutes. Additionally, when a pipeline finishes it fires and event to send a data quality report via email and archive on SharePoint. This allows users to receive reports at the earliest time possible and not wait for an artificially predefined schedule.
+
+**Definition of Loosely Coupled**
+
+-   Processes are designed to operated in independently and allow for adapting components. For instance, SharePoint is currently used to modify the metadata but the data is exported to an intermediate csv format before it is consumed by databricks or other resources. If a user of the templates, prefers to use a different front end tool to update the metdata, this can easily be accomplished. Similarly, the PowerBI components of the architecture can be used if an organization is not ready to move data storage to parquet or databricks and prefers to operate in a legacy on premise SQL Server format.
+
+**Definition of Multi-Vendor**
+
+-   Currently no vendor provides a consistent roadmap to perform all of the functionality in the data, analytics and visualization templates. The architecture currently uses over 30 software products from over a half dozen vendors written in more than a half dozen languages and supporting over a half dozen file formats for ingestion and ouput offered with a variety of encoding mechanisms. More details of component services and technologies are provided below in the software component section.
+
+**Definition of Multi-Tenant**
+
+-   The core databricks repositories are designed to be shared and reused by multiple tenants. Enhancements and released can be deployed to all tenants and there is currently one codebase for the 5 onboarded projects. While the common code crosses project boundaries, it is individually deployed to azure subscriptions for each project so that data, billing, and all prorprietary information stay within the individual Azure subscriptions of each onboarded project. Only shared non proprietary metadata for each system is stored in a common sharepoint list which is used by the common code to filter metadata for the appropriate project and deploy to the appropriate locations. No sensitve information is shared. This provides the optimal amount of code reuse while eliminating security and financial risks of shared compute and data resources.
+-   An additional benefit of shared meta-data with a common codebase, is resource standardization and naming. The metadata for all projects and naming conventions are easily comparable in a shared list. The code currently has different paths to support the different conventions of naming containers, files, etc in different centers but there is a default/standard/recommended path. This transparency allows for the eventual migration to standard best practices and naming across centers as well as shared data dictionary, qa and other report templates.
+
+
+## CDC Use Case
+
+**CDC Use Case Example: Business Need**
+
+Over the last 4 years the DAVT team has worked with
+
+-   4 Centers
+-   10 Projects
+-   15 Project Areas
+-   400 Best Practices
+
+**CDC Use Case Example: Current Process**
+
+There are currently few documented Data, Analytics and Visualization standards and naming conventions for business or technical processes across centers, projects and project areas.
+
+**CDC Use Case Example: DMI Project Goals**
+
+Uncover, document and work to optimize quality, security, efficiency and reuse across the over 5,000 opportunities for implementing best practices listed above.
+
+**CDC Use Case Example: Approach**
+
+The DAVT architecture consists of business and technical processes and use cases that are implemented in a self service manner. The templates are optimized for incremental deployment and changes to current systems do not require a "big bang" implementation to see business value. A project could choose to implement Power BI best practices without migrating from SQL Server data to a DataBricks Delta Lake architecture or vice versa. Similarly, business logic may be maintained in SAS before moving to DataBricks SQL Analytics or reside in a combination of locations during the implementation process. While many of the business best practice templates are optimized for Azure DevOps they can easily be ported to Jira. The Azure DevOps repository best practices likewise can be implemented in GitLab.
+
+Indeed, there is an enormous business opportunity for implementing naming conventions and standardization of business processes using standard Microsoft Office 365 technology through applying conventions to Microsoft Teams as well as Microsoft SharePoint Document Libraries and Lists. Other low to no code self service solutions offered in PowerAutomate and PowerBI can also deliver rapid business value.
+
+**CDC Use Case Example: Overview**
+
+The DAVT Platform provides a consistent architecture to create analytics and visualizations that can be shared across centers and published to the Enterprise Data and Visualization (EDAV) platform.
+
+This project houses templates for Data, Analytics and Visualization that can be used in different centers such as NCIRD and NCEZID. Some features of the architecture have also been evaluated by NCCDPHP (Chronic). We are also in the process of deploying the gold output of certain projects to the EDAV centrally managed platform maintained by the OCIO.
+
+**CDC Use Case Example: Need for Change**
+
+Currently, the current DAVT processes are primarily implemented by one technical data architect from Peraton and one Data Manager/Data Modernization Initiative (DMI) lead from the NCIRD center. It is not possible for such as a small team to move the needle on the current 5,000+ opportunities. The current workload of building reports is not sustainable. There are many opportunities for individuals to lead each of the phases and epics listed below. The scope of the opportunity is far broader than a couple of individuals.
+
+**CDC Use Case Example: Current Projects**
+
+There are currently two platform projects and with 4 project areas implementing the templates in active development. Two other platforms and four other projects have also started to evaluate elements of the architecture.
+
+These projects contain over 50 reports that are in the process of onboarding to the architecture.
+
+**NCIRD - NDSP**
+
+-   ndsp-pertussis
+-   ndsp-phlip
+-   ndsp-izdl-ddt - Data Curation - Vacadmin - Add / Update - Pharmacy - DDT- Dozens of other reports
+
+**NCEZID - EZDX**
+
+-   ezdx-foodnet-davt
+-   ezdx-legionella-davt (data driven report alerts)
+-   ezdx-ribd-davt (dictionary /mmg)
+
+**NCCDPHP (Chronic)**
+
+-   lung-response (power query)
+-   pfs-partner portal (gantt chart)
+-   mmria - overdose (security)
+-   dph-cdi-davt (maps)
+
+**OCIO - EDAV**
+
+-   davt-analytics
+
+
+## Getting Started
+
+### Set up local enviroment
+
+1.  It is recommended to set up teams channel and store your work in onedrive to increase transparency during development
+2.  Create a new channel in teams named GIFT-Analytics or subscribe to this channel if at the CDC
+3.  Go to the files tab for the channel
+4.  Choose open in SharePoint
+5.  In SharePoint choose add shortcut to OneDrive, this will add the folder to your windows explorer
+6.  Create a folder inside GIFT-Analytics with your alias - for example: C:\Users\zfi4\OneDrive - CDC\GIFT-Analytics\zfi4
+7.  Note the location to initialize your repository in the next step
+
+### Set up repository
+
+1. Fork this repository. Example, I forked this reporitory to github.com/jcbowyer/gift
+2. Edit code and make changes.
+
+-   From VS Code choose source control from the left hand-side bar
+-   Choose initialize repository
+-   Choose your folder location: example: C:\Users\zfi4\OneDrive - CDC\GIFT-Analytics\zfi4
+
+4. Submit a pull request to publish changes.
+5. After approval, we will accept your pull request, and github site will update soon after.
+
+
+**DAVT Best Practice Epics grouped by EPLC Phase**
+
+The following template project plan outlines the implementation of DAVT Best Practices based on the CDC Enterprise Performance Life Cycle (EPLC) adapted for the Agile Scrum methodology.
 
 ## Reference Practices and Patterns
 
