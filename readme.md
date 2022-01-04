@@ -41,19 +41,19 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 ### Question 1:  Can we use the templates if we don't have a license for Microsoft Office365, Teams, SharePoint, Power Automate or Power BI Premium?  
 - Answer: Yes, you can use components.  The notebooks bronze input data is driven by csv files and not tightly coupled to SharePoint.  We are currently investigating creating an alternate path to create the csv files via Google Sheets as an alternative to SharePoint.  There are standard notebooks to create csv and parquet output that do not require Power BI premium.  You can use these notebooks to generate csv and even excel output if a Power BI premium license is not available.  Similary there are alternative to all of the functionity in power automate to send emails, generate and export to SharePoint.
 
-### Question 2:  Can we use the templates if we are we are a Microsoft legacy shop using on premise SQL Server and not operating in the cloud.
+### Question 2:  Can we use the templates if we are we are a Microsoft legacy shop using on premise SQL Server and not operating in the cloud?
 - Answer:  Yes, you can use components.  All of the reporting stack, email stack, and SharePoint stack can operate on rdl, active directory and other components that work fine with legacy technologies.  The templates also provide a path to transition to a Cloud first strategy.
 
-### Question 3:  Can we use the templates if we are not a Microsoft shop, we don't use C#, .Net Core or Azure.
+### Question 3:  Can we use the templates if we are not a Microsoft shop, we don't use C#, .Net Core or Azure?
 -  Answer:  Yes, you can use components.  Most of the bronze, silver and gold data components are based on Spark SQL from DataBricks which supports a variety of programming languages such as Python and Scala and will deploy to AWS.  The primary langauge of most of the code is SQL.
 
-### Question 4:  Can we use the templates if we are a Microsoft shop, we don't use Python, Scala, etc.
+### Question 4:  Can we use the templates if we are a Microsoft shop, we don't use Python, Scala, etc.?
 - Answer:  Yes, you can use components.  Most of the reporting layer uses drag and drop tools like Microsoft Power BI or Tableau.  Some middleware components such as the OAuth security layer are written in C#.    The primary language of most of the code is SQL.
 
 ### Question 5:  Can we use the templates if we are a Tableau shop, we don't use Power BI.
 - Answer:  Yes, you can use components.
 
-### Question 6:  Can we use the templates if we are an AWS shop, we don't use Azure.
+### Question 6:  Can we use the templates if we are an AWS shop, we don't use Azure?
 - Answer:  Yes, you can use components.
 
 ### Question 7:  We are already using technology X to product Excel, PDF, or online reports.   Is it worth it to change?
@@ -67,8 +67,11 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
     - data cached where applicable so that expensive database resource use is minimized?
 - If you answered yes to any of these questions and that functionality is not currently offered in your organization, you may benefit from using the GIFT templates.
 
-### Question 8:  Can we user the templates if we are a public external facing website that can't incur per user charges.
+### Question 8:  Can we use the templates if we are a public external facing website that can't incur per user charges?
 -  Answer:  Yes, you can use components.  We have a sample Angular web portal, OAuth code and other components to designed to address this use case.
+
+### Question 9:  Can we use the template if we don't have strong naming conventions and accountability?
+-  Answer:  Yes, the GIFT templates promote the naming conventions documented in the standards section but the conventions are not requirements.  Moving to the templates can highlight where standards are not consistent through common documentation.  This is particularly helpful when using the templates across multiple projects with different teams and different standards to highlight the differences in conventions.
 
 ## Getting Started
 
