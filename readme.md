@@ -67,6 +67,9 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
     - data cached where applicable so that expensive database resource use is minimized?
 - If you answered yes to any of these questions and that functionality is not currently offered in your organization, you may benefit from using the GIFT templates.
 
+### Question 8:  Can we user the templates if we are a public external facing website that can't incur per user charges.
+-  Answer:  Yes, you can use components.  We have a sample Angular web portal, OAuth code and other components to designed to address this use case.
+
 ## Getting Started
 
 ### Set up local enviroment
