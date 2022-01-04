@@ -70,7 +70,7 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 ### Question 8:  Can we use the templates if we are a public external facing website that can't incur per user charges?
 -  Answer:  Yes, you can use components.  We have a sample Angular web portal, OAuth code and other components to designed to address this use case.
 
-### Question 9:  Can we use the template if we don't have strong naming conventions and accountability?
+### Question 9:  Can we use the templates if we don't have strong naming conventions and accountability?
 -  Answer:  Yes, the GIFT templates promote the naming conventions documented in the standards section but the conventions are not requirements.  Moving to the templates can highlight where standards are not consistent through common documentation.  This is particularly helpful when using the templates across multiple projects with different teams and different standards to highlight the differences in conventions.
 
 ## Getting Started
