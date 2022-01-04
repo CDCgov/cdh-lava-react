@@ -206,7 +206,8 @@ The following web pages shows the type of information that is configured in a se
 
 -   The core databricks repositories are designed to be shared and reused by multiple tenants. Enhancements and released can be deployed to all tenants and there is currently one codebase for the 5 onboarded projects. While the common code crosses project boundaries, it is individually deployed to azure subscriptions for each project so that data, billing, and all prorprietary information stay within the individual Azure subscriptions of each onboarded project. Only shared non proprietary metadata for each system is stored in a common sharepoint list which is used by the common code to filter metadata for the appropriate project and deploy to the appropriate locations. No sensitve information is shared. This provides the optimal amount of code reuse while eliminating security and financial risks of shared compute and data resources.
 -   An additional benefit of shared meta-data with a common codebase, is resource standardization and naming. The metadata for all projects and naming conventions are easily comparable in a shared list. The code currently has different paths to support the different conventions of naming containers, files, etc in different centers but there is a default/standard/recommended path. This transparency allows for the eventual migration to standard best practices and naming across centers as well as shared data dictionary, qa and other report templates.
--   
+
+
 ## CDC Use Case
 
 **CDC Use Case Example: Business Need**
