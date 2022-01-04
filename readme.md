@@ -174,7 +174,7 @@ When the current reports were analyzed two common pitfalls were discovered in th
 -   P6_PBI1 Disposition Plan
 
 
-## Project Description
+## GIFT Project Description with Definitions
 
 **Definition of Self Service**
 
