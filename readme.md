@@ -73,6 +73,9 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 ### Question 9:  Can we use the templates if we don't have strong naming conventions and accountability?
 -  Answer:  Yes, the GIFT templates promote the naming conventions documented in the standards section but the conventions are not requirements.  Moving to the templates can highlight where standards are not consistent through common documentation.  This is particularly helpful when using the templates across multiple projects with different teams and different standards to highlight the differences in conventions.
 
+### Question 10:  Can we use the templates if we don't want to change our technoglogy stack?
+- Answer:  Yes, the primary value of the GIFT templates are in business process improvements.  Regardless of your technology stack, there is a high probability that there are 1) blackholes in your bronze data store where data is input via feeds or data entry and it is never output in a gold data product.  2) miracles in your executive reports where data labels, captions, aggregates and other data elements emerge as miracles in your gold output but are never catlaoged in your bronze data store 3)  Similarly, there are probably missing metadata management best practices for discoverability and security that could benefit your organization 4) inefficient data types such varchar(max) or missing primary keys that are impacting the effiency of your data store.
+
 ## Getting Started
 
 ### Set up local enviroment
