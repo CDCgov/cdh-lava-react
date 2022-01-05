@@ -626,8 +626,15 @@ If you have special requirements, you can check out the [other locations](https:
 These folders are meant to help organize and make it easier for others to understand and contribute.
 
 ```sh
+├── LICENSE
+├── README.md           <- The top-level README for developers using this project. Description of project, instructions for how to run
+├── data
+│   ├── bronze          <- The original, immutable data dump.
+│   ├── external        <- Data from third party sources.
+│   ├── gold            <- The final, canonical data sets for modeling.
+│   └── silver          <- Intermediate data that has been transformed. 
 ├── R                   <- R scripts, delete if unnecessary
-├── SAS                 <- SAS scripts, delete if unnecessary
+
 ├── analysis            <- analysis and visualization files (eg notebooks, tableau, Rmarkdown, etc )
 │   └── template.Rmd    <- example template for Rmarkdown
 ├── data                <- data files used by project
@@ -637,7 +644,7 @@ These folders are meant to help organize and make it easier for others to unders
 ├── docs                <- documentation and references (codebooks, etc)
 ├── output              <- output files
 ├── python              <- Python scripts, delete if unnecessary
-├── readme.md           <- Description of project, instructions for how to run
+├── SAS                 <- SAS scripts, delete if unnecessary
 ├── reports             <- Generated reports and visualizations
 │   └── figures         <- Generated graphics used in reports
 └── sql                 <- SQL scripts, delete if unnecessary
