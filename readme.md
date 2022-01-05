@@ -302,6 +302,7 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 The following template project plan outlines the implementation of DAVT Best Practices based on the CDC Enterprise Performance Life Cycle (EPLC) adapted for the Agile Scrum methodology.
 
+
 ## Reference Practices and Patterns
 
 -   [DataBricks Solution Accelerators](https://databricks.com/solutions/accelerators)
@@ -309,6 +310,13 @@ The following template project plan outlines the implementation of DAVT Best Pra
 -   [Power BI Adoption Framework Repository](https://github.com/pbiaf/powerbiadoption)
 -   [Microsoft Analytics End to End With Azure Synapse](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/dataplate2e/data-platform-end-to-end)
 -   [Power CAT Adoption Maturity Model](https://powerapps.microsoft.com/en-us/blog/power-cat-adoption-maturity-model-repeatable-patterns-for-successful-power-platform-adoption/)
+
+
+## Reference Blogs
+-   [James Serra](http://www.jamesserra.com/) 
+
+## Reference Training
+-   [DatCamp](http://www.datacamp.com/) 
 
 ## GIFT - Software Components
 
