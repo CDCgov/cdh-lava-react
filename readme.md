@@ -324,10 +324,12 @@ The following template project plan outlines the implementation of DAVT Best Pra
 -   [premier_ehr](https://git.cdc.gov/oet5/premier_ehr)
 -   [spock](https://git.biotech.cdc.gov/fya1/spock)
 -   [cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
+-   [r-analysis](https://github.com/lazappi/cookiecutter-r-analysis)
+
 
 ### Reference Competitions
 
--   <https://github.com/lazappi/cookiecutter-r-analysis>
+-   [kaggle](https://kaggle.com)
 
 
 ## GIFT - Software Components
