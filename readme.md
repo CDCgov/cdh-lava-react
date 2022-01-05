@@ -302,8 +302,9 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 The following template project plan outlines the implementation of DAVT Best Practices based on the CDC Enterprise Performance Life Cycle (EPLC) adapted for the Agile Scrum methodology.
 
+## References
 
-## Reference Practices and Patterns
+### Reference Practices and Patterns
 
 -   [DataBricks Solution Accelerators](https://databricks.com/solutions/accelerators)
 -   [Power BI Adoption Framework Videos](https://www.youtube.com/playlist?list=PL1N57mwBHtN0UZbEgLHtA1yxqPlae3B90)
@@ -311,12 +312,23 @@ The following template project plan outlines the implementation of DAVT Best Pra
 -   [Microsoft Analytics End to End With Azure Synapse](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/dataplate2e/data-platform-end-to-end)
 -   [Power CAT Adoption Maturity Model](https://powerapps.microsoft.com/en-us/blog/power-cat-adoption-maturity-model-repeatable-patterns-for-successful-power-platform-adoption/)
 
-
-## Reference Blogs
+### Reference Blogs
 -   [James Serra](http://www.jamesserra.com/) 
 
-## Reference Training
+### Reference Training
 -   [DatCamp](http://www.datacamp.com/) 
+
+### Reference Repositories
+
+-   [cookiecutter](https://github.com/lazappi/cookiecutter-r-analysis)
+-   [premier_ehr](https://git.cdc.gov/oet5/premier_ehr)
+-   [spock](https://git.biotech.cdc.gov/fya1/spock)
+-   [cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
+
+### Reference Competitions
+
+-   <https://github.com/lazappi/cookiecutter-r-analysis>
+
 
 ## GIFT - Software Components
 
@@ -629,12 +641,6 @@ These folders are meant to help organize and make it easier for others to unders
 └── sql                 <- SQL scripts, delete if unnecessary
 ```
 
-### References
-
--   <https://github.com/lazappi/cookiecutter-r-analysis>
--   <https://git.cdc.gov/oet5/premier_ehr>
--   <https://git.biotech.cdc.gov/fya1/spock>
--   <https://github.com/drivendata/cookiecutter-data-science>
 
 ## Housekeeping
 
