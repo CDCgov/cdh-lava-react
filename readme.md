@@ -302,13 +302,35 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 The following template project plan outlines the implementation of DAVT Best Practices based on the CDC Enterprise Performance Life Cycle (EPLC) adapted for the Agile Scrum methodology.
 
-## Reference Practices and Patterns
+## References
+
+### Reference Practices and Patterns
 
 -   [DataBricks Solution Accelerators](https://databricks.com/solutions/accelerators)
 -   [Power BI Adoption Framework Videos](https://www.youtube.com/playlist?list=PL1N57mwBHtN0UZbEgLHtA1yxqPlae3B90)
 -   [Power BI Adoption Framework Repository](https://github.com/pbiaf/powerbiadoption)
 -   [Microsoft Analytics End to End With Azure Synapse](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/dataplate2e/data-platform-end-to-end)
 -   [Power CAT Adoption Maturity Model](https://powerapps.microsoft.com/en-us/blog/power-cat-adoption-maturity-model-repeatable-patterns-for-successful-power-platform-adoption/)
+
+### Reference Blogs
+-   [James Serra](http://www.jamesserra.com/) 
+
+### Reference Training
+-   [DatCamp](http://www.datacamp.com/) 
+
+### Reference Repositories
+
+-   [cookiecutter](https://github.com/lazappi/cookiecutter-r-analysis)
+-   [premier_ehr](https://git.cdc.gov/oet5/premier_ehr)
+-   [spock](https://git.biotech.cdc.gov/fya1/spock)
+-   [cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
+-   [r-analysis](https://github.com/lazappi/cookiecutter-r-analysis)
+
+
+### Reference Competitions
+
+-   [kaggle](https://kaggle.com)
+
 
 ## GIFT - Software Components
 
@@ -604,29 +626,26 @@ If you have special requirements, you can check out the [other locations](https:
 These folders are meant to help organize and make it easier for others to understand and contribute.
 
 ```sh
-├── R                   <- R scripts, delete if unnecessary
-├── SAS                 <- SAS scripts, delete if unnecessary
+├── LICENSE
+├── README.md           <- The top-level README for developers using this project. Description of project, instructions for how to run
 ├── analysis            <- analysis and visualization files (eg notebooks, tableau, Rmarkdown, etc )
 │   └── template.Rmd    <- example template for Rmarkdown
-├── data                <- data files used by project
-│   ├── clean           <- processed files ready for analysis, try not to store these in the repo, make them
-│   ├── meta            <- metadata needed for analysis
-│   └── raw             <- raw files, original, immutable data dump
+├── data: try not to store these in the repo
+│   ├── bronze          <- The original, immutable data dump.
+│   ├── external        <- Data from third party sources.
+│   ├── gold            <- The final, canonical data sets for modeling.
+│   └── silver          <- Intermediate data that has been transformed. 
 ├── docs                <- documentation and references (codebooks, etc)
+│   └── references      <- Data dictionaries, manuals, and all other explanatory materials.
 ├── output              <- output files
 ├── python              <- Python scripts, delete if unnecessary
-├── readme.md           <- Description of project, instructions for how to run
+├── R                   <- R scripts, delete if unnecessary
+├── SAS                 <- SAS scripts, delete if unnecessary
 ├── reports             <- Generated reports and visualizations
 │   └── figures         <- Generated graphics used in reports
 └── sql                 <- SQL scripts, delete if unnecessary
 ```
 
-### References
-
--   <https://github.com/lazappi/cookiecutter-r-analysis>
--   <https://git.cdc.gov/oet5/premier_ehr>
--   <https://git.biotech.cdc.gov/fya1/spock>
--   <https://github.com/drivendata/cookiecutter-data-science>
 
 ## Housekeeping
 
