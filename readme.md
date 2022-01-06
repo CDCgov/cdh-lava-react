@@ -10,6 +10,10 @@ The templates use an architecture designed to be self service, data driven, even
 
 ![Delta-Lake-Multi-Hop-Architecture-Bronze](https://user-images.githubusercontent.com/2504540/147579076-395a7f22-fff7-490e-9cf8-847a2adfbd95.png)
 
+## GIFT Solution Accelerators
+
+The GIFT Solution Accelerators (GIFTS) are fully-functional project artificats including code and methodology that tackle the most common and high-impact use cases that most organizations are facing related to data, anlaytics and visualistions. The Solution Accelerators are designed to help evaluators go from idea to proof of concept (PoC) in less than 2 weeks.  Some of the templates are based on accelerators offered by vendors such as DataBricks, Microsoft and other vendors.  In cases where we base our work on a vendor's accelerator or template, we provide a detailed comparison chart highlighting the additional functionality that is provided over the stock accelerators and templates.
+
 ## Example Gold Use Cases
 
 ### UC1: Report Management
