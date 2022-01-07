@@ -65,9 +65,10 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 
 ## Freqently Asked Questions:  Are GIFT templates useful for your organization?
 
-### Question 1:  GIFT basically help aggregate a bunch of the public datasets out there, clean them up and standardize them for consumption? We could then hook that up to a certified PBI dataset to integrate with internal datasets
+### Question 1:  GIFT basically helps aggregate a bunch of the public datasets out there, clean them up and standardize them for consumption?
+
 - Answer: No, GIFT is a generic software service that performs common data, analytics and visualization.  The templates are generic and not specific to the public sector or healthcare.  The templates can ingest bronze data from any standard datasource in multiple formats from multiples industries.  The tempatles can transfer the data into gold output in multiple formats.  The templates can contain devops and data catalogs that may be used out of the box on any GIFT project.  The GIFT infrastructe provides a generic platform with built in best practices implementing a data as a service architecture.
-- 
+
 ### Question 2:  Can we use the templates if we don't have a license for Microsoft Office365, Teams, SharePoint, Power Automate or Power BI Premium?  
 - Answer: Yes, you can use components.  The notebooks bronze input data is driven by csv files and not tightly coupled to SharePoint.  We are currently investigating creating an alternate path to create the csv files via Google Sheets as an alternative to SharePoint.  There are standard notebooks to create csv and parquet output that do not require Power BI premium.  You can use these notebooks to generate csv and even excel output if a Power BI premium license is not available.  Similary there are alternative to all of the functionity in power automate to send emails, generate and export to SharePoint.
 
