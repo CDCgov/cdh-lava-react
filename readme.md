@@ -14,7 +14,7 @@ The templates use an architecture designed to be self service, data driven, even
 
 GIFT provides functioning product artifacts with working sample implementations for the following features.  Currently vendors are not implementing these standard best practices in their soulution accelerators and examples.
 
-![Comparison](docs/images/comparison.PNG)
+![Comparison](docs/images/comparison.png)
  
 ## GIFT Solution Accelerators
 
