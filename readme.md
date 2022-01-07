@@ -408,7 +408,7 @@ The following commercial products and services are used in the architecture:
 -   Progress Kendo Angular UI (UX)
 -   Redhat Openshift
 -   Kubernetes
-
+ 
 The following open source standards are used in the architecure:
 
 -   OpenDoc (Swagger)
