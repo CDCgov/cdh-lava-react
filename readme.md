@@ -65,25 +65,28 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 
 ## Freqently Asked Questions:  Are GIFT templates useful for your organization?
 
-### Question 1:  Can we use the templates if we don't have a license for Microsoft Office365, Teams, SharePoint, Power Automate or Power BI Premium?  
+### Question 1:  GIFT basically help aggregate a bunch of the public datasets out there, clean them up and standardize them for consumption? We could then hook that up to a certified PBI dataset to integrate with internal datasets
+- Answer: No, GIFT is a generic software service that performs common data, analytics and visualization.  The templates are generic and not specific to the public sector or healthcare.  The templates can ingest bronze data from any standard datasource in multiple formats from multiples industries.  The tempatles can transfer the data into gold output in multiple formats.  The templates can contain devops and data catalogs that may be used out of the box on any GIFT project.  The GIFT infrastructe provides a generic platform with built in best practices implementing a data as a service architecture.
+- 
+### Question 2:  Can we use the templates if we don't have a license for Microsoft Office365, Teams, SharePoint, Power Automate or Power BI Premium?  
 - Answer: Yes, you can use components.  The notebooks bronze input data is driven by csv files and not tightly coupled to SharePoint.  We are currently investigating creating an alternate path to create the csv files via Google Sheets as an alternative to SharePoint.  There are standard notebooks to create csv and parquet output that do not require Power BI premium.  You can use these notebooks to generate csv and even excel output if a Power BI premium license is not available.  Similary there are alternative to all of the functionity in power automate to send emails, generate and export to SharePoint.
 
-### Question 2:  Can we use the templates if we are we are a Microsoft legacy shop using on premise SQL Server and not operating in the cloud?
+### Question 3: Can we use the templates if we are we are a Microsoft legacy shop using on premise SQL Server and not operating in the cloud?
 - Answer:  Yes, you can use components.  All of the reporting stack, email stack, and SharePoint stack can operate on rdl, active directory and other components that work fine with legacy technologies.  The templates also provide a path to transition to a Cloud first strategy.
 
-### Question 3:  Can we use the templates if we are not a Microsoft shop, we don't use C#, .Net Core or Azure?
+### Question 4: Can we use the templates if we are not a Microsoft shop, we don't use C#, .Net Core or Azure?
 -  Answer:  Yes, you can use components.  Most of the bronze, silver and gold data components are based on Spark SQL from DataBricks which supports a variety of programming languages such as Python and Scala and will deploy to AWS.  The primary langauge of most of the code is SQL.
 
-### Question 4:  Can we use the templates if we are a Microsoft shop, we don't use Python, Scala, etc.?
+### Question 5: Can we use the templates if we are a Microsoft shop, we don't use Python, Scala, etc.?
 - Answer:  Yes, you can use components.  Most of the reporting layer uses drag and drop tools like Microsoft Power BI or Tableau.  Some middleware components such as the OAuth security layer are written in C#.    The primary language of most of the code is SQL.
 
-### Question 5:  Can we use the templates if we are a Tableau shop, we don't use Power BI.
+### Question 6:  Can we use the templates if we are a Tableau shop, we don't use Power BI.
 - Answer:  Yes, you can use components.
 
-### Question 6:  Can we use the templates if we are an AWS shop, we don't use Azure?
+### Question 7:  Can we use the templates if we are an AWS shop, we don't use Azure?
 - Answer:  Yes, you can use components.
 
-### Question 7:  We are already using technology X to produce Excel, PDF, or online reports.   Is it worth it to change?
+### Question 8:  We are already using technology X to produce Excel, PDF, or online reports.   Is it worth it to change?
 - Answer:  Possibly.  Would your users prefer reports
     - delivered scheduled or triggered by events without waiting to process via email, SharePoint, OneDrive or other cloud storage? 
     - configurable in terms of recipients, text and contents with self service subscribe and unsubscribe?
@@ -94,13 +97,13 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
     - data cached where applicable so that expensive database resource use is minimized?
 - If you answered yes to any of these questions and that functionality is not currently offered in your organization, you may benefit from using the GIFT templates.
 
-### Question 8:  Can we use the templates if we are a public external facing website that can't incur per user charges?
+### Question 9:  Can we use the templates if we are a public external facing website that can't incur per user charges?
 -  Answer:  Yes, you can use components.  We have a sample Angular web portal, OAuth code and other components to designed to address this use case.
 
-### Question 9:  Can we use the templates if we don't have strong naming conventions and accountability?
+### Question 10: Can we use the templates if we don't have strong naming conventions and accountability?
 -  Answer:  Yes, the GIFT templates promote the naming conventions documented in the standards section but the conventions are not requirements.  Moving to the templates can highlight where standards are not consistent through common documentation.  This is particularly helpful when using the templates across multiple projects with different teams and different standards to highlight the differences in conventions.
 
-### Question 10:  Can we use the templates if we don't want to change our technoglogy stack?
+### Question 11:  Can we use the templates if we don't want to change our technoglogy stack?
 - Answer:  Yes, the primary value of the GIFT templates are in business process improvements.  Regardless of your technology stack, there is a high probability that there are 1) blackholes in your bronze data store where data is input via feeds or data entry and it is never output in a gold data product.  2) miracles in your executive reports where data labels, captions, aggregates and other data elements emerge as miracles in your gold output but are never catlaoged in your bronze data store 3)  Similarly, there are probably missing metadata management best practices for discoverability and security that could benefit your organization 4) inefficient data types such varchar(max) or missing primary keys that are impacting the effiency of your data store.
 
 
