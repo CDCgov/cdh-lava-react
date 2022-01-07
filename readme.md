@@ -614,7 +614,7 @@ We already had one meeting where I explained the methodogy of prefixing tables a
 4.  Currently we are defaulting the logic apps to consumption based
 5.  SharePoint List are currently configured to run off either a list change event or an email.
 
--   **Important:**: Some legacy logic apps are triggered by http endpoints which are publicly accessible. We have mission critical email notifications that can currently be triggered by anyone located on any public network anywhere. This is a huge security issue. Do not create logic apps with http endpoints that have publicly accessible endpoints.
+-   **Important:**: Never create logic apps or power automate apps that are triggered by http endpoints which are publicly accessible.  Always security http endpoints.
 
 **Azure Data Factory (ADF) Scheduling**
 
