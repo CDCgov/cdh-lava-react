@@ -10,9 +10,11 @@ The templates use an architecture designed to be self service, data driven, even
 
 ![Delta-Lake-Multi-Hop-Architecture-Bronze](https://user-images.githubusercontent.com/2504540/147579076-395a7f22-fff7-490e-9cf8-847a2adfbd95.png)
 
-## GIFT Data, Analytics and Visualization Platform Features Implemented in Examples 
+## GIFT Data, Analytics and Visualization Platform Features - Self Assessment
 
-GIFT provides functioning product artifacts with working sample implementations for the following features.  Currently vendors are not implementing these standard best practices in their soulution accelerators and examples.
+GIFT provides functioning product artifacts with working sample implementations for the following best practices.  Currently vendors are not implementing these standard best practices in their soulution accelerators and examples.
+
+You can assess if your organization has patterns and practices for the project processes and deliverables listed below.  A self assessment questionnaire and sample artifacts toi help with your assessment are on the GIFT project roadmap.  If you have standards for these processes and deliverables on an individual project, are the they consistent on all projects across your organization?
 
 ![Comparison](docs/images/comparisonofsamples.png)
  
