@@ -10,15 +10,19 @@ The templates use an architecture designed to be self service, data driven, even
 
 ![Delta-Lake-Multi-Hop-Architecture-Bronze](https://user-images.githubusercontent.com/2504540/147579076-395a7f22-fff7-490e-9cf8-847a2adfbd95.png)
 
-## GIFT Data, Analytics and Visualization Platform Features Implemented in Examples 
+## GIFT Data, Analytics and Visualization Platform Features - Self Assessment
 
-GIFT provides functioning product artifacts with working sample implementations for the following features.  Currently vendors are not implementing these standard best practices in their soulution accelerators and examples.
+GIFT provides functioning product artifacts with working sample implementations for the following best practices.  Currently vendors are not implementing these standard best practices in their soulution accelerators and examples.
+
+You can assess if your organization has patterns and practices for the project processes and deliverables listed below.  If there are areas where you have gaps, the GIFT templates may help you fill in those gaps.  A self assessment questionnaire and sample artifacts toi help with your assessment are on the GIFT project roadmap.  If you have standards for these processes and deliverables on an individual project, are the they consistent on all projects across your organization?
 
 ![Comparison](docs/images/comparisonofsamples.png)
  
 ## GIFT Solution Accelerators
 
 The GIFT Solution Accelerators (GIFTS) provide fully-functional project artifacts including code and methodology that tackle the most common and high-impact use cases that most organizations are facing related to data, anlaytics and visualistions. The Solution Accelerators are designed to help evaluators go from idea to proof of concept (PoC) in less than 2 weeks.  Some of the templates are based on accelerators offered by vendors such as DataBricks, Microsoft and other vendors.  In cases where we base our work on a vendor's accelerator or template, we provide a detailed comparison chart highlighting the additional functionality that is provided over the stock accelerators and templates.
+
+ 
 
 ### GIFT-EHR Modern Clinical Health Data Lake Accelerator
 
@@ -340,6 +344,7 @@ The following template project plan outlines the implementation of DAVT Best Pra
 ### Reference Practices and Patterns
 
 -   [DataBricks Solution Accelerators](https://databricks.com/solutions/accelerators)
+-   [Microsoft Solutions Accelarators](https://partner.microsoft.com/en-us/solutions/azure/azure-accelerate-program#Accordion10)
 -   [Power BI Adoption Framework Videos](https://www.youtube.com/playlist?list=PL1N57mwBHtN0UZbEgLHtA1yxqPlae3B90)
 -   [Power BI Adoption Framework Repository](https://github.com/pbiaf/powerbiadoption)
 -   [Microsoft Analytics End to End With Azure Synapse](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/dataplate2e/data-platform-end-to-end)
