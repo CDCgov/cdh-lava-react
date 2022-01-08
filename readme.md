@@ -14,7 +14,7 @@ The templates use an architecture designed to be self service, data driven, even
 
 GIFT provides functioning product artifacts with working sample implementations for the following best practices.  Currently vendors are not implementing these standard best practices in their soulution accelerators and examples.
 
-You can assess if your organization has patterns and practices for the project processes and deliverables listed below.  A self assessment questionnaire and sample artifacts toi help with your assessment are on the GIFT project roadmap.  If you have standards for these processes and deliverables on an individual project, are the they consistent on all projects across your organization?
+You can assess if your organization has patterns and practices for the project processes and deliverables listed below.  If there are areas where you have gaps, the GIFT templates may help you fill in those gaps.  A self assessment questionnaire and sample artifacts toi help with your assessment are on the GIFT project roadmap.  If you have standards for these processes and deliverables on an individual project, are the they consistent on all projects across your organization?
 
 ![Comparison](docs/images/comparisonofsamples.png)
  
