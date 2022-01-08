@@ -20,6 +20,8 @@ GIFT provides functioning product artifacts with working sample implementations 
 
 The GIFT Solution Accelerators (GIFTS) provide fully-functional project artifacts including code and methodology that tackle the most common and high-impact use cases that most organizations are facing related to data, anlaytics and visualistions. The Solution Accelerators are designed to help evaluators go from idea to proof of concept (PoC) in less than 2 weeks.  Some of the templates are based on accelerators offered by vendors such as DataBricks, Microsoft and other vendors.  In cases where we base our work on a vendor's accelerator or template, we provide a detailed comparison chart highlighting the additional functionality that is provided over the stock accelerators and templates.
 
+ 
+
 ### GIFT-EHR Modern Clinical Health Data Lake Accelerator
 
 The GIFT EHR accelerator is based on the sample data in the Modern Clinical Health Data Lake solution accelerator provided by DataBricks.
@@ -340,6 +342,7 @@ The following template project plan outlines the implementation of DAVT Best Pra
 ### Reference Practices and Patterns
 
 -   [DataBricks Solution Accelerators](https://databricks.com/solutions/accelerators)
+-   [Microsoft Solutions Accelarators](https://partner.microsoft.com/en-us/solutions/azure/azure-accelerate-program#Accordion10)
 -   [Power BI Adoption Framework Videos](https://www.youtube.com/playlist?list=PL1N57mwBHtN0UZbEgLHtA1yxqPlae3B90)
 -   [Power BI Adoption Framework Repository](https://github.com/pbiaf/powerbiadoption)
 -   [Microsoft Analytics End to End With Azure Synapse](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/dataplate2e/data-platform-end-to-end)
