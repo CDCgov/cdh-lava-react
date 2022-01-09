@@ -17,7 +17,6 @@ GIFT provides functioning product artifacts with working sample implementations 
 You can assess if your organization has patterns and practices for the project processes and deliverables listed below.  If there are areas where you have gaps, the GIFT templates may help you fill in those gaps.  A self assessment questionnaire and sample artifacts toi help with your assessment are on the GIFT project roadmap.  If you have standards for these processes and deliverables on an individual project, are the they consistent on all projects across your organization?
 
 |     |     |     |     |     |
-| --- | --- | --- | --- | --- |
 | **Best Practice Patterns and Practices** |     | **Your** |     |     |
 | **Self-Assessment and Comparison** | **GIFT** | **Organization** | **Databricks** | **Microsoft** |
 | **Governance Framework** | **🗹** | **?** | **🗷** | **🗷** |
