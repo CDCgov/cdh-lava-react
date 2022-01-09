@@ -10,17 +10,17 @@ The templates use an architecture designed to be self service, data driven, even
 
 ![Delta-Lake-Multi-Hop-Architecture-Bronze](https://user-images.githubusercontent.com/2504540/147579076-395a7f22-fff7-490e-9cf8-847a2adfbd95.png)
 
-## GIFT Data, Analytics and Visualization Platform Features Implemented in Examples 
+## GIFT Data, Analytics and Visualization Platform Features Implemented in Examples
 
 GIFT provides functioning product artifacts with working sample implementations for the following features.  Currently vendors are not implementing these standard best practices in their soulution accelerators and examples.
 
 ![Comparison](docs/images/comparisonofsamples.png)
- 
+
 ## GIFT Solution Accelerators
 
 The GIFT Solution Accelerators (GIFTS) provide fully-functional project artifacts including code and methodology that tackle the most common and high-impact use cases that most organizations are facing related to data, anlaytics and visualistions. The Solution Accelerators are designed to help evaluators go from idea to proof of concept (PoC) in less than 2 weeks.  Some of the templates are based on accelerators offered by vendors such as DataBricks, Microsoft and other vendors.  In cases where we base our work on a vendor's accelerator or template, we provide a detailed comparison chart highlighting the additional functionality that is provided over the stock accelerators and templates.
 
- 
+
 
 ### GIFT-EHR Modern Clinical Health Data Lake Accelerator
 
@@ -73,7 +73,7 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 ### Question 2:  GIFT is tied or promoted by a specific vendor or solution provider that is trying to sell a good or service?
 - Answer: No, GIFT was developed for use internally at the CDC.  The work is a public resource and does not intend to specifically promote, endorse or recommend specific solutions from cloud, software or service providers.  It is an attempt to provide vendor agnostic best practices for data, analytics and visualization.
 
-### Question 3:  Can we use the templates if we don't have a license for Microsoft Office365, Teams, SharePoint, Power Automate or Power BI Premium?  
+### Question 3:  Can we use the templates if we don't have a license for Microsoft Office365, Teams, SharePoint, Power Automate or Power BI Premium?
 - Answer: Yes, you can use components.  The notebooks bronze input data is driven by csv files and not tightly coupled to SharePoint.  We are currently investigating creating an alternate path to create the csv files via Google Sheets as an alternative to SharePoint.  There are standard notebooks to create csv and parquet output that do not require Power BI premium.  You can use these notebooks to generate csv and even excel output if a Power BI premium license is not available.  Similary there are alternative to all of the functionity in power automate to send emails, generate and export to SharePoint.
 
 ### Question 4: Can we use the templates if we are we are a Microsoft legacy shop using on premise SQL Server and not operating in the cloud?
@@ -93,7 +93,7 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 
 ### Question 9:  We are already using technology X to produce Excel, PDF, or online reports.   Is it worth it to change?
 - Answer:  Possibly.  Would your users prefer reports
-    - delivered scheduled or triggered by events without waiting to process via email, SharePoint, OneDrive or other cloud storage? 
+    - delivered scheduled or triggered by events without waiting to process via email, SharePoint, OneDrive or other cloud storage?
     - configurable in terms of recipients, text and contents with self service subscribe and unsubscribe?
     - cataloged and all the reports discoverable?
     - secured with a common security model with documented traceability to users, projects and roles?
@@ -113,7 +113,7 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 
 
 ## GIFT Priorities and Approach
- 
+
 The largest impact to projects implementing the DAVT templates is based on development process changes rather than technical changes. All implementations of DAVT should have a functioning report available in the first week and usually the first few days. Note this is not produced with real data unless the client has existing reports where the data can be pasted in Excel.
 
 The key rule in implementing DAVT is to begin with the end in mind. For instance, during the first implementation of DAVT, the data from the current customer reports were pasted into Excel, analyzed and used to create a report mockup in the first three days loading from data from Excel files exported to csv format.
@@ -349,10 +349,10 @@ The following template project plan outlines the implementation of DAVT Best Pra
 -   [Power CAT Adoption Maturity Model](https://powerapps.microsoft.com/en-us/blog/power-cat-adoption-maturity-model-repeatable-patterns-for-successful-power-platform-adoption/)
 
 ### Reference Blogs
--   [James Serra](http://www.jamesserra.com/) 
+-   [James Serra](http://www.jamesserra.com/)
 
 ### Reference Training
--   [DatCamp](http://www.datacamp.com/) 
+-   [DatCamp](http://www.datacamp.com/)
 
 ### Reference Repositories
 
@@ -372,52 +372,12 @@ The following template project plan outlines the implementation of DAVT Best Pra
 
 The following commercial products and services are used in the architecture:
 
--   Azure Active Directory
--   Azure Cost Management
--   Azure DataBricks Data Science and Engineering
--   Azure DataBricks SQL
--   Azure DataBricks Delta Live Tables
--   Azure Data Lake Gen2
--   Azure Data Factory
--   Azure Key Vault
--   Azure DevOps
--   Azure Policy
--   Azure Logic Apps
--   Azure Synapse
--   GitHub
--   Microsoft On Premise SQL Server
--   Microsoft On Premise Folder Shares (MUST)
--   Microsoft O365 SharePoint
--   Microsoft O365 Teams
--   Microsoft O365 Mail
--   Microsoft O365 Power Automate
--   Microsoft O365 Excel
--   Microsoft O365 PowerPoint
--   Microsoft O365 Visio
--   Microsoft O365 Power BI Workspaces
--   Microsoft O365 Power BI Premium Workspaces
--   Microsoft O365 Power BI Apps
--   Microsoft O365 Power BI Desktop
--   Microsoft O365 Power BI Report Builder Desktop
--   Microsoft O365 One Drive
--   Microsoft Azure Data Explorer Desktop
--   Microsoft DevOps Integration Tool for Office 2019
--   Microsoft VS Code
--   Postman
--   R Studio
--   DAX Studio
--   SAS
--   JIRA
--   Tableau
--   Alation
--   Git
--   Git Desktop
--   GitHub
--   GitLab
--   Progress Kendo Angular UI (UX)
--   Redhat Openshift
--   Kubernetes
- 
+- Cloud Products
+![Comparison](docs/images/products_cloud.png)
+
+- On-Premise and Desktop Products
+![Comparison](docs/images/products_desktop.png)
+
 The following open source standards are used in the architecure:
 
 -   OpenDoc (Swagger)
@@ -670,7 +630,7 @@ These folders are meant to help organize and make it easier for others to unders
 │   ├── bronze          <- The original, immutable data dump.
 │   ├── external        <- Data from third party sources.
 │   ├── gold            <- The final, canonical data sets for modeling.
-│   └── silver          <- Intermediate data that has been transformed. 
+│   └── silver          <- Intermediate data that has been transformed.
 ├── docs                <- documentation and references (codebooks, etc)
 │   └── references      <- Data dictionaries, manuals, and all other explanatory materials.
 ├── output              <- output files
