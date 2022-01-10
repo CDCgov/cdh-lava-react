@@ -18,38 +18,38 @@ You can assess if your organization has patterns and practices for the project p
 
 | **Self-Assessment and Comparison** | **GIFT** | **Your Project** | **Databricks** | **Microsoft** |
 | --- | --- | --- | --- | --- |
-| **Governance Framework** |<div style="color:blue;align:center;width:100%">**🗹**</div> |  <center>**?**</center>| **🗷** | **🗷** |
-| Sample Project Plan Templates | **🗹** | **?** | **🗷** | **🗷** |
-| Mission and Vision Template | **🗹** | **?** | **🗷** | **🗷** |
-| Policies, Standard and Glossary Templates | **🗹** | **?** | **🗷** | **🗷** |
-| **Security and Identity** | **🗹** | **?** | **🗷** | **🗷** |
-| Manage and Onboard Partners and Organizations | **🗹** | **?** | **🗷** | **🗷** |
-| Manage and Onboard Systems and Projects | **🗹** | **?** | **🗷** | **🗷** |
-| Manage and Onboard Users and Roles | **🗹** | **?** | **🗷** | **🗷** |
-| **Populate Data** | **🗹** | **?** | **🗷** | **🗷** |
-| Reusable meta-data driven bronze load process | **🗹** | **?** | **🗷** | **🗷** |
-| Reusable meta-data driven silver transform process | **🗹** | **?** | **🗷** | **🗷** |
-| Reusable meta-data driven gold aggregate process | **🗹** | **?** | **🗷** | **🗷** |
-| **Publish Data, Analytics and Visualizations** | **🗹** | **?** | **🗷** | **🗷** |
-| Reusable meta-data driven report author process | **🗹** | **?** | **🗷** | **🗷** |
-| Reusable meta-data driven report publish process | **🗹** | **?** | **🗷** | **🗷** |
-| **Populate Data Catalog** | **🗹** | **?** | **🗷** | **🗷** |
-| Ingest Metadata (technical, business, lineage) | **🗹** | **?** | **🗷** | **🗷** |
-| Analyze Metadata (top users, popular data) | **🗹** | **?** | **🗷** | **🗷** |
-| **Continuous Integration and Continuous Delivery** | **🗹** | **?** | **🗷** | **🗷** |
-| Continuous Integration Templates | **🗹** | **?** | **🗷** | **🗷** |
-| Continuous Delivery Templates | **🗹** | **?** | **🗷** | **🗷** |
-| **Empower Data Stewards** | **🗹** | **?** | **🗷** | **🗷** |
-| Recognize and Assign Stewards | **🗹** | **?** | **🗷** | **🗷** |
-| Automate Stewardship Process | **🗹** | **?** | **🗷** | **🗷** |
-| Identify Reviews and Approvers | **🗹** | **?** | **🗷** | **🗷** |
-| **Assess Data Quality** | **🗹** | **?** | **🗷** | **🗷** |
-| Describe data and apply quality flags | **🗹** | **?** | **🗷** | **🗷** |
-| Surface descriptions, quality, etc to users | **🗹** | **?** | **🗷** | **🗷** |
-| **Monitor and Measure** | **🗹** | **?** | **🗷** | **🗷** |
-| Determine Policy Conformance | **🗹** | **?** | **🗷** | **🗷** |
-| Measure usage | **🗹** | **?** | **🗷** | **🗷** |
-| Measure quality | **🗹** | **?** | **🗷** | **🗷** |
+| **Governance Framework** | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Sample Project Plan Templates | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Mission and Vision Template | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Policies, Standard and Glossary Templates | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| **Security and Identity**  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Manage and Onboard Partners and Organizations  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Manage and Onboard Systems and Projects  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Manage and Onboard Users and Roles  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| **Populate Data**  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Reusable meta-data driven bronze load process  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Reusable meta-data driven silver transform process  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Reusable meta-data driven gold aggregate process  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| **Publish Data, Analytics and Visualizations**  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Reusable meta-data driven report author process  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Reusable meta-data driven report publish process | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| **Populate Data Catalog**  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Ingest Metadata (technical, business, lineage)  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Analyze Metadata (top users, popular data)  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| **Continuous Integration and Continuous Delivery**  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Continuous Integration Templates  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Continuous Delivery Templates  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| **Empower Data Stewards**  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Recognize and Assign Stewards | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Automate Stewardship Process  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Identify Reviews and Approvers  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| **Assess Data Quality** | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Describe data and apply quality flags | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Surface descriptions, quality, etc to users  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| **Monitor and Measure** | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Determine Policy Conformance  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** ||
+| Measure usage  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| Measure quality | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
 
 ## GIFT Solution Accelerators
 
