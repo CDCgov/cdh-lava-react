@@ -16,40 +16,40 @@ GIFT provides functioning product artifacts with working sample implementations 
 
 You can assess if your organization has patterns and practices for the project processes and deliverables listed below.  If there are areas where you have gaps, the GIFT templates may help you fill in those gaps.  A self assessment questionnaire and sample artifacts toi help with your assessment are on the GIFT project roadmap.  If you have standards for these processes and deliverables on an individual project, are the they consistent on all projects across your organization?
 
-| **Self-Assessment and Comparison** | **GIFT** | **Your Project** | **Databricks** | **Microsoft** |
+| **Self-Assessment and Comparison** |  &nbsp;  **GIFT**  &nbsp; | **Your Project** | **Databricks** | **Microsoft** |
 | --- | --- | --- | --- | --- |
-| **Governance Framework** | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Sample Project Plan Templates | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Mission and Vision Template | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Policies, Standard and Glossary Templates | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| **Security and Identity**  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Manage and Onboard Partners and Organizations  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Manage and Onboard Systems and Projects  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Manage and Onboard Users and Roles  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| **Populate Data**  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Reusable meta-data driven bronze load process  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Reusable meta-data driven silver transform process  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Reusable meta-data driven gold aggregate process  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| **Publish Data, Analytics and Visualizations**  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Reusable meta-data driven report author process  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Reusable meta-data driven report publish process | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| **Populate Data Catalog**  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Ingest Metadata (technical, business, lineage)  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Analyze Metadata (top users, popular data)  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| **Continuous Integration and Continuous Delivery**  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Continuous Integration Templates  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Continuous Delivery Templates  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| **Empower Data Stewards**  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Recognize and Assign Stewards | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Automate Stewardship Process  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Identify Reviews and Approvers  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| **Assess Data Quality** | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Describe data and apply quality flags | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Surface descriptions, quality, etc to users  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| **Monitor and Measure** | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Determine Policy Conformance  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** ||
-| Measure usage  | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
-| Measure quality | **:heavy_check_mark:** | **:grey_question:**| **:x:** | **:x:** |
+| **Governance Framework**   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Sample Project Plan Templates | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Mission and Vision Template | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Policies, Standard and Glossary Templates  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| **Security and Identity**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Manage and Onboard Partners and Organizations   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Manage and Onboard Systems and Projects   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Manage and Onboard Users and Roles  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| **Populate Data**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Reusable meta-data driven bronze load process  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Reusable meta-data driven silver transform process   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Reusable meta-data driven gold aggregate process  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| **Publish Data, Analytics and Visualizations**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Reusable meta-data driven report author process  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Reusable meta-data driven report publish process | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| **Populate Data Catalog**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Ingest Metadata (technical, business, lineage)  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Analyze Metadata (top users, popular data)  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| **Continuous Integration and Continuous Delivery**   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Continuous Integration Templates  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Continuous Delivery Templates | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| **Empower Data Stewards**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Recognize and Assign Stewards  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Automate Stewardship Process   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Identify Reviews and Approvers  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| **Assess Data Quality** | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Describe data and apply quality flags  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Surface descriptions, quality, etc to users   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| **Monitor and Measure** | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Determine Policy Conformance  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Measure usage  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Measure quality | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 
 ## GIFT Solution Accelerators
 
