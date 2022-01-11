@@ -612,10 +612,26 @@ We already had one meeting where I explained the methodogy of prefixing tables a
     Blanks default to nulls
     Need to trim all strings with trim function
 
+**Organization**
+1.  A organization unit that will include individuals that manage system and projects
+
 **Systems**
 
-1. Create a project id for each system, currently, ndsp_pertussis, ndsp_phlip and ndsp_ddt and (ndsp – shared)
-   There are lots of other components to documents, powerbi, logicapps, sharepoint, requirements, security, unit test, devops deployment, archive.
+1.  Systems typically represent a billing center and are similiar to subscriptions in azure.  System are associate with an organization.  In cases, where a legacy system is experiencing an upgrade, the legacy system is typically named ingress in data quality comparison reports.  The new system is typically named deltalake in comparison reports.  In this manner the counts and data for the current state: ingress can be compared to the counts and data of the future state: delta lake.
+
+**Projects**
+
+1.  Projects represent all the facts of team project.  Systems usually have one or more projects
+- Create a project id for each project in a system, currently, ndsp_pertussis, ndsp_phlip and ndsp_ddt and (ndsp – shared)
+- There are lots of other components in a project including documents, powerbi, logicapps, sharepoint, requirements, security, unit test, devops deployment, archive.
+
+**Pipeline**
+
+1.  Each unit of work where data is stored is typically referred to as a pipeline.
+
+**Stage**
+1.  Pipelines are typically split into stage including bronze-input, silver-data manipulation and gold- data oupput
+
 
 **Logic App List Synchronization**
 
