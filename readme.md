@@ -612,7 +612,7 @@ We already had one meeting where I explained the methodogy of prefixing tables a
     Blanks default to nulls
     Need to trim all strings with trim function
 
-**Organization**
+**Organizations**
 1.  A organization unit that will include individuals that manage system and projects
 
 **Systems**
@@ -625,11 +625,11 @@ We already had one meeting where I explained the methodogy of prefixing tables a
 - Create a project id for each project in a system, currently, ndsp_pertussis, ndsp_phlip and ndsp_ddt and (ndsp – shared)
 - There are lots of other components in a project including documents, powerbi, logicapps, sharepoint, requirements, security, unit test, devops deployment, archive.
 
-**Pipeline**
+**Pipelines**
 
 1.  Each unit of work where data is stored is typically referred to as a pipeline.
 
-**Stage**
+**Stages**
 1.  Pipelines are typically split into stage including bronze-input, silver-data manipulation and gold- data oupput
 
 
