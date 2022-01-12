@@ -427,8 +427,9 @@ The following open source standards are used in the architecure:
 The following open source libraries are used in the architecture:
 
 -   Identity Server 4 https://identityserver4.readthedocs.io/en/latest/
--   saurfang:spark-sas7bdat (python - databricks)
--   hl7_pet_1_2_4_4 (python - databricks)
+-   DataBricks: Ingest BDAT: saurfang:spark-sas7bdat (python - databricks)
+-   DataBricks: Ingest XLSX: com.crealytics:spark-excel_2.12:0.13.7
+-   DataBricks: Ingest HL7:  hl7_pet_1_2_4_4 (python - databricks)
 -   Code Search (microsoft devops)
 -   DevOps for Azure Databricks (microsoft devops)
 -   Teraform (cloud deployment)
