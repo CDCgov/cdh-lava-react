@@ -40,8 +40,8 @@ You can assess if your organization has patterns and practices for the project p
 | Continuous Integration Templates  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Continuous Delivery Templates | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | **Data Operations and Performance** |  | | |  |
-| Disaster Recovery Process | &nbsp;   &nbsp; **:heavy_check_mark:**                        | | |  |
-| Database Optimization Process | &nbsp;&nbsp;   **:heavy_check_mark:** | | |  |
+| Disaster Recovery Process | &nbsp;   &nbsp; **:heavy_check_mark:**                        |  &nbsp;  &nbsp;   &nbsp; **:grey_question:** | &nbsp;  &nbsp;   &nbsp;  **:x:**  | &nbsp;  &nbsp;   &nbsp;  **:x:**   |
+| Database Optimization Process | &nbsp;&nbsp;   **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:** | &nbsp;  &nbsp;   &nbsp;  **:x:**  |  &nbsp;  &nbsp;   &nbsp;  **:x:**  |
 | **Empower Data Stewards**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Recognize and Assign Stewards  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Automate Stewardship Process   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
@@ -697,6 +697,10 @@ These folders are meant to help organize and make it easier for others to unders
 └── sql                 <- SQL scripts, delete if unnecessary
 ```
 
+## Discussion
+
+- [Discord CDC Gift Server](https://discord.com/channels/931154207266983977/931154207984201730)
+- [Slack CDC Gift Channel](https://app.slack.com/client/T5CNABF98/C02U8LD9H4H)
 
 ## Housekeeping
 
