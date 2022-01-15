@@ -39,7 +39,7 @@ You can assess if your organization has patterns and practices for the project p
 | **Continuous Integration and Continuous Delivery**   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Continuous Integration Templates  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Continuous Delivery Templates | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
-| **Data Operations and Performance** |  | | |  |
+| **Data Operations and Performance** | :heavy_check_mark: |nbsp;   &nbsp; **:grey_question:**  | &nbsp;  &nbsp;   &nbsp;**:x:**  |  &nbsp;  &nbsp;   &nbsp;**:x:**  |
 | Disaster Recovery Process | &nbsp;   &nbsp; **:heavy_check_mark:**                        |  &nbsp;  &nbsp;   &nbsp; **:grey_question:** | &nbsp;  &nbsp;   &nbsp;  **:x:**  | &nbsp;  &nbsp;   &nbsp;  **:x:**   |
 | Database Optimization Process | &nbsp;&nbsp;   **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:** | &nbsp;  &nbsp;   &nbsp;  **:x:**  |  &nbsp;  &nbsp;   &nbsp;  **:x:**  |
 | **Empower Data Stewards**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
