@@ -354,8 +354,8 @@ These projects contain over 50 reports that are in the process of onboarding to 
 ### Set up Cloud Environment
 #### Option 1:  Sign up for Full-Service Cloud Hosting Provider 
 - 1a. [Amazon Web Services-AWS](https://aws.amazon.com/)
-- 1b. [Azure] (https://azure.microsoft.com/)
-- 1c. [Google Cloud] (https://cloud.google.com/)
+- 1b. [Azure](https://azure.microsoft.com/)
+- 1c. [Google Cloud](https://cloud.google.com/)
 
 #### Option 2: Sign up for DataBricks Limited Free Community Edition Hosting Provider
 
