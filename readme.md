@@ -350,13 +350,11 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 ### Sign up for DataBricks Community Edition
 
-Click Try Databricks [here](https://databricks.com/try-databricks?_ga=2.255070344.1413392081.1642363045-623941688.1642019057)  or at the top of this page.
-
-Enter your name, company, email, and title, and click GET STARTED FOR FREE.
-
-On the Choose a cloud provider dialog, click the Get started with Community Edition link.
-
-Reply to email and set password
+1. Click Try Databricks [here](https://databricks.com/try-databricks?_ga=2.255070344.1413392081.1642363045-623941688.1642019057)  or at the top of this page.
+2. Enter your name, company, email, and title, and click GET STARTED FOR FREE.
+3. On the Choose a cloud provider dialog, click the Get started with Community Edition link.
+4. Reply to email and set password
+5. Bookmark and continue to login at [community.cloud.databricks.com](https://community.cloud.databricks.com/login.html)
 
 ### Set up local enviroment
 
