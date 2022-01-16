@@ -350,7 +350,12 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 ## Getting Started
 
-### Sign up for DataBricks Community Edition
+### Sign up for Full-Service Cloud Hosting Provider 
+- Amazon Web Services (AWS)[https://aws.amazon.com/]
+- Azure [https://azure.microsoft.com/]
+- Google Cloud [https://cloud.google.com/]
+
+### Sign up for DataBricks Limited Free Community Edition Hosting Provider
 
 1. Click Try Databricks [here](https://databricks.com/try-databricks?_ga=2.255070344.1413392081.1642363045-623941688.1642019057)  or at the top of this page.
 2. Enter your name, company, email, and title, and click GET STARTED FOR FREE.
