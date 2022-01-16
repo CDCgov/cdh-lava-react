@@ -347,23 +347,40 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 -   davt-analytics
 
-
 ## Getting Started
 
+### Set up Databricks Cloud Hosting Environment
 
-### Set up Cloud Environment
 #### Option 1:  Sign up for Full-Service Cloud Hosting Provider 
 - 1a. [Amazon Web Services-AWS](https://aws.amazon.com/)
 - 1b. [Azure](https://azure.microsoft.com/)
 - 1c. [Google Cloud](https://cloud.google.com/)
 
-#### Option 2: Sign up for DataBricks Limited Free Community Edition Hosting Provider
+#### Option 2: Sign up for Databricks Limited Free Community Edition Hosting Provider
 
 - 2a1. Click Try Databricks [here](https://databricks.com/try-databricks?_ga=2.255070344.1413392081.1642363045-623941688.1642019057)  or at the top of this page.
 - 2a2. Enter your name, company, email, and title, and click GET STARTED FOR FREE.
-- 2a3. On the Choose a cloud provider dialog, click the Get started with Community Edition link.
+- 2a3. On the Choose a cloud provider dialog, choose AWS click the Get started with Community Edition link.
 - 2a4. Reply to email and set password
 - 2a5. Bookmark and continue to login at [community.cloud.databricks.com](https://community.cloud.databricks.com/login.html)
+
+### Configure Databricks Cluster
+
+1.  Once you launch the Databricks workspace, on the left-hand navigation panel, click 'Clusters'.
+2.  From here, click 'Create Cluster'.
+3.  Create cluster: 
+    There are two main types of clusters in Databricks:
+    - Interactive: An interactive cluster is a cluster you manually create through the cluster UI, and is typically shared by multiple users across multiple notebooks.
+    - Job: A job cluster is an ephemeral cluster that is tied to a Databricks Job. It spins up and then back down automatically when the job is being run. 
+    For our project development we will use Interact.
+4. Name your cluster.  
+    - Our current naming standard is org_name_root_project_id_project_id_adbcluster_001
+    - example:  cdc_gift_ehr_adbcluster_001
+5. Choose your cluster mode if not in community edition.
+    There are two options for cluster mode:
+    - Standard: Single user / small group clusters - can use any language.  
+    - High Concurrency: A cluster built for minimizing latency in high concurrency workloads.
+    For our project development we will use Standard.
 
 ### Set up local enviroment
 
