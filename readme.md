@@ -378,7 +378,7 @@ These projects contain over 50 reports that are in the process of onboarding to 
 4. Name your cluster.  
     - Our current naming standard is org_name_root_project_id_project_id_adbcluster_001
     - example:  cdc_gift_ehr_adbcluster_001
-5. Choose your cluster mode.
+5. Choose your cluster mode if not in community edition.
     There are two options for cluster mode:
     - Standard: Single user / small group clusters - can use any language.  
     - High Concurrency: A cluster built for minimizing latency in high concurrency workloads.
