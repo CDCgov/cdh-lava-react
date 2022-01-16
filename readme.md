@@ -348,6 +348,16 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 ## Getting Started
 
+### Sign up for DataBricks Community Edition
+
+Click Try Databricks [here](https://databricks.com/try-databricks?_ga=2.255070344.1413392081.1642363045-623941688.1642019057)  or at the top of this page.
+
+Enter your name, company, email, and title, and click GET STARTED FOR FREE.
+
+On the Choose a cloud provider dialog, click the Get started with Community Edition link.
+
+Reply to email and set password
+
 ### Set up local enviroment
 
 1.  It is recommended to set up teams channel and store your work in onedrive to increase transparency during development
