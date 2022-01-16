@@ -351,7 +351,8 @@ These projects contain over 50 reports that are in the process of onboarding to 
 ## Getting Started
 
 
-### Set up Cloud Environment
+### Set up DataBricks Cloud Hosting Environment
+
 #### Option 1:  Sign up for Full-Service Cloud Hosting Provider 
 - 1a. [Amazon Web Services-AWS](https://aws.amazon.com/)
 - 1b. [Azure](https://azure.microsoft.com/)
@@ -364,6 +365,24 @@ These projects contain over 50 reports that are in the process of onboarding to 
 - 2a3. On the Choose a cloud provider dialog, choose AWS click the Get started with Community Edition link.
 - 2a4. Reply to email and set password
 - 2a5. Bookmark and continue to login at [community.cloud.databricks.com](https://community.cloud.databricks.com/login.html)
+
+### Configure Databricks Cluster
+
+1.  Once you launch the Databricks workspace, on the left-hand navigation panel, click 'Clusters'.
+2.  From here, click 'Create Cluster'.
+3.  Create cluster: 
+    There are two main types of clusters in Databricks:
+    - Interactive: An interactive cluster is a cluster you manually create through the cluster UI, and is typically shared by multiple users across multiple notebooks.
+    - Job: A job cluster is an ephemeral cluster that is tied to a Databricks Job. It spins up and then back down automatically when the job is being run. 
+    For our project development we will use Interact.
+4. Name your cluster.  
+    - Our current naming standard is <org name>_<root_project_id>_<project>_adbcluster_001
+    - cdc_gift_ehr_adbcluster_001
+5. Choose your cluster mode.
+    There are two options for cluster mode:
+    - Standard: Single user / small group clusters - can use any language.  
+    - High Concurrency: A cluster built for minimizing latency in high concurrency workloads.
+    For our project development we will use Standard.
 
 ### Set up local enviroment
 
