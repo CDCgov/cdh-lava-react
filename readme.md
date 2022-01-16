@@ -376,8 +376,8 @@ These projects contain over 50 reports that are in the process of onboarding to 
     - Job: A job cluster is an ephemeral cluster that is tied to a Databricks Job. It spins up and then back down automatically when the job is being run. 
     For our project development we will use Interact.
 4. Name your cluster.  
-    - Our current naming standard is <org name>_<root_project_id>_<project>_adbcluster_001
-    - cdc_gift_ehr_adbcluster_001
+    - Our current naming standard is org_name_root_project_id_project_id_adbcluster_001
+    - example:  cdc_gift_ehr_adbcluster_001
 5. Choose your cluster mode.
     There are two options for cluster mode:
     - Standard: Single user / small group clusters - can use any language.  
