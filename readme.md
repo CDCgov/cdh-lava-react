@@ -361,7 +361,7 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 - 2a1. Click Try Databricks [here](https://databricks.com/try-databricks?_ga=2.255070344.1413392081.1642363045-623941688.1642019057)  or at the top of this page.
 - 2a2. Enter your name, company, email, and title, and click GET STARTED FOR FREE.
-- 2a3. On the Choose a cloud provider dialog, click the Get started with Community Edition link.
+- 2a3. On the Choose a cloud provider dialog, choose AWS click the Get started with Community Edition link.
 - 2a4. Reply to email and set password
 - 2a5. Bookmark and continue to login at [community.cloud.databricks.com](https://community.cloud.databricks.com/login.html)
 
