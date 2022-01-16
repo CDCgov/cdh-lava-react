@@ -39,7 +39,7 @@ You can assess if your organization has patterns and practices for the project p
 | **Continuous Integration and Continuous Delivery**   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Continuous Integration Templates  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Continuous Delivery Templates | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
-| **Data Operations and Performance** | :heavy_check_mark: |nbsp;   &nbsp; **:grey_question:**  | &nbsp;  &nbsp;   &nbsp;**:x:**  |  &nbsp;  &nbsp;   &nbsp;**:x:**  |
+| **Data Operations and Performance** | :heavy_check_mark: |&nbsp;   &nbsp;   &nbsp;  **:grey_question:**  | &nbsp;  &nbsp;   &nbsp;**:x:**  |  &nbsp;  &nbsp;   &nbsp;**:x:**  |
 | Disaster Recovery Process | &nbsp;   &nbsp; **:heavy_check_mark:**                        |  &nbsp;  &nbsp;   &nbsp; **:grey_question:** | &nbsp;  &nbsp;   &nbsp;  **:x:**  | &nbsp;  &nbsp;   &nbsp;  **:x:**   |
 | Database Optimization Process | &nbsp;&nbsp;   **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:** | &nbsp;  &nbsp;   &nbsp;  **:x:**  |  &nbsp;  &nbsp;   &nbsp;  **:x:**  |
 | **Empower Data Stewards**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
@@ -79,7 +79,9 @@ Individuals and companies are encouraged to implement their own subject matter s
 
 ## Example Gold Use Cases
 
-### UC1: Report Management
+### UC1: Project Communication and Status
+
+### UC2: Report Management
 
 The basic functionalily ot report subscriptions in PowerBI is quite limited. Self-service susbscriptions in the Gift Templates allow the following functionality that is not available in other off the shelf products.
 
@@ -97,7 +99,7 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 12. There is no limit on the number of external subscribers or subscriptions per report.
 13. The report text is configurable via email Different email aliases are allowed for different environments such as dev and test. Report email text include a default link to the SharePoint library that includes a history of output from preivous report runs.
 
-### UC2: Standard Reports
+### UC3: Standard Reports
 
 1.  Data Dictionary. A standard data dictionary report is available for all projects using the GIFT meta data features. The basic data dictionaries created by off the shelf products are quite limited. In addition, to the standard data points of name, data type, and text, the GIFT templates allow for a) automatically listing available data elements for datasets with less than 100 distinct values. b) providing full data lineage and traceability. c) linking and filtering to report projects and other meta-data. d) number of unique elements, number of null values and range of data elements.
 
@@ -347,6 +349,14 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 
 ## Getting Started
+
+### Sign up for DataBricks Community Edition
+
+1. Click Try Databricks [here](https://databricks.com/try-databricks?_ga=2.255070344.1413392081.1642363045-623941688.1642019057)  or at the top of this page.
+2. Enter your name, company, email, and title, and click GET STARTED FOR FREE.
+3. On the Choose a cloud provider dialog, click the Get started with Community Edition link.
+4. Reply to email and set password
+5. Bookmark and continue to login at [community.cloud.databricks.com](https://community.cloud.databricks.com/login.html)
 
 ### Set up local enviroment
 
