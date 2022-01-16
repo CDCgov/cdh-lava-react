@@ -39,7 +39,7 @@ You can assess if your organization has patterns and practices for the project p
 | **Continuous Integration and Continuous Delivery**   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Continuous Integration Templates  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Continuous Delivery Templates | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
-| **Data Operations and Performance** | :heavy_check_mark: |&nbsp;   &nbsp;   &nbsp;  **:grey_question:**  | &nbsp;  &nbsp;   &nbsp;**:x:**  |  &nbsp;  &nbsp;   &nbsp;**:x:**  |
+| **Data Operations and Performance** |  &nbsp;  &nbsp; :heavy_check_mark: |&nbsp;   &nbsp;   &nbsp;  **:grey_question:**  | &nbsp;  &nbsp;   &nbsp;**:x:**  |  &nbsp;  &nbsp;   &nbsp;**:x:**  |
 | Disaster Recovery Process | &nbsp;   &nbsp; **:heavy_check_mark:**                        |  &nbsp;  &nbsp;   &nbsp; **:grey_question:** | &nbsp;  &nbsp;   &nbsp;  **:x:**  | &nbsp;  &nbsp;   &nbsp;  **:x:**   |
 | Database Optimization Process | &nbsp;&nbsp;   **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:** | &nbsp;  &nbsp;   &nbsp;  **:x:**  |  &nbsp;  &nbsp;   &nbsp;  **:x:**  |
 | **Empower Data Stewards**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
@@ -350,13 +350,20 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 ## Getting Started
 
-### Sign up for DataBricks Community Edition
 
-1. Click Try Databricks [here](https://databricks.com/try-databricks?_ga=2.255070344.1413392081.1642363045-623941688.1642019057)  or at the top of this page.
-2. Enter your name, company, email, and title, and click GET STARTED FOR FREE.
-3. On the Choose a cloud provider dialog, click the Get started with Community Edition link.
-4. Reply to email and set password
-5. Bookmark and continue to login at [community.cloud.databricks.com](https://community.cloud.databricks.com/login.html)
+### Set up Cloud Environment
+#### Option 1:  Sign up for Full-Service Cloud Hosting Provider 
+- 1a. [Amazon Web Services-AWS](https://aws.amazon.com/)
+- 1b. [Azure](https://azure.microsoft.com/)
+- 1c. [Google Cloud](https://cloud.google.com/)
+
+#### Option 2: Sign up for DataBricks Limited Free Community Edition Hosting Provider
+
+- 2a1. Click Try Databricks [here](https://databricks.com/try-databricks?_ga=2.255070344.1413392081.1642363045-623941688.1642019057)  or at the top of this page.
+- 2a2. Enter your name, company, email, and title, and click GET STARTED FOR FREE.
+- 2a3. On the Choose a cloud provider dialog, click the Get started with Community Edition link.
+- 2a4. Reply to email and set password
+- 2a5. Bookmark and continue to login at [community.cloud.databricks.com](https://community.cloud.databricks.com/login.html)
 
 ### Set up local enviroment
 
