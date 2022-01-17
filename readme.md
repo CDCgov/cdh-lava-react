@@ -381,6 +381,20 @@ These projects contain over 50 reports that are in the process of onboarding to 
     - Standard: Single user / small group clusters - can use any language.  
     - High Concurrency: A cluster built for minimizing latency in high concurrency workloads.
     For our project development we will use Standard.
+    
+### Generate a GitHub Personal Access Token (PAT) 
+
+In GitHub, follow these steps to create a personal access token that allows access to your repositories:
+1. In the upper-right corner of any page, click your profile photo, then click Settings.
+2. Click Developer settings.
+3. Click the Personal access tokens tab.
+4. Click the Generate new token button.
+5. Enter a token description.
+6. Select the repo permission, and click the Generate token button.
+7. Copy the token to your clipboard. You enter this token in Databricks in the next step.
+
+See the GitHub [documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) to learn more about how to create personal access tokens.
+
 
 ### Set up local enviroment
 
