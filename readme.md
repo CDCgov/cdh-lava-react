@@ -395,7 +395,7 @@ In GitHub, follow these steps to create a personal access token that allows acce
 
 See the GitHub [documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) to learn more about how to create personal access tokens.
 
-###  Save your Access Token to Databricks
+### Configure Git in Dataricks: Premium Option:  Save your Access Token to Databricks
 In Databricks,
 1. Click User Settings Icon Settings at the lower left of your screen 
 2. Click User Settings.
