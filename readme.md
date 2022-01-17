@@ -382,7 +382,7 @@ These projects contain over 50 reports that are in the process of onboarding to 
     - High Concurrency: A cluster built for minimizing latency in high concurrency workloads.
     For our project development we will use Standard.
     
-### Generate a GitHub Personal Access Token (PAT) 
+### Generate a GitHub Access Token (PAT) 
 
 In GitHub, follow these steps to create a personal access token that allows access to your repositories:
 1. In the upper-right corner of any page, click your profile photo, then click Settings.
@@ -394,6 +394,15 @@ In GitHub, follow these steps to create a personal access token that allows acce
 7. Copy the token to your clipboard. You enter this token in Databricks in the next step.
 
 See the GitHub [documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) to learn more about how to create personal access tokens.
+
+###  Save your Access Token to Databricks
+In Databricks,
+1. Click User Settings Icon Settings at the lower left of your screen 
+2. Click User Settings.
+3. Click the Git Integration tab. If you have previously entered credentials, click the Change settings button.
+4. In the Git provider drop-down, select GitHub.
+5. Paste your token into the Token field.
+6. Enter your GitHub username or email into the Git provider username or email field and click Save.
 
 
 ### Set up local enviroment
