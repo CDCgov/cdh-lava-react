@@ -18,15 +18,21 @@ You can assess if your organization has patterns and practices for the project p
 
 | **Self-Assessment and Comparison** |  &nbsp;  **GIFT**  &nbsp; | **Your Project** | **Databricks** | **Microsoft** |
 | --- | --- | --- | --- | --- |
-| **Governance Framework**   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| **Requirements and Governance Framework**   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Sample Project Plan Templates | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Mission and Vision Template | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Policies, Standard and Glossary Templates  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Requirements Templates  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| **Software Procurement and Setup**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Desktop Configuration Templates   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Cloud Configuration Templates   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | **Security and Identity**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Manage and Onboard Partners and Organizations   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Manage and Onboard Systems and Projects   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Manage and Onboard Users and Roles  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Automated Code Scans | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | **Populate Data**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Reusable meta-data driven data transfer process  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Reusable meta-data driven bronze load process  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Reusable meta-data driven silver transform process   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Reusable meta-data driven gold aggregate process  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
@@ -42,14 +48,17 @@ You can assess if your organization has patterns and practices for the project p
 | **Data Operations and Performance** |  &nbsp;  &nbsp; :heavy_check_mark: |&nbsp;   &nbsp;   &nbsp;  **:grey_question:**  | &nbsp;  &nbsp;   &nbsp;**:x:**  |  &nbsp;  &nbsp;   &nbsp;**:x:**  |
 | Disaster Recovery Process | &nbsp;   &nbsp; **:heavy_check_mark:**                        |  &nbsp;  &nbsp;   &nbsp; **:grey_question:** | &nbsp;  &nbsp;   &nbsp;  **:x:**  | &nbsp;  &nbsp;   &nbsp;  **:x:**   |
 | Database Optimization Process | &nbsp;&nbsp;   **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:** | &nbsp;  &nbsp;   &nbsp;  **:x:**  |  &nbsp;  &nbsp;   &nbsp;  **:x:**  |
+| Operations Manual and Training | &nbsp;&nbsp;   **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:** | &nbsp;  &nbsp;   &nbsp;  **:x:**  |  &nbsp;  &nbsp;   &nbsp;  **:x:**  |
 | **Empower Data Stewards**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Recognize and Assign Stewards  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Automate Stewardship Process   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Identify Reviews and Approvers  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | **Assess Data Quality** | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Defined Expectations  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Describe data and apply quality flags  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Surface descriptions, quality, etc to users   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | **Monitor and Measure** | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Error and Warning Logging  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Determine Policy Conformance  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Measure usage  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Measure quality | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
@@ -374,13 +383,36 @@ These projects contain over 50 reports that are in the process of onboarding to 
     - Job: A job cluster is an ephemeral cluster that is tied to a Databricks Job. It spins up and then back down automatically when the job is being run. 
     For our project development we will use Interact.
 4. Name your cluster.  
-    - Our current naming standard is org_name_root_project_id_project_id_adbcluster_001
-    - example:  cdc_gift_ehr_adbcluster_001
+    - Our current naming standard is root_project_id_project_id_adbcluster_environment
+    - example:  gift_ehr_adbcluster_dev
 5. Choose your cluster mode if not in community edition.
     There are two options for cluster mode:
     - Standard: Single user / small group clusters - can use any language.  
     - High Concurrency: A cluster built for minimizing latency in high concurrency workloads.
     For our project development we will use Standard.
+    
+### Generate a GitHub Access Token (PAT) 
+
+In GitHub, follow these steps to create a personal access token that allows access to your repositories:
+1. In the upper-right corner of any page, click your profile photo, then click Settings.
+2. Click Developer settings.
+3. Click the Personal access tokens tab.
+4. Click the Generate new token button.
+5. Enter a token description.
+6. Select the repo permission, and click the Generate token button.
+7. Copy the token to your clipboard. You enter this token in Databricks in the next step.
+
+See the GitHub [documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) to learn more about how to create personal access tokens.
+
+### Configure Git in Dataricks: Premium Option:  Save your Access Token to Databricks
+In Databricks,
+1. Click User Settings Icon Settings at the lower left of your screen 
+2. Click User Settings.
+3. Click the Git Integration tab. If you have previously entered credentials, click the Change settings button.
+4. In the Git provider drop-down, select GitHub.
+5. Paste your token into the Token field.
+6. Enter your GitHub username or email into the Git provider username or email field and click Save.
+
 
 ### Set up local enviroment
 
