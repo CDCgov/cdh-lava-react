@@ -32,6 +32,7 @@ You can assess if your organization has patterns and practices for the project p
 | Manage and Onboard Users and Roles  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Automated Code Scans | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | **Populate Data**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Reusable meta-data driven data transfer process  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Reusable meta-data driven bronze load process  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Reusable meta-data driven silver transform process   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Reusable meta-data driven gold aggregate process  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
