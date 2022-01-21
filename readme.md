@@ -4,11 +4,25 @@
 
 This project delivers reusable Data, Analytics and Visualization Templates, known internally known as DAVT at the CDC, that are currently used on 5 projects across 3 centers.
 
-The project uses the DataBricks methodology of referencing system inputs as bronze data and system outputs as gold data. Data transformations between bronze and gold are referred to as silver data. The project is named gold idea first templates (GIFT) because a key principle of the architecture is to begin with the end in mind (gold data) and prioritize the ideas for generating end user output (gold data) first before delving into the technical details of expected bronze input.
+The project uses the Databricks methodology of referencing system inputs as bronze data and system outputs as gold data. Data transformations between bronze and gold are referred to as silver data. The project is named gold idea first templates (GIFT) because a key principle of the architecture is to begin with the end in mind (gold data) and prioritize the ideas for generating end user output (gold data) first before delving into the technical details of expected bronze input.
 
 The templates use an architecture designed to be self service, data driven, event-driven, loosely coupled, multi-vendor and multi-tenant. The process of creating new ETL processes or reports is self-service and does not require knowledge of procedural programming such as Python. Definitions of the architectural patterns for self-service, data driven, event-driven, loosely coupled, and multi-tenant are provided in the project description.
 
-![Delta-Lake-Multi-Hop-Architecture-Bronze](https://user-images.githubusercontent.com/2504540/147579076-395a7f22-fff7-490e-9cf8-847a2adfbd95.png)
+![Delta-Lake-Multi-Hop-Architecture-Bronze](templates/../_templates/docs/images/bronze_to_gold_overview.png)
+
+## GIFT Data, Analytics and Visualization User Roles and Use Cases
+
+The feature list may seem overwhelming.  The following chart highlights the use cases that are applicable to the different roles.  An individual may where multiple hats and perform different roles.  All items in green can be performed with no procedural programming and are designed for self-service BI in the delta lake storefront.  Items in the red part of the flow are designed to be performed in the delta lake developer kitchen by trained IT professionals.
+
+Self service items are configurable in spreasheet like lists and the visibile columns can be tailored by role.
+
+![User Roles and Use Cases](templates/../_templates/docs/images/user_roles_and_use_cases.png)
+
+The self service lists are maintained by updating data stored in lists that are maintained in SharePoint, Google Sheets or a similar tool that synchs the data with csv files stored in Azure Storage upon update.
+
+A example of the menu for list maintenance is below.
+
+![User Roles and Use Cases](templates/../_templates/docs/images/self_service_list_menu.png)
 
 ## GIFT Data, Analytics and Visualization Platform Features - Self Assessment
 
@@ -65,19 +79,19 @@ You can assess if your organization has patterns and practices for the project p
 
 ## GIFT Solution Accelerators
 
-The GIFT Solution Accelerators (GIFTS) provide fully-functional project artifacts including code and methodology that tackle the most common and high-impact use cases that most organizations are facing related to data, anlaytics and visualistions. The Solution Accelerators are designed to help evaluators go from idea to proof of concept (PoC) in less than 2 weeks.  Some of the templates are based on accelerators offered by vendors such as DataBricks, Microsoft and other vendors.  In cases where we base our work on a vendor's accelerator or template, we provide a detailed comparison chart highlighting the additional functionality that is provided over the stock accelerators and templates.
+The GIFT Solution Accelerators (GIFTS) provide fully-functional project artifacts including code and methodology that tackle the most common and high-impact use cases that most organizations are facing related to data, anlaytics and visualistions. The Solution Accelerators are designed to help evaluators go from idea to proof of concept (PoC) in less than 2 weeks.  Some of the templates are based on accelerators offered by vendors such as Databricks, Microsoft and other vendors.  In cases where we base our work on a vendor's accelerator or template, we provide a detailed comparison chart highlighting the additional functionality that is provided over the stock accelerators and templates.
 
 
 
 ### GIFT-EHR Modern Clinical Health Data Lake Accelerator
 
-The GIFT EHR accelerator is based on the sample data in the Modern Clinical Health Data Lake solution accelerator provided by DataBricks.
+The GIFT EHR accelerator is based on the sample data in the Modern Clinical Health Data Lake solution accelerator provided by Databricks.
 
-Purpose:  This accelerator demonstrates "how Delta Lake makes it easier to work with large clinical datasets, we will start off with a simple but powerful use case. We will build a dashboard that allows us to identify comorbid conditions (one or more diseases or conditions that occur along with another condition in the same person at the same time) across a population of patients. To do this, we will use a simulated EHR dataset, generated by the Synthea simulator, made available through Databricks Datasets (AWS | Azure). This dataset represents a cohort of approximately 11,000 patients from Massachusetts, and is stored in 12 CSV files. We will load the CSV files in, before masking protected health information (PHI) and joining the tables together to get the data representation we need for our downstream query. Once the data has been refined, we will use SparkR to build a dashboard that allows us to interactively explore and compute common health statistics on our dataset." - per [DataBricks](https://databricks.com/blog/2020/04/21/building-a-modern-clinical-health-data-lake-with-delta-lake.html)
+Purpose:  This accelerator demonstrates "how Delta Lake makes it easier to work with large clinical datasets, we will start off with a simple but powerful use case. We will build a dashboard that allows us to identify comorbid conditions (one or more diseases or conditions that occur along with another condition in the same person at the same time) across a population of patients. To do this, we will use a simulated EHR dataset, generated by the Synthea simulator, made available through Databricks Datasets (AWS | Azure). This dataset represents a cohort of approximately 11,000 patients from Massachusetts, and is stored in 12 CSV files. We will load the CSV files in, before masking protected health information (PHI) and joining the tables together to get the data representation we need for our downstream query. Once the data has been refined, we will use SparkR to build a dashboard that allows us to interactively explore and compute common health statistics on our dataset." - per [Databricks](https://databricks.com/blog/2020/04/21/building-a-modern-clinical-health-data-lake-with-delta-lake.html)
 
 ### GIFT-GLOW Genomic Analysis at Scale Accelerator
 
-The GIFT GLOW accelerator is based on the sample data and code in the Modern Clinical Health Data Lake solution accelerator provided by DataBricks.
+The GIFT GLOW accelerator is based on the sample data and code in the Modern Clinical Health Data Lake solution accelerator provided by Databricks.
 
 Purpose:  This accelrator demonstrates "a toolkit for working with genomic data at biobank-scale and beyond.  Genomics data has been doubling every seven months globally. It has reached a scale where genomics has become a big data problem. However, most tools for working with genomics data run on single nodes and will not scale. Furthermore, it has become challenging for scientists to manage storage, analytics and sharing of public data. Glow solves these problems by bridging bioinformatics and the big data ecosystem. It enables bioinformaticians and computational biologists to leverage best practices used by data engineers and data scientists across industry." - per [GLOW](https://glow.readthedocs.io/en/latest/)
 
@@ -313,7 +327,11 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 ### Set up Databricks Cloud Hosting Environment
 
-#### Option 1:  Sign up for Full-Service Cloud Hosting Provider 
+<<<<<<< HEAD
+#### Option 1:  Sign up for Full-Service Cloud Hosting Provider
+=======
+#### Option 1:  Sign up for Full-Service Cloud Hosting Provider
+>>>>>>> e97e49cf46417228fda5ad595b2d751d0d2a3efc
 - 1a. [Amazon Web Services-AWS](https://aws.amazon.com/)
 - 1b. [Azure](https://azure.microsoft.com/)
 - 1c. [Google Cloud](https://cloud.google.com/)
@@ -330,21 +348,38 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 1.  Once you launch the Databricks workspace, on the left-hand navigation panel, click 'Clusters'.
 2.  From here, click 'Create Cluster'.
-3.  Create cluster: 
+<<<<<<< HEAD
+3.  Create cluster:
     There are two main types of clusters in Databricks:
     - Interactive: An interactive cluster is a cluster you manually create through the cluster UI, and is typically shared by multiple users across multiple notebooks.
-    - Job: A job cluster is an ephemeral cluster that is tied to a Databricks Job. It spins up and then back down automatically when the job is being run. 
+    - Job: A job cluster is an ephemeral cluster that is tied to a Databricks Job. It spins up and then back down automatically when the job is being run.
     For our project development we will use Interact.
-4. Name your cluster.  
+4. Name your cluster.
+=======
+3.  Create cluster:
+    There are two main types of clusters in Databricks:
+    - Interactive: An interactive cluster is a cluster you manually create through the cluster UI, and is typically shared by multiple users across multiple notebooks.
+    - Job: A job cluster is an ephemeral cluster that is tied to a Databricks Job. It spins up and then back down automatically when the job is being run.
+    For our project development we will use Interact.
+4. Name your cluster.
+>>>>>>> e97e49cf46417228fda5ad595b2d751d0d2a3efc
     - Our current naming standard is root_project_id_project_id_adbcluster_environment
     - example:  gift_ehr_adbcluster_dev
 5. Choose your cluster mode if not in community edition.
     There are two options for cluster mode:
-    - Standard: Single user / small group clusters - can use any language.  
+<<<<<<< HEAD
+    - Standard: Single user / small group clusters - can use any language.
     - High Concurrency: A cluster built for minimizing latency in high concurrency workloads.
     For our project development we will use Standard.
-    
-### Generate a GitHub Access Token (PAT) 
+
+### Generate a GitHub Access Token (PAT)
+=======
+    - Standard: Single user / small group clusters - can use any language.
+    - High Concurrency: A cluster built for minimizing latency in high concurrency workloads.
+    For our project development we will use Standard.
+
+### Generate a GitHub Access Token (PAT)
+>>>>>>> e97e49cf46417228fda5ad595b2d751d0d2a3efc
 
 In GitHub, follow these steps to create a personal access token that allows access to your repositories:
 1. In the upper-right corner of any page, click your profile photo, then click Settings.
@@ -359,7 +394,11 @@ See the GitHub [documentation](https://docs.github.com/en/authentication/keeping
 
 ### Configure Git in Dataricks: Premium Option:  Save your Access Token to Databricks
 In Databricks,
-1. Click User Settings Icon Settings at the lower left of your screen 
+<<<<<<< HEAD
+1. Click User Settings Icon Settings at the lower left of your screen
+=======
+1. Click User Settings Icon Settings at the lower left of your screen
+>>>>>>> e97e49cf46417228fda5ad595b2d751d0d2a3efc
 2. Click User Settings.
 3. Click the Git Integration tab. If you have previously entered credentials, click the Change settings button.
 4. In the Git provider drop-down, select GitHub.
