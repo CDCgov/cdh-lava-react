@@ -2,13 +2,25 @@
 
 ## Overview
 
-Reusable Data, Analytics and Visualization Templates internally known as DAVT at the CDC.
+This project delivers reusable Data, Analytics and Visualization Templates, known internally known as DAVT at the CDC, that are currently used on 5 projects across 3 centers.
 
-The project uses the DataBricks methodology of referencing system inputs as bronze data and system outputs as gold data. Data transformations between bronze and gold are referred to as silver data. The project is named gold idea first templates (GIFT) because a key principle of the architecture is to begin with the end in mind (gold data) and prioritize the ideas for generating end user output (gold data) first before delving into the technical details of expected bronze input.
+The project uses the Databricks methodology of referencing system inputs as bronze data and system outputs as gold data. Data transformations between bronze and gold are referred to as silver data. The project is named gold idea first templates (GIFT) because a key principle of the architecture is to begin with the end in mind (gold data) and prioritize the ideas for generating end user output (gold data) first before delving into the technical details of expected bronze input.
 
 The templates use an architecture designed to be self service, data driven, event-driven, loosely coupled, multi-vendor and multi-tenant. The process of creating new ETL processes or reports is self-service and does not require knowledge of procedural programming such as Python. Definitions of the architectural patterns for self-service, data driven, event-driven, loosely coupled, and multi-tenant are provided in the project description.
 
-![Delta-Lake-Multi-Hop-Architecture-Bronze](https://user-images.githubusercontent.com/2504540/147579076-395a7f22-fff7-490e-9cf8-847a2adfbd95.png)
+![Delta-Lake-Multi-Hop-Architecture-Bronze](templates/../_templates/docs/images/bronze_to_gold_overview.png)
+
+## GIFT Data, Analytics and Visualization Use Roles and Use Cases
+
+The feature list may seem overwhelming.  The following chart highlights the use cases that are applicable to the different roles.  An individual where may multiple hats and perform different roles.  All items in green can be performed with no procedural programming and are designe for self-service BI in the delta lake storefront.  Items in the red part of the flow are designed to be performed in the delta lake developer kitchen by trained IT professionals.
+
+![User Roles and Use Cases](templates/../_templates/docs/images/user_roles_and_use_cases.png)
+
+The self service lists are maintained by updating data stored in lists that are maintained in SharePoint, Google Sheets or a similar tool that synchs the data with csv files stored in Azure Storage upon update.
+
+A example of the menu for list maintenance is below.
+
+![User Roles and Use Cases](templates/../_templates/docs/images/self_service_list_menu.png)
 
 ## GIFT Data, Analytics and Visualization Platform Features - Self Assessment
 
@@ -18,15 +30,21 @@ You can assess if your organization has patterns and practices for the project p
 
 | **Self-Assessment and Comparison** |  &nbsp;  **GIFT**  &nbsp; | **Your Project** | **Databricks** | **Microsoft** |
 | --- | --- | --- | --- | --- |
-| **Governance Framework**   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| **Requirements and Governance Framework**   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Sample Project Plan Templates | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Mission and Vision Template | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Policies, Standard and Glossary Templates  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Requirements Templates  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| **Software Procurement and Setup**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Desktop Configuration Templates   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Cloud Configuration Templates   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | **Security and Identity**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Manage and Onboard Partners and Organizations   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Manage and Onboard Systems and Projects   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Manage and Onboard Users and Roles  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Automated Code Scans | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | **Populate Data**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Reusable meta-data driven data transfer process  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Reusable meta-data driven bronze load process  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Reusable meta-data driven silver transform process   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Reusable meta-data driven gold aggregate process  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
@@ -39,36 +57,39 @@ You can assess if your organization has patterns and practices for the project p
 | **Continuous Integration and Continuous Delivery**   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Continuous Integration Templates  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Continuous Delivery Templates | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
-| **Data Operations and Performance** | :heavy_check_mark: |nbsp;   &nbsp; **:grey_question:**  | &nbsp;  &nbsp;   &nbsp;**:x:**  |  &nbsp;  &nbsp;   &nbsp;**:x:**  |
+| **Data Operations and Performance** |  &nbsp;  &nbsp; :heavy_check_mark: |&nbsp;   &nbsp;   &nbsp;  **:grey_question:**  | &nbsp;  &nbsp;   &nbsp;**:x:**  |  &nbsp;  &nbsp;   &nbsp;**:x:**  |
 | Disaster Recovery Process | &nbsp;   &nbsp; **:heavy_check_mark:**                        |  &nbsp;  &nbsp;   &nbsp; **:grey_question:** | &nbsp;  &nbsp;   &nbsp;  **:x:**  | &nbsp;  &nbsp;   &nbsp;  **:x:**   |
 | Database Optimization Process | &nbsp;&nbsp;   **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:** | &nbsp;  &nbsp;   &nbsp;  **:x:**  |  &nbsp;  &nbsp;   &nbsp;  **:x:**  |
+| Operations Manual and Training | &nbsp;&nbsp;   **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:** | &nbsp;  &nbsp;   &nbsp;  **:x:**  |  &nbsp;  &nbsp;   &nbsp;  **:x:**  |
 | **Empower Data Stewards**  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Recognize and Assign Stewards  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Automate Stewardship Process   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Identify Reviews and Approvers  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | **Assess Data Quality** | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Defined Expectations  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Describe data and apply quality flags  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Surface descriptions, quality, etc to users   | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | **Monitor and Measure** | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
+| Error and Warning Logging  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Determine Policy Conformance  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Measure usage  | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 | Measure quality | &nbsp;  &nbsp;  **:heavy_check_mark:** | &nbsp;  &nbsp;   &nbsp; **:grey_question:**|&nbsp;  &nbsp;   &nbsp;  **:x:** |  &nbsp;  &nbsp;   &nbsp;**:x:** |
 
 ## GIFT Solution Accelerators
 
-The GIFT Solution Accelerators (GIFTS) provide fully-functional project artifacts including code and methodology that tackle the most common and high-impact use cases that most organizations are facing related to data, anlaytics and visualistions. The Solution Accelerators are designed to help evaluators go from idea to proof of concept (PoC) in less than 2 weeks.  Some of the templates are based on accelerators offered by vendors such as DataBricks, Microsoft and other vendors.  In cases where we base our work on a vendor's accelerator or template, we provide a detailed comparison chart highlighting the additional functionality that is provided over the stock accelerators and templates.
+The GIFT Solution Accelerators (GIFTS) provide fully-functional project artifacts including code and methodology that tackle the most common and high-impact use cases that most organizations are facing related to data, anlaytics and visualistions. The Solution Accelerators are designed to help evaluators go from idea to proof of concept (PoC) in less than 2 weeks.  Some of the templates are based on accelerators offered by vendors such as Databricks, Microsoft and other vendors.  In cases where we base our work on a vendor's accelerator or template, we provide a detailed comparison chart highlighting the additional functionality that is provided over the stock accelerators and templates.
 
 
 
 ### GIFT-EHR Modern Clinical Health Data Lake Accelerator
 
-The GIFT EHR accelerator is based on the sample data in the Modern Clinical Health Data Lake solution accelerator provided by DataBricks.
+The GIFT EHR accelerator is based on the sample data in the Modern Clinical Health Data Lake solution accelerator provided by Databricks.
 
-Purpose:  This accelerator demonstrates "how Delta Lake makes it easier to work with large clinical datasets, we will start off with a simple but powerful use case. We will build a dashboard that allows us to identify comorbid conditions (one or more diseases or conditions that occur along with another condition in the same person at the same time) across a population of patients. To do this, we will use a simulated EHR dataset, generated by the Synthea simulator, made available through Databricks Datasets (AWS | Azure). This dataset represents a cohort of approximately 11,000 patients from Massachusetts, and is stored in 12 CSV files. We will load the CSV files in, before masking protected health information (PHI) and joining the tables together to get the data representation we need for our downstream query. Once the data has been refined, we will use SparkR to build a dashboard that allows us to interactively explore and compute common health statistics on our dataset." - per [DataBricks](https://databricks.com/blog/2020/04/21/building-a-modern-clinical-health-data-lake-with-delta-lake.html)
+Purpose:  This accelerator demonstrates "how Delta Lake makes it easier to work with large clinical datasets, we will start off with a simple but powerful use case. We will build a dashboard that allows us to identify comorbid conditions (one or more diseases or conditions that occur along with another condition in the same person at the same time) across a population of patients. To do this, we will use a simulated EHR dataset, generated by the Synthea simulator, made available through Databricks Datasets (AWS | Azure). This dataset represents a cohort of approximately 11,000 patients from Massachusetts, and is stored in 12 CSV files. We will load the CSV files in, before masking protected health information (PHI) and joining the tables together to get the data representation we need for our downstream query. Once the data has been refined, we will use SparkR to build a dashboard that allows us to interactively explore and compute common health statistics on our dataset." - per [Databricks](https://databricks.com/blog/2020/04/21/building-a-modern-clinical-health-data-lake-with-delta-lake.html)
 
 ### GIFT-GLOW Genomic Analysis at Scale Accelerator
 
-The GIFT GLOW accelerator is based on the sample data and code in the Modern Clinical Health Data Lake solution accelerator provided by DataBricks.
+The GIFT GLOW accelerator is based on the sample data and code in the Modern Clinical Health Data Lake solution accelerator provided by Databricks.
 
 Purpose:  This accelrator demonstrates "a toolkit for working with genomic data at biobank-scale and beyond.  Genomics data has been doubling every seven months globally. It has reached a scale where genomics has become a big data problem. However, most tools for working with genomics data run on single nodes and will not scale. Furthermore, it has become challenging for scientists to manage storage, analytics and sharing of public data. Glow solves these problems by bridging bioinformatics and the big data ecosystem. It enables bioinformaticians and computational biologists to leverage best practices used by data engineers and data scientists across industry." - per [GLOW](https://glow.readthedocs.io/en/latest/)
 
@@ -79,7 +100,9 @@ Individuals and companies are encouraged to implement their own subject matter s
 
 ## Example Gold Use Cases
 
-### UC1: Report Management
+### UC1: Project Communication and Status
+
+### UC2: Report Management
 
 The basic functionalily ot report subscriptions in PowerBI is quite limited. Self-service susbscriptions in the Gift Templates allow the following functionality that is not available in other off the shelf products.
 
@@ -97,58 +120,11 @@ The basic functionalily ot report subscriptions in PowerBI is quite limited. Sel
 12. There is no limit on the number of external subscribers or subscriptions per report.
 13. The report text is configurable via email Different email aliases are allowed for different environments such as dev and test. Report email text include a default link to the SharePoint library that includes a history of output from preivous report runs.
 
-### UC2: Standard Reports
+### UC3: Standard Reports
 
 1.  Data Dictionary. A standard data dictionary report is available for all projects using the GIFT meta data features. The basic data dictionaries created by off the shelf products are quite limited. In addition, to the standard data points of name, data type, and text, the GIFT templates allow for a) automatically listing available data elements for datasets with less than 100 distinct values. b) providing full data lineage and traceability. c) linking and filtering to report projects and other meta-data. d) number of unique elements, number of null values and range of data elements.
 
 2.  Automated Data Quality. A standard data quality report is available for all projects. The automated components of the report for bronze data compare the data lake tables to initial source input and acccount for differences in 1) data types 2) nullability 3) field name 4) column count 5) row count and 6) count of distinct valus.
-
-## Freqently Asked Questions:  Are GIFT templates useful for your organization?
-
-### Question 1:  GIFT basically helps aggregate a bunch of the public datasets out there, clean them up and standardize them for consumption?
-- Answer: No, GIFT is a generic software service that performs common data, analytics and visualization tasks.  The templates are generic and not specific to the public sector or healthcare.  The templates can ingest bronze data from any standard datasource in multiple formats from multiples industries.  The templates can transfer the data into gold output in multiple formats.  The templates provide generic devops and data catalog utilities that may be used out of the box on any GIFT project.  The GIFT infrastructure provides a generic platform with built-in best practices for implementing a data as a service architecture.  There are health specific "solution accelerators" provided with fictional data to help users explore and understand the archictecture in a simulated real world environment but the GIFT templates do not provide any factual data feeds from the CDC.
-
-### Question 2:  GIFT is tied or promoted by a specific vendor or solution provider that is trying to sell a good or service?
-- Answer: No, GIFT was developed for use internally at the CDC.  The work is a public resource and does not intend to specifically promote, endorse or recommend specific solutions from cloud, software or service providers.  It is an attempt to provide vendor agnostic best practices for data, analytics and visualization.
-
-### Question 3:  Can we use the templates if we don't have a license for Microsoft Office365, Teams, SharePoint, Power Automate or Power BI Premium?
-- Answer: Yes, you can use components.  The notebooks bronze input data is driven by csv files and not tightly coupled to SharePoint.  We are currently investigating creating an alternate path to create the csv files via Google Sheets as an alternative to SharePoint.  There are standard notebooks to create csv and parquet output that do not require Power BI premium.  You can use these notebooks to generate csv and even excel output if a Power BI premium license is not available.  Similary there are alternative to all of the functionity in power automate to send emails, generate and export to SharePoint.
-
-### Question 4: Can we use the templates if we are we are a Microsoft legacy shop using on premise SQL Server and not operating in the cloud?
-- Answer:  Yes, you can use components.  All of the reporting stack, email stack, and SharePoint stack can operate on rdl, active directory and other components that work fine with legacy technologies.  The templates also provide a path to transition to a Cloud first strategy.
-
-### Question 5: Can we use the templates if we are not a Microsoft shop, we don't use C#, .Net Core or Azure?
--  Answer:  Yes, you can use components.  Most of the bronze, silver and gold data components are based on Spark SQL from DataBricks which supports a variety of programming languages such as Python and Scala and will deploy to AWS.  The primary langauge of most of the code is SQL.
-
-### Question 6: Can we use the templates if we are a Microsoft shop, we don't use Python, Scala, etc.?
-- Answer:  Yes, you can use components.  Most of the reporting layer uses drag and drop tools like Microsoft Power BI or Tableau.  Some middleware components such as the OAuth security layer are written in C#.    The primary language of most of the code is SQL.
-
-### Question 7:  Can we use the templates if we are a Tableau shop, we don't use Power BI.
-- Answer:  Yes, you can use components.
-
-### Question 8:  Can we use the templates if we are an AWS shop, we don't use Azure?
-- Answer:  Yes, you can use components.
-
-### Question 9:  We are already using technology X to produce Excel, PDF, or online reports.   Is it worth it to change?
-- Answer:  Possibly.  Would your users prefer reports
-    - delivered scheduled or triggered by events without waiting to process via email, SharePoint, OneDrive or other cloud storage?
-    - configurable in terms of recipients, text and contents with self service subscribe and unsubscribe?
-    - cataloged and all the reports discoverable?
-    - secured with a common security model with documented traceability to users, projects and roles?
-    - monitored and reported for cost and value based on usage and spend?
-    - monitored and reported based on failure and success with fault tolerance and retry capabilities?
-    - data cached where applicable so that expensive database resource use is minimized?
-- If you answered yes to any of these questions and that functionality is not currently offered in your organization, you may benefit from using the GIFT templates.
-
-### Question 10:  Can we use the templates if we are a public external facing website that can't incur per user charges?
--  Answer:  Yes, you can use components.  We have a sample Angular web portal, OAuth code and other components to designed to address this use case.
-
-### Question 11: Can we use the templates if we don't have strong naming conventions and accountability?
--  Answer:  Yes, the GIFT templates promote the naming conventions documented in the standards section but the conventions are not requirements.  Moving to the templates can highlight where standards are not consistent through common documentation.  This is particularly helpful when using the templates across multiple projects with different teams and different standards to highlight the differences in conventions.
-
-### Question 12:  Can we use the templates if we don't want to change our technoglogy stack?
-- Answer:  Yes, the primary value of the GIFT templates are in business process improvements.  Regardless of your technology stack, there is a high probability that there are 1) blackholes in your bronze data store where data is input via feeds or data entry and it is never output in a gold data product.  2) miracles in your executive reports where data labels, captions, aggregates and other data elements emerge as miracles in your gold output but are never catlaoged in your bronze data store 3)  Similarly, there are probably missing metadata management best practices for discoverability and security that could benefit your organization 4) inefficient data types such varchar(max) or missing primary keys that are impacting the effiency of your data store.
-
 
 ## GIFT Priorities and Approach
 
@@ -345,8 +321,63 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 -   davt-analytics
 
-
 ## Getting Started
+
+### Set up Databricks Cloud Hosting Environment
+
+#### Option 1:  Sign up for Full-Service Cloud Hosting Provider
+- 1a. [Amazon Web Services-AWS](https://aws.amazon.com/)
+- 1b. [Azure](https://azure.microsoft.com/)
+- 1c. [Google Cloud](https://cloud.google.com/)
+
+#### Option 2: Sign up for Databricks Limited Free Community Edition Hosting Provider
+
+- 2a1. Click Try Databricks [here](https://databricks.com/try-databricks?_ga=2.255070344.1413392081.1642363045-623941688.1642019057)  or at the top of this page.
+- 2a2. Enter your name, company, email, and title, and click GET STARTED FOR FREE.
+- 2a3. On the Choose a cloud provider dialog, choose AWS click the Get started with Community Edition link.
+- 2a4. Reply to email and set password
+- 2a5. Bookmark and continue to login at [community.cloud.databricks.com](https://community.cloud.databricks.com/login.html)
+
+### Configure Databricks Cluster
+
+1.  Once you launch the Databricks workspace, on the left-hand navigation panel, click 'Clusters'.
+2.  From here, click 'Create Cluster'.
+3.  Create cluster:
+    There are two main types of clusters in Databricks:
+    - Interactive: An interactive cluster is a cluster you manually create through the cluster UI, and is typically shared by multiple users across multiple notebooks.
+    - Job: A job cluster is an ephemeral cluster that is tied to a Databricks Job. It spins up and then back down automatically when the job is being run.
+    For our project development we will use Interact.
+4. Name your cluster.
+    - Our current naming standard is root_project_id_project_id_adbcluster_environment
+    - example:  gift_ehr_adbcluster_dev
+5. Choose your cluster mode if not in community edition.
+    There are two options for cluster mode:
+    - Standard: Single user / small group clusters - can use any language.
+    - High Concurrency: A cluster built for minimizing latency in high concurrency workloads.
+    For our project development we will use Standard.
+
+### Generate a GitHub Access Token (PAT)
+
+In GitHub, follow these steps to create a personal access token that allows access to your repositories:
+1. In the upper-right corner of any page, click your profile photo, then click Settings.
+2. Click Developer settings.
+3. Click the Personal access tokens tab.
+4. Click the Generate new token button.
+5. Enter a token description.
+6. Select the repo permission, and click the Generate token button.
+7. Copy the token to your clipboard. You enter this token in Databricks in the next step.
+
+See the GitHub [documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) to learn more about how to create personal access tokens.
+
+### Configure Git in Dataricks: Premium Option:  Save your Access Token to Databricks
+In Databricks,
+1. Click User Settings Icon Settings at the lower left of your screen
+2. Click User Settings.
+3. Click the Git Integration tab. If you have previously entered credentials, click the Change settings button.
+4. In the Git provider drop-down, select GitHub.
+5. Paste your token into the Token field.
+6. Enter your GitHub username or email into the Git provider username or email field and click Save.
+
 
 ### Set up local enviroment
 
