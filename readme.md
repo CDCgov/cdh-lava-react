@@ -14,7 +14,7 @@ The templates use an architecture designed to be self service, data driven, even
 ## GIFT Data, Analytics and Visualization Use Roles and Use Cases
 
 The feature list may seem overwhelming.  The following chart highlights the use cases that are applicable to the different roles.  An individual where may multiple hats and perform different roles.  All items in green can be performed with no procedural programming and are designe for self-service BI in the delta lake storefront.  Items in the red part of the flow are designed to be performed in the delta lake developer kitchen by trained IT professionals.
->>>>>>> main
+
 
 ![User Roles and Use Cases](templates/../_templates/docs/images/user_roles_and_use_cases.png)
 
