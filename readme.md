@@ -325,7 +325,11 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 ### Set up Databricks Cloud Hosting Environment
 
+<<<<<<< HEAD
 #### Option 1:  Sign up for Full-Service Cloud Hosting Provider
+=======
+#### Option 1:  Sign up for Full-Service Cloud Hosting Provider 
+>>>>>>> e97e49cf46417228fda5ad595b2d751d0d2a3efc
 - 1a. [Amazon Web Services-AWS](https://aws.amazon.com/)
 - 1b. [Azure](https://azure.microsoft.com/)
 - 1c. [Google Cloud](https://cloud.google.com/)
@@ -342,21 +346,38 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 1.  Once you launch the Databricks workspace, on the left-hand navigation panel, click 'Clusters'.
 2.  From here, click 'Create Cluster'.
+<<<<<<< HEAD
 3.  Create cluster:
     There are two main types of clusters in Databricks:
     - Interactive: An interactive cluster is a cluster you manually create through the cluster UI, and is typically shared by multiple users across multiple notebooks.
     - Job: A job cluster is an ephemeral cluster that is tied to a Databricks Job. It spins up and then back down automatically when the job is being run.
     For our project development we will use Interact.
 4. Name your cluster.
+=======
+3.  Create cluster: 
+    There are two main types of clusters in Databricks:
+    - Interactive: An interactive cluster is a cluster you manually create through the cluster UI, and is typically shared by multiple users across multiple notebooks.
+    - Job: A job cluster is an ephemeral cluster that is tied to a Databricks Job. It spins up and then back down automatically when the job is being run. 
+    For our project development we will use Interact.
+4. Name your cluster.  
+>>>>>>> e97e49cf46417228fda5ad595b2d751d0d2a3efc
     - Our current naming standard is root_project_id_project_id_adbcluster_environment
     - example:  gift_ehr_adbcluster_dev
 5. Choose your cluster mode if not in community edition.
     There are two options for cluster mode:
+<<<<<<< HEAD
     - Standard: Single user / small group clusters - can use any language.
     - High Concurrency: A cluster built for minimizing latency in high concurrency workloads.
     For our project development we will use Standard.
 
 ### Generate a GitHub Access Token (PAT)
+=======
+    - Standard: Single user / small group clusters - can use any language.  
+    - High Concurrency: A cluster built for minimizing latency in high concurrency workloads.
+    For our project development we will use Standard.
+    
+### Generate a GitHub Access Token (PAT) 
+>>>>>>> e97e49cf46417228fda5ad595b2d751d0d2a3efc
 
 In GitHub, follow these steps to create a personal access token that allows access to your repositories:
 1. In the upper-right corner of any page, click your profile photo, then click Settings.
@@ -371,7 +392,11 @@ See the GitHub [documentation](https://docs.github.com/en/authentication/keeping
 
 ### Configure Git in Dataricks: Premium Option:  Save your Access Token to Databricks
 In Databricks,
+<<<<<<< HEAD
 1. Click User Settings Icon Settings at the lower left of your screen
+=======
+1. Click User Settings Icon Settings at the lower left of your screen 
+>>>>>>> e97e49cf46417228fda5ad595b2d751d0d2a3efc
 2. Click User Settings.
 3. Click the Git Integration tab. If you have previously entered credentials, click the Change settings button.
 4. In the Git provider drop-down, select GitHub.
