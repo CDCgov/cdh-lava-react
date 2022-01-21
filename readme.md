@@ -328,7 +328,7 @@ These projects contain over 50 reports that are in the process of onboarding to 
 <<<<<<< HEAD
 #### Option 1:  Sign up for Full-Service Cloud Hosting Provider
 =======
-#### Option 1:  Sign up for Full-Service Cloud Hosting Provider 
+#### Option 1:  Sign up for Full-Service Cloud Hosting Provider
 >>>>>>> e97e49cf46417228fda5ad595b2d751d0d2a3efc
 - 1a. [Amazon Web Services-AWS](https://aws.amazon.com/)
 - 1b. [Azure](https://azure.microsoft.com/)
@@ -354,12 +354,12 @@ These projects contain over 50 reports that are in the process of onboarding to 
     For our project development we will use Interact.
 4. Name your cluster.
 =======
-3.  Create cluster: 
+3.  Create cluster:
     There are two main types of clusters in Databricks:
     - Interactive: An interactive cluster is a cluster you manually create through the cluster UI, and is typically shared by multiple users across multiple notebooks.
-    - Job: A job cluster is an ephemeral cluster that is tied to a Databricks Job. It spins up and then back down automatically when the job is being run. 
+    - Job: A job cluster is an ephemeral cluster that is tied to a Databricks Job. It spins up and then back down automatically when the job is being run.
     For our project development we will use Interact.
-4. Name your cluster.  
+4. Name your cluster.
 >>>>>>> e97e49cf46417228fda5ad595b2d751d0d2a3efc
     - Our current naming standard is root_project_id_project_id_adbcluster_environment
     - example:  gift_ehr_adbcluster_dev
@@ -372,11 +372,11 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 ### Generate a GitHub Access Token (PAT)
 =======
-    - Standard: Single user / small group clusters - can use any language.  
+    - Standard: Single user / small group clusters - can use any language.
     - High Concurrency: A cluster built for minimizing latency in high concurrency workloads.
     For our project development we will use Standard.
-    
-### Generate a GitHub Access Token (PAT) 
+
+### Generate a GitHub Access Token (PAT)
 >>>>>>> e97e49cf46417228fda5ad595b2d751d0d2a3efc
 
 In GitHub, follow these steps to create a personal access token that allows access to your repositories:
@@ -395,7 +395,7 @@ In Databricks,
 <<<<<<< HEAD
 1. Click User Settings Icon Settings at the lower left of your screen
 =======
-1. Click User Settings Icon Settings at the lower left of your screen 
+1. Click User Settings Icon Settings at the lower left of your screen
 >>>>>>> e97e49cf46417228fda5ad595b2d751d0d2a3efc
 2. Click User Settings.
 3. Click the Git Integration tab. If you have previously entered credentials, click the Change settings button.
