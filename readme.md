@@ -11,9 +11,9 @@ The templates use an architecture designed to be self service, data driven, even
 ![Delta-Lake-Multi-Hop-Architecture-Bronze](templates/../_templates/docs/images/bronze_to_gold_overview.png)
 
 
-## GIFT Data, Analytics and Visualization Use Roles and Use Cases
+## GIFT Data, Analytics and Visualization User Roles and Use Cases
 
-The feature list may seem overwhelming.  The following chart highlights the use cases that are applicable to the different roles.  An individual where may multiple hats and perform different roles.  All items in green can be performed with no procedural programming and are designe for self-service BI in the delta lake storefront.  Items in the red part of the flow are designed to be performed in the delta lake developer kitchen by trained IT professionals.
+The feature list may seem overwhelming.  The following chart highlights the use cases that are applicable to the different roles.  An individual may wear multiple hats and perform different roles.  All items in green can be performed with no procedural programming and are designed for self-service BI in the delta lake "self-service storefront".  Items in the red part of the flow are designed to be performed in the delta lake "developer kitchen" by trained IT professionals.
 
 
 ![User Roles and Use Cases](templates/../_templates/docs/images/user_roles_and_use_cases.png)
