@@ -10,11 +10,9 @@ The templates use an architecture designed to be self service, data driven, even
 
 ![Delta-Lake-Multi-Hop-Architecture-Bronze](templates/../_templates/docs/images/bronze_to_gold_overview.png)
 
+## GIFT Data, Analytics and Visualization Use Roles and Use Cases
 
-## GIFT Data, Analytics and Visualization User Roles and Use Cases
-
-The feature list may seem overwhelming.  The following chart highlights the use cases that are applicable to the different roles.  An individual may wear multiple hats and perform different roles.  All items in green can be performed with no procedural programming and are designed for self-service BI in the delta lake "self-service storefront".  Items in the red part of the flow are designed to be performed in the delta lake "developer kitchen" by trained IT professionals.
-
+The feature list may seem overwhelming.  The following chart highlights the use cases that are applicable to the different roles.  An individual where may multiple hats and perform different roles.  All items in green can be performed with no procedural programming and are designe for self-service BI in the delta lake storefront.  Items in the red part of the flow are designed to be performed in the delta lake developer kitchen by trained IT professionals.
 
 ![User Roles and Use Cases](templates/../_templates/docs/images/user_roles_and_use_cases.png)
 
@@ -235,7 +233,7 @@ When the current reports were analyzed two common pitfalls were discovered in th
 
 The following web pages shows the type of information that is configured in a self-service manner through SharePoint lists in the current architecture.
 
-![CaptureSelfService](https://user-images.githubusercontent.com/2504540/147579107-65fa0f9b-797c-45a2-a94a-0ead7f1cfbcd.PNG)
+![Self Service Overview]( templates/../_templates/docs/images/self_service_overview.png)
 
 **Definition of Data Driven**
 
@@ -325,10 +323,42 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 ## Getting Started
 
+
+### Set up local enviroment
+
+#### Office
+
+- Install One Drive (if CDC sign in with CDC account)
+- Install Teams
+- Configure Teams / OneDrive / SharePoint
+1.  It is recommended to set up teams channel and store your work in onedrive to increase transparency during development
+2.  Create a new channel in teams named GIFT-Analytics or subscribe to this channel if at the CDC
+3.  Go to the files tab for the channel
+4.  Choose open in SharePoint
+5.  In SharePoint choose add shortcut to OneDrive, this will add the folder to your windows explorer
+6.  Create a folder inside GIFT-Analytics with your alias - for example: C:\Users\zfi4\OneDrive - CDC\GIFT-Analytics\zfi4
+7.  Note the location to initialize your repository in the next step
+
+#### VS Code / GIT
+
+- Install VS Code
+
+1. Install [Git for Windows](https://git-scm.com/download/win)
+2. Install [VS Code](https://code.visualstudio.com/)
+3. Install [Azure Client](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+4. Install [Node](https://nodejs.org/en/)
+5. Install VSCode Extension - Azure Account
+6. Install VSCode Extension - Azure CLI Tools
+7. Install VSCode Extension - Azure Logic Apps
+8. Install VSCode Extension - Azure Storage
+9. Install VSCode Extension - GitHub Pull Requests and Issues
+10. Install VSCode Extension Python
+
+- Review [Azure Cloud Shell Instructions](https://microsoft.github.io/AzureTipsAndTricks/blog/tip49.html)
+
 ### Set up Databricks Cloud Hosting Environment
 
 #### Option 1:  Sign up for Full-Service Cloud Hosting Provider
-
 - 1a. [Amazon Web Services-AWS](https://aws.amazon.com/)
 - 1b. [Azure](https://azure.microsoft.com/)
 - 1c. [Google Cloud](https://cloud.google.com/)
@@ -345,26 +375,21 @@ These projects contain over 50 reports that are in the process of onboarding to 
 
 1.  Once you launch the Databricks workspace, on the left-hand navigation panel, click 'Clusters'.
 2.  From here, click 'Create Cluster'.
-
 3.  Create cluster:
     There are two main types of clusters in Databricks:
     - Interactive: An interactive cluster is a cluster you manually create through the cluster UI, and is typically shared by multiple users across multiple notebooks.
     - Job: A job cluster is an ephemeral cluster that is tied to a Databricks Job. It spins up and then back down automatically when the job is being run.
     For our project development we will use Interact.
 4. Name your cluster.
-
     - Our current naming standard is root_project_id_project_id_adbcluster_environment
     - example:  gift_ehr_adbcluster_dev
 5. Choose your cluster mode if not in community edition.
     There are two options for cluster mode:
-
-
     - Standard: Single user / small group clusters - can use any language.
     - High Concurrency: A cluster built for minimizing latency in high concurrency workloads.
     For our project development we will use Standard.
 
 ### Generate a GitHub Access Token (PAT)
-
 
 In GitHub, follow these steps to create a personal access token that allows access to your repositories:
 1. In the upper-right corner of any page, click your profile photo, then click Settings.
@@ -379,25 +404,13 @@ See the GitHub [documentation](https://docs.github.com/en/authentication/keeping
 
 ### Configure Git in Dataricks: Premium Option:  Save your Access Token to Databricks
 In Databricks,
-
 1. Click User Settings Icon Settings at the lower left of your screen
->>>>>>> main
 2. Click User Settings.
 3. Click the Git Integration tab. If you have previously entered credentials, click the Change settings button.
 4. In the Git provider drop-down, select GitHub.
 5. Paste your token into the Token field.
 6. Enter your GitHub username or email into the Git provider username or email field and click Save.
 
-
-### Set up local enviroment
-
-1.  It is recommended to set up teams channel and store your work in onedrive to increase transparency during development
-2.  Create a new channel in teams named GIFT-Analytics or subscribe to this channel if at the CDC
-3.  Go to the files tab for the channel
-4.  Choose open in SharePoint
-5.  In SharePoint choose add shortcut to OneDrive, this will add the folder to your windows explorer
-6.  Create a folder inside GIFT-Analytics with your alias - for example: C:\Users\zfi4\OneDrive - CDC\GIFT-Analytics\zfi4
-7.  Note the location to initialize your repository in the next step
 
 ### Set up repository
 
@@ -816,5 +829,4 @@ published through the [CDC web site](http://www.cdc.gov).
 Please refer to [CDC's Template Repository](https://github.com/CDCgov/template)
 for more information about [contributing to this repository](https://github.com/CDCgov/template/blob/master/CONTRIBUTING.md),
 [public domain notices and disclaimers](https://github.com/CDCgov/template/blob/master/DISCLAIMER.md),
-and [code of conduct](https://github.com/CDCgov/template/blob/master/code-of-conduct.md).
-
+and [code of conduct](https://github.com/CDCgov/template/blob/master/code-of-conduct.md).  
