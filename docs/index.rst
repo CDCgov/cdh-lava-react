@@ -67,10 +67,10 @@ To get access the GIFT/DAVT resources on github.
 
 1. Register by either
 
-- logging in with an existing personal GitHub account with your personal email login or
-- register their CDC email.  However, you can register your CDC email with your GitHub account.
+- For existing users: Log in with your existing personal GitHub account with your personal email login or CDC email login
+- For new users: Register your personal or CDC email with GitHub account following the [GitHub Onboarding Instructions](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account).
 
-2. Associate GitHub Account with CDCEnt
+2. Associate GitHub Account with the CDCEnt Organization
 
 - Complete: GitHub Enterprise [Cloud Access Request](https://forms.office.com/Pages/ResponsePage.aspx?id=aQjnnNtg_USr6NJ2cHf8j44WSiOI6uNOvdWse4I-C2NUQjVJVDlKS1c0SlhQSUxLNVBaOEZCNUczVS4u&wdLOR=c68990C94-A46B-467C-A841-B58D7BD9721D)
 - You will receive email with instructions after completing the form: if you are approved for GitHub Enterprise Cloud usage as official user - you will receive an invite from GitHub to join the GitHub/CDCent organization using your username@cdc.gov email account (some invites get caught in our junk mail folders; and when you accept the invitation in your email, don"t use Internet Explorer\*). Your invitation expires in 7 days, so please accept. If it expires, we can recreate it, but then that will use up more time that we could be using on interesting things.
@@ -92,5 +92,5 @@ To get access the GIFT/DAVT resources on github.
       - Your primary work location (city, state).
     * - **Photo**
       - A headshot photo, or an image that is unique to you. While technically the space invader icon that is automatically set up for noobs is unique, it"s hard to tell apart
-     
+
 
