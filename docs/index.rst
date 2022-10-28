@@ -79,18 +79,19 @@ To get access the GIFT/DAVT resources on github.
 - First Steps: If you"d like to use your existing GitHub handle, please add and confirm your CDC email address with your GitHub account before you click the invite link. If you prefer, you can also create a 2nd GitHub account specifically for CDC projects, though this can be unwieldy to keep track of and so we do not recommend it.
 - Once you accept your invite, you"re a member of the CDCent github organization. Please set up your profile with enough info to help you work better with your CDC colleagues, so people aren"t scratching their heads thinking "who the heck is washyohands77?" Complete your profile with at least the following information: more info
 
+.............................................................................
+
 .. list-table::
     :widths: 20 80
     :header-rows: 1
 
-
+    * - **Item**
+      - Description
     * - **Name**
-      -Your first and last name.
+      - Your first and last name.
     * - **Company**
       - Your government agency. (If you also use GitHub for personal projects, consider specifying "CDC (work) + personal projects" to make it clear that some of your GitHub projects may be personal in nature.)
     * - **Location**
       - Your primary work location (city, state).
     * - **Photo**
       - A headshot photo, or an image that is unique to you. While technically the space invader icon that is automatically set up for noobs is unique, it"s hard to tell apart
-
-
