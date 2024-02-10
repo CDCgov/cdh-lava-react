@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "name": "cdc-react-app",
+  "packages": ["packages/*"],
+  "publish": {
+    "registry": "https://npm.pkg.github.com/cdcent",
+    "otp": "$GITHUB_TOKEN",
+    "distTag": "latest",
+    "npmClientArgs": [
+      "--registry=https://npm.pkg.github.com/cdcent"
+    ]
+  },
+  "npmClient": "yarn",
+  "version": "independent"
+}

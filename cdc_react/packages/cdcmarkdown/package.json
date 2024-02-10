@@ -1,0 +1,42 @@
+{
+  "name": "@cdc/cdcmarkdown",
+  "version": "202401.0.36",
+  "description": "React component for displaying HTML content from an outside link",
+  "moduleName": "CDCMarkdown",
+  "main": "dist/cdcmarkdown",
+  "type": "module",
+  "scripts": {
+    "start": "vite --open",
+    "build": "npx vite build",
+    "preview": "vite preview",
+    "graph": "nx graph",
+    "prepublishOnly": "npm run build",
+    "test": "vitest watch --reporter verbose",
+    "test:ui": "vitest --ui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdcent/data-ecosystem-services/cdcmarkdown",
+    "directory": "packages/markup-include"
+  },
+  "author": "Rob Shelnutt <rob@blackairplane.com>",
+  "bugs": {
+    "url": "https://github.com/cdcent/data-ecosystem-services/cdcmarkdown/issues"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/cdcent/data-ecosystem-services/cdcmarkdown#readme",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chroma": "0.0.1",
+    "chroma-js": "^2.1.0",
+    "html-react-parser": "^3.0.8",
+    "interweave": "^13.0.0",
+    "react-accessible-accordion": "^5.0.0"
+  },
+  "peerDependencies": {
+    "cacache": "^15.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "gitHead": "df45f03dc3b0649751d7df5b86b5148b6ac10eeb"
+}

@@ -1,0 +1,338 @@
+/**
+ * @version 4.22.11
+ * Date: 2023-02-01T12:38:11.768Z
+ */
+html {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+@page {
+  margin: 0.5in;
+}
+@-moz-document url-prefix() {
+  .row,
+.d-flex {
+    display: block !important;
+  }
+}
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 auto;
+  text-rendering: optimizelegibility;
+  padding: 0 !important;
+  min-width: 768px;
+}
+
+table,
+tr,
+td,
+th {
+  color: black !important;
+}
+
+a {
+  text-decoration: none !important;
+  page-break-inside: avoid;
+  /* in case we want to handle this differently, for instance, */
+}
+a[href]::after {
+  font-size: 80% !important;
+  color: blue !important;
+}
+
+.print-urls a[href^=http]::after, .print-urls a[href^="/"]::after {
+  content: " (" attr(href) ")";
+}
+
+#cdc-qrcode-placeholder {
+  display: inline-block !important;
+  float: right;
+  width: 118px;
+}
+#cdc-qrcode-placeholder img {
+  width: 100%;
+}
+
+header .cdc-logo {
+  width: 80%;
+  display: inline-block;
+  height: 96px;
+}
+
+.accordion .collapse {
+  display: block;
+}
+
+.nav-tabs .tab-pane {
+  display: block;
+}
+
+.tab-content > .tab-pane {
+  display: block;
+}
+
+.cdc-card-slider .slick-list {
+  height: auto !important;
+}
+.cdc-card-slider .slick-dots,
+.cdc-card-slider .slick-arrow,
+.cdc-card-slider .slick-pref,
+.cdc-card-slider .slick-next {
+  display: none !important;
+}
+.cdc-card-slider .slick-track {
+  width: auto !important;
+  height: auto !important;
+  transform: none !important;
+  display: block !important;
+}
+.cdc-card-slider .slick-track .slick-slide {
+  width: auto !important;
+}
+.cdc-card-slider .slick-track .slick-slide.slick-cloned {
+  display: none !important;
+}
+.cdc-card-slider .slick-track .slick-slide.slick-active {
+  display: block !important;
+}
+
+.site-title {
+  background: white !important;
+  color: white !important;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.site-title a {
+  color: white !important;
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+}
+
+p,
+blockquote,
+table,
+ul,
+ol,
+dl {
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+p:last-child,
+ul:last-child,
+ol:last-child {
+  margin-bottom: 0;
+}
+
+.text-white a[href]::after {
+  color: white !important;
+}
+
+.container,
+.container-fluid {
+  width: 100% !important;
+  min-width: 100% !important;
+}
+
+.col-p-1 {
+  flex: 0 0 8.3333%;
+  max-width: 8.3333%;
+}
+
+.col-p-2 {
+  flex: 0 0 16.6667%;
+  max-width: 16.6667%;
+}
+
+.col-p-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-p-4 {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+}
+
+.col-p-5 {
+  flex: 0 0 41.6667%;
+  max-width: 41.6667%;
+}
+
+.col-p-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-p-7 {
+  flex: 0 0 58.3333%;
+  max-width: 58.3333%;
+}
+
+.col-p-8 {
+  flex: 0 0 66.6667%;
+  max-width: 66.6667%;
+}
+
+.col-p-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-p-10 {
+  flex: 0 0 83.3333%;
+  max-width: 83.3333%;
+}
+
+.col-p-11 {
+  flex: 0 0 91.6667%;
+  max-width: 91.6667%;
+}
+
+.col-p-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+h2,
+h3,
+h4,
+p,
+a {
+  orphans: 3;
+  widows: 3;
+}
+
+pre {
+  white-space: pre-wrap !important;
+  word-wrap: break-word;
+}
+
+.content {
+  padding-left: 15px !important;
+}
+
+main.col-lg-9 {
+  width: 100% !important;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.cdc-timeline > li {
+  page-break-inside: avoid;
+}
+
+.card-header a::after {
+  color: white !important;
+}
+
+.slide-caption a[href],
+.slide-caption a[href]::after {
+  color: white !important;
+}
+
+.slick-slider .slick-slide {
+  page-break-inside: avoid;
+  opacity: 1;
+}
+
+.slick-slider[data-cdc-slider=thumbnail-slider] .slick-slide {
+  height: auto !important;
+}
+
+/* elements to show */
+h1#content {
+  display: inline !important;
+  -moz-column-break-before: avoid;
+       break-before: avoid;
+  -moz-column-break-after: avoid;
+       break-after: avoid;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+  margin-top: 0 !important;
+}
+
+/* elements to hide */
+/* stylelint-disable selector-class-pattern */
+p > span.text-right.d-block,
+.tp-nav-main,
+.tp-search,
+nav#mobilenav,
+.mobile-section-nav,
+.section-nav-area,
+.sticky-top,
+.pca,
+.tp-on-this-page,
+.on-this-page,
+div.text-right.mb-2,
+.toTop,
+.openall,
+.closeall,
+footer,
+.page-share-wrapper,
+.page-format,
+.headerSearch,
+nav,
+header .cdc-logo a:not(:first-child),
+.cdc-logo a::after,
+.tagline,
+#page-validation,
+#cdc-page-info-tab,
+.config-panel,
+.card-footer .btn,
+.language-link,
+.jumbotron-overlay a:last-child,
+.slick-arrow,
+.leftnav-wrapper,
+.leftnav-wrapper nav,
+.leftnav-wrapper div.card,
+.video-container,
+.breadcrumbs,
+.no-print,
+.print-link,
+.p-none {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  height: 0;
+  width: 0;
+  text-indent: -9999px;
+  overflow: hidden !important;
+  line-height: 0 !important;
+  white-space: nowrap;
+}
+
+.last-reviewed {
+  margin: 0 !important;
+}
+
+.page-break,
+.page-break-before {
+  page-break-before: always;
+}
+
+.page-break-after {
+  page-break-after: always;
+}
+
+.p-small {
+  font-size: 0.75rem;
+}
+
+.p-vsmall {
+  font-size: 0.6rem;
+}
+
+.p-m-0 {
+  margin: 0 !important;
+}
+
+.p-p-0 {
+  padding: 0 !important;
+}

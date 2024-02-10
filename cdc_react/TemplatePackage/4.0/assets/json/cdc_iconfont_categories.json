@@ -1,0 +1,6949 @@
+{
+	"icon-taxonomies": {
+		"alerts-information-symbols": {
+			"title": "Alerts & Information Symbols",
+			"slug": "alerts-information-symbols",
+			"tax-type": "category",
+			"icons": []
+		},
+		"animals-nature": {
+			"title": "Animals & Nature",
+			"slug": "animals-nature",
+			"tax-type": "category",
+			"icons": []
+		},
+		"arrows": {
+			"title": "Arrows",
+			"slug": "arrows",
+			"tax-type": "category",
+			"icons": []
+		},
+		"audio-video": {
+			"title": "Audio & Video",
+			"slug": "audio-video",
+			"tax-type": "category",
+			"icons": []
+		},
+		"body-parts-hands": {
+			"title": "Body Parts & Hands",
+			"slug": "body-parts-hands",
+			"tax-type": "category",
+			"icons": []
+		},
+		"books-files-documents": {
+			"title": "Books, Files & Documents",
+			"slug": "books-files-documents",
+			"tax-type": "category",
+			"icons": []
+		},
+		"buildings-places": {
+			"title": "Buildings & Places",
+			"slug": "buildings-places",
+			"tax-type": "category",
+			"icons": []
+		},
+		"business-work": {
+			"title": "Business & Work",
+			"slug": "business-work",
+			"tax-type": "category",
+			"icons": []
+		},
+		"chat-comment": {
+			"title": "Chat & Comment",
+			"slug": "chat-comment",
+			"tax-type": "category",
+			"icons": []
+		},
+		"coding": {
+			"title": "Coding",
+			"slug": "coding",
+			"tax-type": "category",
+			"icons": []
+		},
+		"controls": {
+			"title": "Controls",
+			"slug": "controls",
+			"tax-type": "category",
+			"icons": []
+		},
+		"data": {
+			"title": "Data & Research",
+			"slug": "data",
+			"tax-type": "category",
+			"icons": []
+		},
+		"date-time": {
+			"title": "Date & Time",
+			"slug": "date-time",
+			"tax-type": "category",
+			"icons": []
+		},
+		"devices": {
+			"title": "Devices",
+			"slug": "devices",
+			"tax-type": "category",
+			"icons": []
+		},
+		"disasters": {
+			"title": "Disasters & Emergency Preparedness",
+			"slug": "disasters",
+			"tax-type": "category",
+			"icons": []
+		},
+		"education": {
+			"title": "Education & Training",
+			"slug": "education",
+			"tax-type": "category",
+			"icons": []
+		},
+		"food": {
+			"title": "Food",
+			"slug": "food",
+			"tax-type": "category",
+			"icons": []
+		},
+		"general": {
+			"title": "General Icons",
+			"slug": "",
+			"tax-type": "category",
+			"icons": []
+		},
+		"health": {
+			"title": "Health & Illness",
+			"slug": "health",
+			"tax-type": "category",
+			"icons": []
+		},
+		"lab": {
+			"title": "Lab",
+			"slug": "lab",
+			"tax-type": "category",
+			"icons": []
+		},
+		"logos": {
+			"title": "Logos",
+			"slug": "logos",
+			"tax-type": "category",
+			"icons": []
+		},
+		"medical": {
+			"title": "Medical",
+			"slug": "medical",
+			"tax-type": "category",
+			"icons": []
+		},
+		"numbers": {
+			"title": "Numbers",
+			"slug": "numbers",
+			"tax-type": "category",
+			"icons": []
+		},
+		"objects": {
+			"title": "Objects",
+			"slug": "objects",
+			"tax-type": "category",
+			"icons": []
+		},
+		"people": {
+			"title": "People",
+			"slug": "people",
+			"tax-type": "category",
+			"icons": []
+		},
+		"prescriptions": {
+			"title": "Prescriptions & Pills",
+			"slug": "prescriptions",
+			"tax-type": "category",
+			"icons": []
+		},
+		"social": {
+			"title": "Social Media & Sharing",
+			"slug": "social",
+			"tax-type": "category",
+			"icons": []
+		},
+		"travel": {
+			"title": "Travel",
+			"slug": "travel",
+			"tax-type": "category",
+			"icons": []
+		}
+	},
+	"icons": {
+		"alert_01": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": [
+				"info",
+				"information"
+			]
+		},
+		"alert_02": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": [
+				"hazard",
+				"warning",
+				"exclamation"
+			]
+		},
+		"alert_03": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": [
+				"megaphone",
+				"announcement"
+			]
+		},
+		"alert_04": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": [
+				"megaphone",
+				"announcement"
+			]
+		},
+		"alert_05": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": [
+				"megaphone",
+				"announcement"
+			]
+		},
+		"alert_06": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": [
+				"hazard",
+				"warning"
+			]
+		},
+		"allergy_01": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": [
+				"cat",
+				"pollen"
+			]
+		},
+		"animal_01": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": [
+				"cow",
+				"bull",
+				"chicken",
+				"hen"
+			]
+		},
+		"animal_02": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": [
+				"crab"
+			]
+		},
+		"animal_03": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"audio_01": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"audio_02": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"audio_03": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"audio_04": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"audio_05": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"badge_01": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"badge_02": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"badge_03": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"badge_04": {
+			"categories": [
+				"business-work",
+				"medical"
+			],
+			"keywords": []
+		},
+		"badge_05": {
+			"categories": [
+				"business-work",
+				"medical"
+			],
+			"keywords": []
+		},
+		"bag_01": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"bat_1": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"book_01": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"book_02": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"book_03": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"book_04": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"bookmark_01": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"brain_01": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"building_01": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"building_02": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"building_03": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"building_04": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"calendar_01": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"cancer_02": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"cat_1": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"chart_01": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"chart_02": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"chart_03": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"chat_01": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"chat_02": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"chat_03": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"chat_04": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"chat_05": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"chicken_1": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"cleaning_01": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"cleaning_02": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"clipboard_01": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"clock_01": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"clothes_01": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"cloud_01": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"comment3": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"contact": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"crowd": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"data_01": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"device_01": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"device_02": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"device_03": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"device_04": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"digital-thermometer": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"direction_01": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"dog_1": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"download_01": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"ecig_01": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"ecig_02": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"ecig_03": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"ecigs": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"edit_01": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"email_01": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"email_02": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"email_03": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"eye_01": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"fig1_1": {
+			"categories": [
+				"logos"
+			],
+			"keywords": []
+		},
+		"flea_fly": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"flea": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"food_01": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"food_02": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"food_03": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"food_04": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"food_05": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"food_06": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"globe_01": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"globe_02": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"globe_03": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"grid_01": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"handwashing": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"hazard_01": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"hazard_02": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"hazard_03": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"hazard_04": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"hazard_05": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"heart_01": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"home_01": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"hospital_01": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": [
+				"medical",
+				"emergency"
+			]
+		},
+		"idea_01": {
+			"categories": [
+				"objects"
+			],
+			"keywords": []
+		},
+		"kidney_01": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"lab_01": {
+			"categories": [
+				"health",
+				"lab"
+			],
+			"keywords": []
+		},
+		"lab_02": {
+			"categories": [
+				"health",
+				"lab"
+			],
+			"keywords": []
+		},
+		"lab_03": {
+			"categories": [
+				"health",
+				"lab",
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"lab_04": {
+			"categories": [
+				"health",
+				"lab"
+			],
+			"keywords": []
+		},
+		"lab_05": {
+			"categories": [
+				"health",
+				"lab"
+			],
+			"keywords": []
+		},
+		"lab_06": {
+			"categories": [
+				"health",
+				"lab"
+			],
+			"keywords": []
+		},
+		"lab_07": {
+			"categories": [
+				"health",
+				"lab"
+			],
+			"keywords": []
+		},
+		"link_01": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"logo_01": {
+			"categories": [
+				"logos"
+			],
+			"keywords": []
+		},
+		"map_01": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"map_02": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"mask": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"medical_01": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"medical_02": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"medical_03": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"medical_04": {
+			"categories": [
+				"medical",
+				"people"
+			],
+			"keywords": []
+		},
+		"medical_05": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"medical_06": {
+			"categories": [
+				"medical",
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"medical_07": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"medical_08": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"medical_09": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"medical_10": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"medical_11": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"money_01": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"no_01": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"paper_01": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"paper_02": {
+			"categories": [
+				"books-files-documents",
+				"travel"
+			],
+			"keywords": []
+		},
+		"paper_03": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"people_01": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"people_02": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"people_03": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"people_04": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"people_05": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"people_06": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"people_07": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"people_08": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"people_09": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"phone_01": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"photo_01": {
+			"categories": [
+				"books-files-documents",
+				"devices",
+				"travel"
+			],
+			"keywords": []
+		},
+		"photo_02": {
+			"categories": [
+				"books-files-documents",
+				"devices",
+				"travel"
+			],
+			"keywords": []
+		},
+		"photo_03": {
+			"categories": [
+				"devices",
+				"travel"
+			],
+			"keywords": []
+		},
+		"photo_04": {
+			"categories": [
+				"devices",
+				"travel"
+			],
+			"keywords": []
+		},
+		"photo_05": {
+			"categories": [
+				"devices",
+				"travel"
+			],
+			"keywords": []
+		},
+		"pig_1": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"pin_01": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"pin_02": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"preschool": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"presentation_01": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"question_01": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"question_02": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"repellent": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"scale_01": {
+			"categories": [
+				"business-work",
+				"health"
+			],
+			"keywords": []
+		},
+		"scale_02": {
+			"categories": [
+				"business-work",
+				"health"
+			],
+			"keywords": []
+		},
+		"search_01": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"search_02": {
+			"categories": [
+				"controls",
+				"data"
+			],
+			"keywords": []
+		},
+		"search_03": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"signal_01": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"smoking_01": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"sports_01": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"stack_01": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"stack_02": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"stack_03": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"stack_04": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"symbol_01": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"symbol_02": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"symptom1": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"symptom2": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"symptom3": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"tick": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"tools_01": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"tools_02": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"tools_03": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"tools_04": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"travel_01": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"travel_02": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"tweezers": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"video_01": {
+			"categories": [
+				"audio-video",
+				"devices"
+			],
+			"keywords": []
+		},
+		"video_02": {
+			"categories": [
+				"audio-video",
+				"devices"
+			],
+			"keywords": []
+		},
+		"video_03": {
+			"categories": [
+				"audio-video",
+				"devices"
+			],
+			"keywords": []
+		},
+		"video_04": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"weather_01": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"weather_02": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"weather_03": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"weather_04": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"weather_05": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"weather_06": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"weather_07": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"weather_08": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"weather_09": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"weather_10": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"weather_11": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": []
+		},
+		"cdc-tv": {
+			"categories": [
+				"logos"
+			],
+			"keywords": []
+		},
+		"fb": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"flickr": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"googleplus": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"govd": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"insta": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"linkedin": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"pinterest": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"podcast": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"rss": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"syndication": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"tumblr": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"twitter": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"youtube": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"bookmark-white": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"cdc-tv-white": {
+			"categories": [
+				"logos"
+			],
+			"keywords": []
+		},
+		"email-white": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"fb-white": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"flickr-white": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"googleplus-white": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"govd-white": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"ig-white": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"linkedin-white": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"pinterest-white": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"podcast-white": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"rss-white": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"syndication-white": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"tumblr-white": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"twitter-white": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"youtube-white": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"epub": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"excel": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"external": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"image": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"media": {
+			"categories": [
+				"audio-video",
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"pdf": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"ppt": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"sas": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"stats": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"txt": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"word": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"zip": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"arrow-down": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"cdcsearch": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"close-circle": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"minus": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"next": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"play-circle-outline": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"plus": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"prev": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"resize": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"cdc-play": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"pause-circle-outline": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"pause-circle": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"pause-octagon-outline": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"pause-octagon": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"pause": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"repeat-off": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"repeat-once": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"repeat": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"replay": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"shuffle-disabled": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"shuffle-variant": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"shuffle": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"skip-backward": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"skip-forward": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"skip-next-circle-outline": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"skip-next-circle": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"skip-next": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"skip-previous-circle-outline": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"skip-previous-circle": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"skip-previous": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"stop": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"surround-sound-2-0": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"surround-sound-3-1": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"surround-sound-5-1": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"surround-sound-7-1": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"surround-sound": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"volume-high": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"volume-low": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"volume-medium": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"volume-minus": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"volume-mute": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"volume-off": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"volume-plus": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"volume": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"home": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"magnify": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"email": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"phone": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"settings": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"close": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"hubspot": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"microsoft": {
+			"categories": [
+				"logos"
+			],
+			"keywords": []
+		},
+		"windows": {
+			"categories": [
+				"logos"
+			],
+			"keywords": []
+		},
+		"square": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"address-book-light": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"address-card-light": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"allergies-light": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"ambulance-light": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"analytics-light": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"apple-alt-light": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"archive-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"arrow-alt-circle-down-light": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"arrow-alt-circle-left-light": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"arrow-alt-circle-right-light": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"arrow-alt-circle-up-light": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"atlas-light": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"baby-carriage-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"baby-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"balance-scale-light": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"ballot-check-light": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"ballot-light": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"band-aid-light": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"bed-light": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"bolt": {
+			"categories": [
+				"food",
+				"animals-nature"
+			],
+			"keywords": [
+				"water"
+			]
+		},
+		"bolt-light": {
+			"categories": [
+				"food",
+				"animals-nature"
+			],
+			"keywords": [
+				"water"
+			]
+		},
+		"bolt-solid": {
+			"categories": [
+				"food",
+				"animals-nature"
+			],
+			"keywords": [
+				"water"
+			]
+		},
+		"book-alt-light": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"book-light": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"book-medical-light": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"book-open-light": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"book-reader-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"book-user-light": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"books-medical-light": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"bread-loaf-light": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"briefcase-light": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"briefcase-medical-light": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"browser-light": {
+			"categories": [
+				"coding"
+			],
+			"keywords": []
+		},
+		"bullseye-pointer-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"calendar-alt-light": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-check-light": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-day-light": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-edit-light": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-exclamation-light": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-light": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-plus-light": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"capsules-light": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"carrot-light": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"chalkboard-teacher-light": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"chart-area-light": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"chart-bar-light": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"chart-line-light": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"chart-pie-light": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"check-circle-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"check-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"check-square-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"cheese-swiss-light": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"cheeseburger-light": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"chevron-circle-down-light": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"chevron-circle-left-light": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"chevron-circle-right-light": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"chevron-circle-up-light": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"city-light": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"clinic-medical-light": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"clipboard-check-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"clipboard-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"clipboard-list-check-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"clipboard-list-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"clipboard-prescription-light": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"clipboard-user-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"cloud-light": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"cocktail-light": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"code-light": {
+			"categories": [
+				"coding"
+			],
+			"keywords": []
+		},
+		"cog-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"cogs-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"comment-alt-light": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comment-alt-lines-light": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comment-alt-medical-light": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comment-light": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comment-lines-light": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comment-medical-light": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comments-alt-light": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comments-light": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"copy-light": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"cow-light": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"database-light": {
+			"categories": [
+				"coding"
+			],
+			"keywords": []
+		},
+		"desktop-alt-light": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"desktop-light": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"diagnoses-light": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"disease-light": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"dna-light": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"download-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"drumstick-light": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"dumbbell-light": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"ear-light": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"envelope-light": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"envelope-open-text-light": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"exclamation-circle-light": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"exclamation-square-light": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"exclamation-triangle-light": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"eye-dropper-light": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"eye-light": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"female-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"file-alt-light": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"file-archive-light": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"file-audio-light": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"file-certificate-light": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"file-chart-line-light": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"file-medical-alt-light": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"file-medical-light": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"file-prescription-light": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"files-medical-light": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"first-aid-light": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"flag-alt-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"flag-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"flask-light": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"flower-daffodil": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"flower-daffodil-light": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"flower-daffodil-solid": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"folder-plus-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"frown-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"globe-africa-light": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"globe-americas-light": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"globe-asia-light": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"globe-europe-light": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"globe-light": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"graduation-cap-light": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"grin-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"h-square-light": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"hand-holding-heart-light": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"hand-paper-light": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"hand-point-right-light": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"hands-helping-light": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"head-side-medical-light": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"heart-rate-light": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"heartbeat-light": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"hospital-alt-light": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"hospital-light": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"hospital-symbol-light": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"hospital-user-light": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"ice-cream-light": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"id-badge-light": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"id-card-light": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"inbox-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"info-circle-light": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"info-light": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"info-square-light": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"key-light": {
+			"categories": [
+				"objects"
+			],
+			"keywords": []
+		},
+		"keyboard-light": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"keynote-light": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"landmark-alt-light": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"landmark-light": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"laptop-light": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"laptop-medical-light": {
+			"categories": [
+				"books-files-documents",
+				"devices"
+			],
+			"keywords": []
+		},
+		"leaf-light": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"lightbulb-light": {
+			"categories": [
+				"objects"
+			],
+			"keywords": []
+		},
+		"link-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"lungs-light": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"male-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"map-light": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"medkit-light": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"microphone-light": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"microscope-light": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"mobile-alt-light": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"mobile-light": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"monitor-heart-rate-light": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"moon-light": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"mortar-pestle-light": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"mouse-pointer-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"network-wired-light": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"newspaper-light": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"notes-medical-light": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"passport-light": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"pills-light": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"plane-light": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"play-circle-light": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"play-light": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"poll-people-light": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"popcorn-light": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"portrait-light": {
+			"categories": [
+				"people",
+				"people"
+			],
+			"keywords": []
+		},
+		"prescription-bottle-alt-light": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"prescription-bottle-light": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"prescription-light": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"presentation-light": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"procedures-light": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"question-circle-light": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"question-light": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"question-square-light": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"school-light": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"search-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"shuttle-van-light": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"sitemap-light": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"star-light": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"stethoscope-light": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"stomach-light": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"stopwatch-light": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"stretcher-light": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"sun-light": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"syringe-light": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"table-light": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"tablet-alt-light": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"tablets-light": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"thumbs-down-light": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"thumbs-up-light": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"times-circle-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"times-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"toolbox-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"tools-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"universal-access-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"user-chart-light": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"user-cog-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"user-friends-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"user-injured-light": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"user-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"user-md-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"user-nurse-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"users-class-light": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"users-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"users-medical-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"venus-mars-light": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"vial-light": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"vials-light": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"weight-light": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"window-close-light": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"x-ray-light": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"address-book": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"address-card": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"allergies": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"ambulance": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"analytics": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"apple-alt": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"archive": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"arrow-alt-circle-down": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"arrow-alt-circle-left": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"arrow-alt-circle-right": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"arrow-alt-circle-up": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"atlas": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"baby-carriage": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"baby": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"balance-scale": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"ballot-check": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"ballot": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"band-aid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"bed": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"book-alt": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"book-medical": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"book-open": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"book-reader": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"book-user": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"book": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"books-medical": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"bread-loaf": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"briefcase-medical": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"briefcase": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"browser": {
+			"categories": [
+				"coding"
+			],
+			"keywords": []
+		},
+		"bullseye-pointer": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"calendar-alt": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-check": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-day": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-edit": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-exclamation": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-plus": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"capsules": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"carrot": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"chalkboard-teacher": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"chart-area": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"chart-bar": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"chart-line": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"chart-pie": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"check-circle": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"check-square": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"check": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"cheese-swiss": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"cheeseburger": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"chevron-circle-down": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"chevron-circle-left": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"chevron-circle-right": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"chevron-circle-up": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"city": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"clinic-medical": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"clipboard-check": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"clipboard-list-check": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"clipboard-list": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"clipboard-prescription": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"clipboard-user": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"clipboard": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"cloud": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"cocktail": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"code": {
+			"categories": [
+				"coding"
+			],
+			"keywords": []
+		},
+		"cog": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"cogs": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"comment-alt-lines": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comment-alt-medical": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comment-alt": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comment-lines": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comment-medical": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comment": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comments-alt": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comments": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"copy": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"cow": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"database": {
+			"categories": [
+				"coding"
+			],
+			"keywords": []
+		},
+		"desktop-alt": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"desktop": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"diagnoses": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"disease": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"dna": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"download": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"drumstick": {
+			"categories": [
+				"food",
+				"food"
+			],
+			"keywords": []
+		},
+		"dumbbell": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"ear": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"envelope-open-text": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"envelope": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"exclamation-circle": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"exclamation-square": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"exclamation-triangle": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"eye-dropper": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"eye": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"female": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"file-alt": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"file-archive": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"file-audio": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"file-certificate": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"file-chart-line": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"file-medical-alt": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"file-medical": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"file-prescription": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"files-medical": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"first-aid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"flag-alt": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"flag": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"flask": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"folder-plus": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"frown": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"globe-africa": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"globe-americas": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"globe-asia": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"globe-europe": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"globe": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"graduation-cap": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"grin": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"h-square": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"hand-holding-heart": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"hand-paper": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"hand-point-right": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"hands-helping": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"head-side-medical": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"heart-rate": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"heartbeat": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"hospital-alt": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"hospital-symbol": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"hospital-user": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"hospital": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"ice-cream": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"id-badge": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"id-card": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"inbox": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"info-circle": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"info-square": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"info": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"key": {
+			"categories": [
+				"objects"
+			],
+			"keywords": []
+		},
+		"keyboard": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"keynote": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"landmark-alt": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"landmark": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"laptop-medical": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"laptop": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"leaf": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"lightbulb": {
+			"categories": [
+				"objects"
+			],
+			"keywords": []
+		},
+		"link": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"lungs": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"male": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"map": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"medkit": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"microphone": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"microscope": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"mobile-alt": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"mobile": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"monitor-heart-rate": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"moon": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"mortar-pestle": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"mouse-pointer": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"network-wired": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"newspaper": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"notes-medical": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"passport": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"pills": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"plane": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"play-circle": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"play": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"poll-people": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"popcorn": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"portrait": {
+			"categories": [
+				"people",
+				"people"
+			],
+			"keywords": []
+		},
+		"prescription-bottle-alt": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"prescription-bottle": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"prescription": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"presentation": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"procedures": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"question-circle": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"question-square": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"question": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"school": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"search": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"shuttle-van": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"sitemap": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"star": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"stethoscope": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"stomach": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"stopwatch": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"stretcher": {
+			"categories": [
+				"health",
+				"health"
+			],
+			"keywords": []
+		},
+		"sun": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"syringe": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"table": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"tablet-alt": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"tablets": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"thumbs-down": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"thumbs-up": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"times-circle": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"times": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"toolbox": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"tools": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"universal-access": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"user-chart": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"user-cog": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"user-friends": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"user-injured": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"user-md": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"user-nurse": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"user": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"users-class": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"users-medical": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"users": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"venus-mars": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"vial": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"vials": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"weight": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"window-close": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"x-ray": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"address-book-solid": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"address-card-solid": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"allergies-solid": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"ambulance-solid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"analytics-solid": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"apple-alt-solid": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"archive-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"arrow-alt-circle-down-solid": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"arrow-alt-circle-left-solid": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"arrow-alt-circle-right-solid": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"arrow-alt-circle-up-solid": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"atlas-solid": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"baby-carriage-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"baby-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"balance-scale-solid": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"ballot-check-solid": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"ballot-solid": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"band-aid-solid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"bed-solid": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"book-alt-solid": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"book-medical-solid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"book-open-solid": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"book-reader-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"book-solid": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"book-user-solid": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"books-medical-solid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"bread-loaf-solid": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"briefcase-medical-solid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"briefcase-solid": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"browser-solid": {
+			"categories": [
+				"coding"
+			],
+			"keywords": []
+		},
+		"bullseye-pointer-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"calendar-alt-solid": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-check-solid": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-day-solid": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-edit-solid": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-exclamation-solid": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-plus-solid": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"calendar-solid": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"capsules-solid": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"carrot-solid": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"chalkboard-teacher-solid": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"chart-area-solid": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"chart-bar-solid": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"chart-line-solid": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"chart-pie-solid": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"check-circle-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"check-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"check-square-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"cheese-swiss-solid": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"cheeseburger-solid": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"chevron-circle-down-solid": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"chevron-circle-left-solid": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"chevron-circle-right-solid": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"chevron-circle-up-solid": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": []
+		},
+		"city-solid": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"clinic-medical-solid": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"clipboard-check-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"clipboard-list-check-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"clipboard-list-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"clipboard-prescription-solid": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"clipboard-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"clipboard-user-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"cloud-solid": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"cocktail-solid": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"code-solid": {
+			"categories": [
+				"coding"
+			],
+			"keywords": []
+		},
+		"cog-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"cogs-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"comment-alt-lines-solid": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comment-alt-medical-solid": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comment-alt-solid": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comment-lines-solid": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comment-medical-solid": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comment-solid": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comments-alt-solid": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"comments-solid": {
+			"categories": [
+				"chat-comment"
+			],
+			"keywords": []
+		},
+		"copy-solid": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"cow-solid": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"database-solid": {
+			"categories": [
+				"coding"
+			],
+			"keywords": []
+		},
+		"desktop-alt-solid": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"desktop-solid": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"diagnoses-solid": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"disease-solid": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"dna-solid": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"download-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"drumstick-solid": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"dumbbell-solid": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"ear-solid": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"envelope-open-text-solid": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"envelope-solid": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"exclamation-circle-solid": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"exclamation-square-solid": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"exclamation-triangle-solid": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"eye-dropper-solid": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"eye-solid": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"female-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"file-alt-solid": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"file-archive-solid": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"file-audio-solid": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"file-certificate-solid": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"file-chart-line-solid": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"file-medical-alt-solid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"file-medical-solid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"file-prescription-solid": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"files-medical-solid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"first-aid-solid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"flag-alt-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"flag-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"flask-solid": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"folder-plus-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"frown-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"globe-africa-solid": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"globe-americas-solid": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"globe-asia-solid": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"globe-europe-solid": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"globe-solid": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"graduation-cap-solid": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"grin-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"h-square-solid": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"hand-holding-heart-solid": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"hand-paper-solid": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"hand-point-right-solid": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"hands-helping-solid": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"head-side-medical-solid": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"heart-rate-solid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"heartbeat-solid": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"hospital-alt-solid": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"hospital-solid": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"hospital-symbol-solid": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"hospital-user-solid": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"ice-cream-solid": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"id-badge-solid": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"id-card-solid": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"inbox-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"info-circle-solid": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"info-solid": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"info-square-solid": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"key-solid": {
+			"categories": [
+				"objects"
+			],
+			"keywords": []
+		},
+		"keyboard-solid": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"keynote-solid": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"landmark-alt-solid": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"landmark-solid": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"laptop-medical-solid": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"laptop-solid": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"leaf-solid": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"lightbulb-solid": {
+			"categories": [
+				"objects"
+			],
+			"keywords": []
+		},
+		"link-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"lungs-solid": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"male-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"map-solid": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"medkit-solid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"microphone-solid": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"microscope-solid": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"mobile-alt-solid": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"mobile-solid": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"monitor-heart-rate-solid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"moon-solid": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"mortar-pestle-solid": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"mouse-pointer-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"network-wired-solid": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"newspaper-solid": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"notes-medical-solid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"passport-solid": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"pills-solid": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"plane-solid": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"play-circle-solid": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"play-solid": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": []
+		},
+		"poll-people-solid": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"popcorn-solid": {
+			"categories": [
+				"food"
+			],
+			"keywords": []
+		},
+		"portrait-solid": {
+			"categories": [
+				"people",
+				"people"
+			],
+			"keywords": []
+		},
+		"prescription-bottle-alt-solid": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"prescription-bottle-solid": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"prescription-solid": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"presentation-solid": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"procedures-solid": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"question-circle-solid": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"question-solid": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"question-square-solid": {
+			"categories": [
+				"alerts-information-symbols"
+			],
+			"keywords": []
+		},
+		"school-solid": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": []
+		},
+		"search-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"shuttle-van-solid": {
+			"categories": [
+				"travel"
+			],
+			"keywords": []
+		},
+		"sitemap-solid": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"star-solid": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"stethoscope-solid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"stomach-solid": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": []
+		},
+		"stopwatch-solid": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": []
+		},
+		"stretcher-solid": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"sun-solid": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"syringe-solid": {
+			"categories": [
+				"medical"
+			],
+			"keywords": []
+		},
+		"table-solid": {
+			"categories": [
+				"data"
+			],
+			"keywords": []
+		},
+		"tablet-alt-solid": {
+			"categories": [
+				"books-files-documents"
+			],
+			"keywords": []
+		},
+		"tablets-solid": {
+			"categories": [
+				"prescriptions"
+			],
+			"keywords": []
+		},
+		"thumbs-down-solid": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"thumbs-up-solid": {
+			"categories": [
+				"social"
+			],
+			"keywords": []
+		},
+		"times-circle-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"times-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"toolbox-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"tools-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"universal-access-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"user-chart-solid": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": []
+		},
+		"user-cog-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"user-friends-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"user-injured-solid": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"user-md-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"user-nurse-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"user-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"users-class-solid": {
+			"categories": [
+				"education"
+			],
+			"keywords": []
+		},
+		"users-medical-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"users-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"venus-mars-solid": {
+			"categories": [
+				"people"
+			],
+			"keywords": []
+		},
+		"vial-solid": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"vials-solid": {
+			"categories": [
+				"lab"
+			],
+			"keywords": []
+		},
+		"weight-solid": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"window-close-solid": {
+			"categories": [
+				"controls"
+			],
+			"keywords": []
+		},
+		"x-ray-solid": {
+			"categories": [
+				"health"
+			],
+			"keywords": []
+		},
+		"leaf-oak": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"leaf-oak-light": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"leaf-oak-solid": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": []
+		},
+		"sync-alt": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"sync-alt-light": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"sync-alt-solid": {
+			"categories": [
+				"devices"
+			],
+			"keywords": []
+		},
+		"tint": {
+			"categories": [
+				"food",
+				"animals-nature"
+			],
+			"keywords": [
+				"water"
+			]
+		},
+		"tint-light": {
+			"categories": [
+				"food",
+				"animals-nature"
+			],
+			"keywords": [
+				"water"
+			]
+		},
+		"tint-solid": {
+			"categories": [
+				"food",
+				"animals-nature"
+			],
+			"keywords": [
+				"water"
+			]
+		},
+		"pumpkin": {
+			"categories": [
+				"food"
+			],
+			"keywords": [
+				"gourd"
+			]
+		},
+		"water": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"umbrella-beach": {
+			"categories": [
+				"buildings-places",
+				"objects"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"accessible-icon": {
+			"categories": [
+				"people"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"bicycle": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"biking": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"blind": {
+			"categories": [
+				"people"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"child": {
+			"categories": [
+				"people"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"hiking": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"person-sign": {
+			"categories": [
+				"people"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"running": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"walking": {
+			"categories": [
+				"health",
+				"people"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"wheelchair": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"ship": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"share": {
+			"categories": [
+				"social"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"share-alt": {
+			"categories": [
+				"social"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"lite_00": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"lite_01": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"lite_02": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"lite_03": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"lite_04": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"lite_05": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"lite_06": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"lite_07": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"lite_08": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"lite_09": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"sol_00": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				"0",
+				"zero"
+			]
+		},
+		"sol_01": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				"1",
+				"one"
+			]
+		},
+		"sol_02": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				"2",
+				"two"
+			]
+		},
+		"sol_03": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				"3",
+				"three"
+			]
+		},
+		"sol_04": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				"4",
+				"four"
+			]
+		},
+		"sol_05": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				"5",
+				"five"
+			]
+		},
+		"sol_06": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				"6",
+				"six"
+			]
+		},
+		"sol_07": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				"7",
+				"seven"
+			]
+		},
+		"sol_08": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				"8",
+				"eight"
+			]
+		},
+		"sol_09": {
+			"categories": [
+				"numbers"
+			],
+			"keywords": [
+				"9",
+				"nine"
+			]
+		},
+		"paw": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": [
+				""
+			]
+		},
+		"bacteria": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"bacterium": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"box-tissue": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"hand-holding-medical": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"hand-sparkles": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"hands-wash": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"handshake-slash": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"head-side-cough": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"head-side-cough-slash": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"head-side-mask": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"house-user": {
+			"categories": [
+				"people",
+				"buildings-places"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"laptop-house": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"lungs-virus": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"people-arrows": {
+			"categories": [
+				"people"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"plane-slash": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"pump-medical": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"pump-soap": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"sink": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"soap": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"store-slash": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"users-slash": {
+			"categories": [
+				"people"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"virus": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"virus-slash": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"viruses": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+				"coronavirus",
+				"covid-19"
+			]
+		},
+		"shower": {
+			"categories": [
+				"medical"
+			],
+			"keywords": [
+			]
+		},
+		"user-clock": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"shipping-fast": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+			]
+		},
+		"tint-slash": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": [
+			]
+		},
+		"lock-alt": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"lock-open-alt": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"door-open": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": [
+			]
+		},
+		"ribbon": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"suitcase": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+			]
+		},
+		"tooth": {
+			"categories": [
+				"body-parts-hands"
+			],
+			"keywords": [
+			]
+		},
+		"temperature-high": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+			]
+		},
+		"lock-alt-solid": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"lock-open-alt-solid": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"washer": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"couch": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"burger-soda": {
+			"categories": [
+				"food"
+			],
+			"keywords": [
+			]
+		},
+		"bus": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+			]
+		},
+		"car-bus": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+			]
+		},
+		"car-side": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+			]
+		},
+		"clouds-sun": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": [
+			]
+		},
+		"coffee-togo": {
+			"categories": [
+				"food"
+			],
+			"keywords": [
+			]
+		},
+		"conveyor-belt": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"credit-card": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"dog": {
+			"categories": [
+				"animals-nature"
+			],
+			"keywords": [
+			]
+		},
+		"dolly-flatbead-alt": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"door-closed": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": [
+			]
+		},
+		"dumpster": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"farm": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": [
+			]
+		},
+		"forklift": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"football-ball": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"gas-pump": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+			]
+		},
+		"headset": {
+			"categories": [
+				"audio-video"
+			],
+			"keywords": [
+			]
+		},
+		"home-lg": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": [
+			]
+		},
+		"home-lg-alt": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": [
+			]
+		},
+		"building": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": [
+			]
+		},
+		"hotel": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": [
+			]
+		},
+		"house-leave": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": [
+			]
+		},
+		"mail-bulk": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"phone-office": {
+			"categories": [
+				"devices"
+			],
+			"keywords": [
+			]
+		},
+		"place-of-worship": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": [
+			]
+		},
+		"plane-arrival": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+			]
+		},
+		"plane-depart": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+			]
+		},
+		"shopping-cart": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"temperature-low": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+			]
+		},
+		"tshirt": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"user-md-chat": {
+			"categories": [
+				"health",
+				"chat-comment"
+			],
+			"keywords": [
+			]
+		},
+		"inhaler": {
+			"categories": [
+				"medical"
+			],
+			"keywords": [
+			]
+		},
+		"calendar-star": {
+			"categories": [
+				"date-time"
+			],
+			"keywords": [
+			]
+		},
+		"chevron-right": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": [
+			]
+		},
+		"chevron-double-right": {
+			"categories": [
+				"arrows"
+			],
+			"keywords": [
+			]
+		},
+		"spray-can": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"luggage-cart": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+			]
+		},
+		"taxi": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+			]
+		},
+		"swimmer": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+			]
+		},
+		"swimming-pool": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": [
+			]
+		},
+		"user-hard-hat": {
+			"categories": [
+				"people"
+			],
+			"keywords": [
+			]
+		},
+		"user-graduate": {
+			"categories": [
+				"education"
+			],
+			"keywords": [
+			]
+		},
+		"house-return": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": [
+			]
+		},
+		"sign-language": {
+			"categories": [
+				"people"
+			],
+			"keywords": [
+			]
+		},
+		"american-sign-language": {
+			"categories": [
+				"people"
+			],
+			"keywords": [
+			]
+		},
+		"deaf": {
+			"categories": [
+				"people"
+			],
+			"keywords": [
+			]
+		},
+		"subway": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+			]
+		},
+		"train": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+			]
+		},
+		"trash": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"ban": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"store-alt-slash": {
+			"categories": [
+				"buildings-places"
+			],
+			"keywords": [
+			]
+		},
+		"map-marker-alt-slash": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+			]
+		},
+		"candle": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"cleaning_03": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": [
+			]
+		},
+		"glove": {
+			"categories": [
+				"medical"
+			],
+			"keywords": [
+			]
+		},
+		"spraybottle": {
+			"categories": [
+				"disasters"
+			],
+			"keywords": [
+			]
+		},
+		"wreath": {
+			"categories": [
+				"objects"
+			],
+			"keywords": [
+			]
+		},
+		"poop": {
+			"categories": [
+				"health"
+			],
+			"keywords": [
+			]
+		},
+		"gamepad-alt": {
+			"categories": [
+				"devices"
+			],
+			"keywords": [
+			]
+		},
+		"industry": {
+			"categories": [
+				"business-work"
+			],
+			"keywords": [
+			]
+		},
+		"map_03": {
+			"categories": [
+				"travel"
+			],
+			"keywords": [
+			]
+		}
+	}
+}

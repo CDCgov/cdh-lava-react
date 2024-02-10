@@ -1,0 +1,10 @@
+{
+  "type": "cdcsitetitle ",
+  "dataUrl": "/examples/example-data.json",
+  "filters": [],
+  "title": "Site Title",
+  "link": "http://www.google.com",
+  "tagline": "site tagline",
+  "theme": "theme-blue",
+  "suffix": "%"
+}

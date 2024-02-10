@@ -1,0 +1,82 @@
+{
+  "npmScope": "@cdc",
+  "version": "0.0.1",
+  "cli": {
+    "packageManager": "yarn",
+    "defaultCollection": "@nrwl/react"
+  },
+  "runners": {
+    "default": {
+      "command": "npm run build"
+    }
+  },
+  "projects": {
+    "cdcore": {
+      "root": "packages/cdcore",
+      "sourceRoot": "packages/cdcore/src",
+      "projectType": "component",
+      "npmScope": "@cdc"
+    },
+    "cdcheader": {
+      "root": "packages/cdcheader",
+      "sourceRoot": "packages/cdcheader/src",
+      "projectType": "component",
+      "npmScope": "@cdc"
+    },
+    "cdcmarkdown": {
+      "root": "packages/cdcmarkdown",
+      "sourceRoot": "packages/cdcmarkdown/src",
+      "projectType": "component",
+      "npmScope": "@cdc"
+    },
+    "cdcsidebar": {
+      "root": "packages/cdcsidebar",
+      "sourceRoot": "packages/cdcsidebar/src",
+      "projectType": "component",
+      "npmScope": "@cdc"
+      },
+    "cdcsitetitle": {
+      "root": "packages/cdcsitetitle",
+      "sourceRoot": "packages/cdcsitetitle/src",
+      "projectType": "component",
+      "npmScope": "@cdc"
+      }
+    },
+    "namedInputs": {
+      "cdcreact": {
+        "dependencies": {
+          "package.json": true
+        },
+        "peerDependencies": {
+          "package.json": true
+        },
+        "*.scss": {
+          "npm": "*"
+        },
+        "*.css": {
+          "npm": "*"
+        }
+      }
+    },
+  "type": "library",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@nrwl/cli": "13.3.3",
+    "@nrwl/eslint-plugin-nx": "13.3.3",
+    "@nrwl/jest": "13.3.3",
+    "@nrwl/react": "13.3.3",
+    "@nrwl/storybook": "13.3.3",
+    "@nrwl/workspace": "13.3.3",
+    "@nrwl/cypress": "13.3.3",
+    "@nrwl/linter": "13.3.3",
+    "@nrwl/web": "13.3.3",
+    "@nrwl/vite": "13.3.3",
+    "lerna": "^4.0.0",
+    "@testing-library/react": "^12.1.2",
+    "yarn": "^1.22.17"
+  }
+}
+
+

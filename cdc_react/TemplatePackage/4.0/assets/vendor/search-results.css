@@ -1,0 +1,22 @@
+.last-reviewed { display: none; }
+
+.searchResultsTitle {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.searchResultsData .searchResultsModule {
+	padding: 11px 0 20px 0;
+	border-bottom: none;
+}
+
+#journalSearchResultsData {
+	display: none;
+}
+#journalSearchResultsData h5 {
+	margin: 12px 0 0 0;
+}
+#journalSearchResultsData .more-wrap {
+	margin-top: 12px;
+	text-align: right;
+	width: 100%;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@cdcent/templatepackage-react",
+  "version": "4.22.10-2",
+  "description": "CDC Template Package page components for React",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "build": "npx webpack --mode production"
+  },
+  "repository": "git://github.com/cdcent/TemplatePackage.git",
+  "peerDependencies": {
+    "react": "^16.10.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.10.0 || ^17.0.0 || ^18.0.0"
+  },
+  "keywords": [
+    "react",
+    "template",
+    "package"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdcent/TemplatePackage/issues"
+  },
+  "homepage": "https://github.com/cdcent/TemplatePackage/tree/integration/pacakges/react/",
+  "author": "CDC"
+}

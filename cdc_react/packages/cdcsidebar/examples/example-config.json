@@ -1,0 +1,10 @@
+{
+  "type": "cdcsidebar ",
+  "dataUrl": "/examples/example-data.json",
+  "filters": [],
+  "title": "Side Bar",
+  "content": "content",
+  "subtext": "subtext",
+  "theme": "theme-blue",
+  "suffix": "%"
+}
