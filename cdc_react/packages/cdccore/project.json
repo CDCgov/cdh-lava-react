@@ -1,0 +1,37 @@
+{
+  "npmScope": "@cdc",
+  "name": "cdccore",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/cdccore/src",
+  "type": "component",
+  "cli": {
+    "packageManager": "yarn",
+    "defaultCollection": "@nrwl/react"
+  },
+  "generators": {
+    "application": {
+      "command": "nx g @nrwl/react:application",
+      "options": {
+        "directoryName": "cdc-react",
+        "withYarn": true
+      }
+    },
+    "library": {
+      "command": "nx g @nrwl/react:library",
+      "options": {
+        "directoryName": "cdc-react",
+        "withYarn": true
+      }
+    },
+    "tasksRunnerOptions": {
+      "default": {
+        "runner": "@nrwl/workspace/tasks-runners/default",
+        "options": {}
+      },
+      "vite": {
+        "runner": "@nrwl/workspace/tasks-runners/vite",
+        "options": {}
+      }
+    }
+  }
+}

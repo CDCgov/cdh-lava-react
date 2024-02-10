@@ -1,0 +1,53 @@
+{
+  "npmScope": "@cdc",
+  "name": "cdcsitetitle",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/cdcsitetitle/src",
+  "type": "component",
+  "cli": {
+    "packageManager": "yarn",
+    "defaultCollection": "@nrwl/react"
+  },
+  "generators": {
+    "application": {
+      "command": "nx g @nrwl/react:application",
+      "options": {
+        "directoryName": "cdc-react",
+        "withYarn": true
+      }
+    },
+    "library": {
+      "command": "nx g @nrwl/react:library",
+      "options": {
+        "directoryName": "cdc-react",
+        "withYarn": true
+      }
+    },
+    "tasksRunnerOptions": {
+      "default": {
+        "runner": "nrwl/workspace/tasks-runners/default",
+        "options": {}
+      },
+      "vite": {
+        "runner": "@nrwl/workspace/tasks-runners/vite",
+        "options": {}
+      },
+      "tasks": {
+        "build": {
+          "runner": "lerna",
+          "options": {
+            "script": "build"
+          }
+        }
+      },
+      "lerna": {
+        "runner": "@nrwl/workspace/tasks-runners/lerna",
+        "options": {
+          "command": "run",
+          "lernaOptions": "--scope ${workspaceRoot}/packages/${projectName}",
+          "parallel": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,345 @@
+/**
+ * @version 4.22.11
+ * Date: 2023-02-01T12:38:11.768Z
+ */
+/* open-sans-regular - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/open-sans-v28-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v28-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-500 - latin */
+@font-face {
+  font-family: "Open Sans Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/open-sans-v28-latin-500.woff2") format("woff2"), url("../fonts/open-sans-v28-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-family: "Open Sans Semibold";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/open-sans-v28-latin-600.woff2") format("woff2"), url("../fonts/open-sans-v28-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+.new-font-weight {
+  font-family: "Open Sans Medium", apple-system, blinkmacsystemfont, "Segoe UI", "Helvetica Neue", arial, sans-serif;
+}
+
+/* HEADING and HEADING CLASSES ================================== */
+h1,
+.h1 {
+  font-family: "Open Sans";
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 400;
+  font-size: 2.25rem;
+}
+
+h2,
+.h2 {
+  font-family: "Open Sans Semibold" !important;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  font-size: 1.85rem;
+}
+
+h3,
+.h3 {
+  font-family: "Open Sans Medium" !important;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+h4,
+.h4 {
+  font-family: "Open Sans Medium" !important;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1.26rem;
+}
+
+h5,
+.h5 {
+  font-family: "Open Sans";
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  font-size: 1.13rem;
+}
+
+h6,
+.h6 {
+  font-family: "Open Sans";
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  font-size: 0.95rem;
+  letter-spacing: 0.015rem;
+  text-transform: uppercase;
+}
+
+.bg-blue-p h1, .bg-blue-p h2, .bg-blue-p h3, .bg-blue-p h4, .bg-blue-p h5, .bg-blue-p h6,
+.bg-blue-p .h1, .bg-blue-p .h2, .bg-blue-p .h3, .bg-blue-p .h4, .bg-blue-p .h5, .bg-blue-p .h6,
+.bg-blue-d h1,
+.bg-blue-d h2,
+.bg-blue-d h3,
+.bg-blue-d h4,
+.bg-blue-d h5,
+.bg-blue-d h6,
+.bg-blue-d .h1,
+.bg-blue-d .h2,
+.bg-blue-d .h3,
+.bg-blue-d .h4,
+.bg-blue-d .h5,
+.bg-blue-d .h6 {
+  color: #fff;
+}
+
+.bg-purple-p h1, .bg-purple-p h2, .bg-purple-p h3, .bg-purple-p h4, .bg-purple-p h5, .bg-purple-p h6,
+.bg-purple-p .h1, .bg-purple-p .h2, .bg-purple-p .h3, .bg-purple-p .h4, .bg-purple-p .h5, .bg-purple-p .h6,
+.bg-purple-d h1,
+.bg-purple-d h2,
+.bg-purple-d h3,
+.bg-purple-d h4,
+.bg-purple-d h5,
+.bg-purple-d h6,
+.bg-purple-d .h1,
+.bg-purple-d .h2,
+.bg-purple-d .h3,
+.bg-purple-d .h4,
+.bg-purple-d .h5,
+.bg-purple-d .h6 {
+  color: #fff;
+}
+
+.bg-brown-p h1, .bg-brown-p h2, .bg-brown-p h3, .bg-brown-p h4, .bg-brown-p h5, .bg-brown-p h6,
+.bg-brown-p .h1, .bg-brown-p .h2, .bg-brown-p .h3, .bg-brown-p .h4, .bg-brown-p .h5, .bg-brown-p .h6,
+.bg-brown-d h1,
+.bg-brown-d h2,
+.bg-brown-d h3,
+.bg-brown-d h4,
+.bg-brown-d h5,
+.bg-brown-d h6,
+.bg-brown-d .h1,
+.bg-brown-d .h2,
+.bg-brown-d .h3,
+.bg-brown-d .h4,
+.bg-brown-d .h5,
+.bg-brown-d .h6 {
+  color: #fff;
+}
+
+.bg-teal-p h1, .bg-teal-p h2, .bg-teal-p h3, .bg-teal-p h4, .bg-teal-p h5, .bg-teal-p h6,
+.bg-teal-p .h1, .bg-teal-p .h2, .bg-teal-p .h3, .bg-teal-p .h4, .bg-teal-p .h5, .bg-teal-p .h6,
+.bg-teal-d h1,
+.bg-teal-d h2,
+.bg-teal-d h3,
+.bg-teal-d h4,
+.bg-teal-d h5,
+.bg-teal-d h6,
+.bg-teal-d .h1,
+.bg-teal-d .h2,
+.bg-teal-d .h3,
+.bg-teal-d .h4,
+.bg-teal-d .h5,
+.bg-teal-d .h6 {
+  color: #fff;
+}
+
+.bg-pink-p h1, .bg-pink-p h2, .bg-pink-p h3, .bg-pink-p h4, .bg-pink-p h5, .bg-pink-p h6,
+.bg-pink-p .h1, .bg-pink-p .h2, .bg-pink-p .h3, .bg-pink-p .h4, .bg-pink-p .h5, .bg-pink-p .h6,
+.bg-pink-d h1,
+.bg-pink-d h2,
+.bg-pink-d h3,
+.bg-pink-d h4,
+.bg-pink-d h5,
+.bg-pink-d h6,
+.bg-pink-d .h1,
+.bg-pink-d .h2,
+.bg-pink-d .h3,
+.bg-pink-d .h4,
+.bg-pink-d .h5,
+.bg-pink-d .h6 {
+  color: #fff;
+}
+
+.bg-orange-p h1, .bg-orange-p h2, .bg-orange-p h3, .bg-orange-p h4, .bg-orange-p h5, .bg-orange-p h6,
+.bg-orange-p .h1, .bg-orange-p .h2, .bg-orange-p .h3, .bg-orange-p .h4, .bg-orange-p .h5, .bg-orange-p .h6,
+.bg-orange-d h1,
+.bg-orange-d h2,
+.bg-orange-d h3,
+.bg-orange-d h4,
+.bg-orange-d h5,
+.bg-orange-d h6,
+.bg-orange-d .h1,
+.bg-orange-d .h2,
+.bg-orange-d .h3,
+.bg-orange-d .h4,
+.bg-orange-d .h5,
+.bg-orange-d .h6 {
+  color: #fff;
+}
+
+.bg-slate-p h1, .bg-slate-p h2, .bg-slate-p h3, .bg-slate-p h4, .bg-slate-p h5, .bg-slate-p h6,
+.bg-slate-p .h1, .bg-slate-p .h2, .bg-slate-p .h3, .bg-slate-p .h4, .bg-slate-p .h5, .bg-slate-p .h6,
+.bg-slate-d h1,
+.bg-slate-d h2,
+.bg-slate-d h3,
+.bg-slate-d h4,
+.bg-slate-d h5,
+.bg-slate-d h6,
+.bg-slate-d .h1,
+.bg-slate-d .h2,
+.bg-slate-d .h3,
+.bg-slate-d .h4,
+.bg-slate-d .h5,
+.bg-slate-d .h6 {
+  color: #fff;
+}
+
+.bg-indigo-p h1, .bg-indigo-p h2, .bg-indigo-p h3, .bg-indigo-p h4, .bg-indigo-p h5, .bg-indigo-p h6,
+.bg-indigo-p .h1, .bg-indigo-p .h2, .bg-indigo-p .h3, .bg-indigo-p .h4, .bg-indigo-p .h5, .bg-indigo-p .h6,
+.bg-indigo-d h1,
+.bg-indigo-d h2,
+.bg-indigo-d h3,
+.bg-indigo-d h4,
+.bg-indigo-d h5,
+.bg-indigo-d h6,
+.bg-indigo-d .h1,
+.bg-indigo-d .h2,
+.bg-indigo-d .h3,
+.bg-indigo-d .h4,
+.bg-indigo-d .h5,
+.bg-indigo-d .h6 {
+  color: #fff;
+}
+
+.bg-cyan-p h1, .bg-cyan-p h2, .bg-cyan-p h3, .bg-cyan-p h4, .bg-cyan-p h5, .bg-cyan-p h6,
+.bg-cyan-p .h1, .bg-cyan-p .h2, .bg-cyan-p .h3, .bg-cyan-p .h4, .bg-cyan-p .h5, .bg-cyan-p .h6,
+.bg-cyan-d h1,
+.bg-cyan-d h2,
+.bg-cyan-d h3,
+.bg-cyan-d h4,
+.bg-cyan-d h5,
+.bg-cyan-d h6,
+.bg-cyan-d .h1,
+.bg-cyan-d .h2,
+.bg-cyan-d .h3,
+.bg-cyan-d .h4,
+.bg-cyan-d .h5,
+.bg-cyan-d .h6 {
+  color: #fff;
+}
+
+.bg-green-p h1, .bg-green-p h2, .bg-green-p h3, .bg-green-p h4, .bg-green-p h5, .bg-green-p h6,
+.bg-green-p .h1, .bg-green-p .h2, .bg-green-p .h3, .bg-green-p .h4, .bg-green-p .h5, .bg-green-p .h6,
+.bg-green-d h1,
+.bg-green-d h2,
+.bg-green-d h3,
+.bg-green-d h4,
+.bg-green-d h5,
+.bg-green-d h6,
+.bg-green-d .h1,
+.bg-green-d .h2,
+.bg-green-d .h3,
+.bg-green-d .h4,
+.bg-green-d .h5,
+.bg-green-d .h6 {
+  color: #fff;
+}
+
+.bg-amber-p h1, .bg-amber-p h2, .bg-amber-p h3, .bg-amber-p h4, .bg-amber-p h5, .bg-amber-p h6,
+.bg-amber-p .h1, .bg-amber-p .h2, .bg-amber-p .h3, .bg-amber-p .h4, .bg-amber-p .h5, .bg-amber-p .h6,
+.bg-amber-d h1,
+.bg-amber-d h2,
+.bg-amber-d h3,
+.bg-amber-d h4,
+.bg-amber-d h5,
+.bg-amber-d h6,
+.bg-amber-d .h1,
+.bg-amber-d .h2,
+.bg-amber-d .h3,
+.bg-amber-d .h4,
+.bg-amber-d .h5,
+.bg-amber-d .h6 {
+  color: #fff;
+}
+
+/* HEADINGS following HEADINGS ================================== */
+/* H2 Immediately following H1 */
+h1 + h2,
+h1 + .h2,
+.h1 + h2,
+.h1 + .h2 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+/* H3 Immediately following H2 */
+h2 + h3,
+h2 + .h3,
+.h2 + h3,
+.h2 + .h3 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+/* H4 Immediately following H3 */
+h3 + h4,
+h3 + .h4,
+.h3 + h4 .h3 + .h4 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+/* H5 Immediately following H4 */
+h4 + h5,
+h4 + .h5,
+.h4 + h5 .h4 + .h5 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+/* H6 Immediately following H5 */
+h5 + h6,
+h5 + .h6 .h5 + h6,
+.h5 + .h6 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 575px) {
+  h1,
+.h1 {
+    font-size: 2rem;
+  }
+
+  h2,
+.h2 {
+    font-size: 1.75rem;
+  }
+
+  h3,
+.h3 {
+    font-size: 1.5rem;
+  }
+
+  h4,
+.h4 {
+    font-size: 1.2rem;
+  }
+
+  h5,
+.h5 {
+    font-size: 1.1rem;
+  }
+}

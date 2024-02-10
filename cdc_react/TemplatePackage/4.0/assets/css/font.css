@@ -1,0 +1,38 @@
+/**
+ * @version 4.22.11
+ * Date: 2023-02-01T12:38:11.768Z
+ */
+/* merriweather-regular - latin */
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Merriweather"), url("../fonts/merriweather-v19-latin-regular.woff2") format("woff2"), url("../fonts/merriweather-v19-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Open Sans Light";
+  font-style: normal;
+  font-weight: 100;
+  src: local("Open Sans, Light"), local("Open Sans-Light"), url("../fonts/open-sans-light-webfont.woff2") format("woff2"), url("../fonts/open-sans-light-webfont.woff") format("woff");
+}
+/* open-sans-regular - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), url("../fonts/open-sans-v28-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v28-latin-regular.woff") format("woff");
+}
+/* open-sans-500 - latin */
+@font-face {
+  font-family: "Open Sans Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Open Sans, Medium"), local("Open Sans-Medium"), url("../fonts/open-sans-v28-latin-500.woff2") format("woff2"), url("../fonts/open-sans-v28-latin-500.woff") format("woff");
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-family: "Open Sans Semibold";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans, Semibold"), local("Open Sans-Semibold"), url("../fonts/open-sans-v28-latin-600.woff2") format("woff2"), url("../fonts/open-sans-v28-latin-600.woff") format("woff");
+}

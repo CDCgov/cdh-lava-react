@@ -1,0 +1,16 @@
+{
+  "npmScope": "@cdc",
+  "name": "cdcsidebar",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/cdcsidebar/src",
+  "type": "component",
+  "cli": {
+    "packageManager": "yarn",
+    "defaultCollection": "@nrwl/react"
+  },
+  "runners": {
+    "default": {
+      "command": "npm run build"
+    }
+  }
+}

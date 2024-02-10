@@ -1,0 +1,29 @@
+@import '@cdc/cdccore/styles/cdcapp/cdcapp-4.22.11/scss/cdcapp';
+@import '@cdc/cdccore/styles/bootstrap/bootstrap-4.5.3/scss/bootstrap';
+@import '@cdc/cdccore/styles/easi/easi-1.0.0/scss/easi.scss';
+@import '@cdc/cdccore/styles/icomoon/icomoon-1.0.0/scss/icomoon.scss';
+@import '@cdc/core/styles/v2/main';
+
+.cdcsitetitle {
+ 
+  .cove-component__header {
+    font-size: unset;
+  }
+
+  .cove-component__content {
+    background-color: #f2f2f2;
+    font-size: 14px;
+  }
+  .cove-component__content.component--hideBackgroundColor {
+    background: transparent;
+  }
+}
+
+.cove-accordion__panel-section {
+  overflow: auto;
+
+  label {
+    display: block;
+    float: left;
+  }
+}

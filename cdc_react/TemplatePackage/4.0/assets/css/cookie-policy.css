@@ -1,0 +1,163 @@
+/**
+ * @version 4.22.11
+ * Date: 2023-02-01T12:38:11.768Z
+ */
+.cdc-cookie-policy-modal {
+  color: #000;
+}
+.cdc-cookie-policy-modal h5 {
+  margin: 10px 0 20px;
+}
+.cdc-cookie-policy-modal p {
+  font-size: 14px;
+  color: #333;
+}
+.cdc-cookie-policy-modal .cdc-modal-fixed {
+  bottom: 0;
+  position: fixed;
+  right: 0;
+  border-radius: 4px;
+  /* max-width: 375px; */
+  min-width: 400px;
+  z-index: 999;
+}
+.cdc-cookie-policy-modal .bg-custom {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  border-radius: 0;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 990px) {
+  .cdc-cookie-policy-modal .bg-custom {
+    margin-bottom: 3.6rem;
+  }
+}
+.cdc-cookie-policy-modal #policy-accordion .toggle-container {
+  position: relative;
+  clear: both;
+  /* display: grid;
+  grid-template-columns: 100px 1fr; */
+  /*gap: 30px; */
+  /* Style Wired */
+}
+.cdc-cookie-policy-modal #policy-accordion .toggle-container .switch input {
+  display: none;
+}
+.cdc-cookie-policy-modal #policy-accordion .toggle-container .switch {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  margin: 2px 0 0 5px;
+  transform: translateY(10%);
+  position: relative;
+  background: #333;
+  border-radius: 30px;
+  float: left;
+  text-indent: 999px;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.cdc-cookie-policy-modal #policy-accordion .toggle-container .slider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 4px solid transparent;
+  overflow: hidden;
+  transition: 0.4s;
+  display: block;
+  text-indent: 0;
+}
+.cdc-cookie-policy-modal #policy-accordion .toggle-container .slider::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 30px;
+  transform: translateX(-30px);
+  transition: 0.2s;
+}
+.cdc-cookie-policy-modal #policy-accordion .toggle-container .slider:focus {
+  /*border: 4px solid rgba(255, 102, 1, 0.9); */
+  outline: dashed 4px rgba(255, 102, 1, 0.9);
+}
+.cdc-cookie-policy-modal #policy-accordion .toggle-container input:checked + .slider::before {
+  transform: translateX(30px);
+  background: #fff;
+}
+.cdc-cookie-policy-modal #policy-accordion .toggle-container input:checked + .slider {
+  background: #4B830D;
+}
+.cdc-cookie-policy-modal #policy-accordion .toggle-container .heading-container {
+  border-bottom: 1px solid transparent;
+}
+.cdc-cookie-policy-modal #policy-accordion .toggle-container .heading-container:hover {
+  border-bottom: 1px dashed #bdbdbd;
+}
+.cdc-cookie-policy-modal #policy-accordion .toggle-container .heading-container .btn-link {
+  font-weight: bold;
+  color: #333;
+  padding: 0 !important;
+  margin: 5px 10px;
+}
+.cdc-cookie-policy-modal #policy-accordion .toggle-container .heading-container .btn-link:hover {
+  text-decoration: none;
+}
+.cdc-cookie-policy-modal #policy-accordion .toggle-container .heading-container .btn-link:focus {
+  text-decoration: none;
+  /*outline: none !important;*/
+}
+.cdc-cookie-policy-modal #policy-accordion .toggle-container .indicator {
+  position: absolute;
+  transform: rotate(-90deg);
+  height: 30px;
+  width: 30px;
+  display: block;
+  right: 10px;
+  padding-left: 10px;
+  top: 4px;
+}
+.cdc-cookie-policy-modal #policy-accordion .toggle-container .indicator.flipped {
+  transform: rotate(90deg);
+  right: 10px;
+}
+.cdc-cookie-policy-modal .remove-all-btn {
+  vertical-align: -webkit-baseline-middle;
+}
+.cdc-cookie-policy-modal .btn-primary:hover {
+  background-color: #064479 !important;
+  text-decoration: none;
+}
+.cdc-cookie-policy-modal .cdc-privacy-policy-confirmation.overlay {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  bottom: 20px;
+  background: white;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+}
+@media only screen and (max-width: 990px) {
+  .cdc-cookie-policy-modal .cdc-privacy-policy-confirmation.overlay {
+    margin-bottom: 3.6rem;
+    bottom: 0;
+  }
+}
+.cdc-cookie-policy-modal .modal-close-button {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  color: black;
+  font-weight: bold;
+  padding: 5px 10px;
+  z-index: 1000;
+}
