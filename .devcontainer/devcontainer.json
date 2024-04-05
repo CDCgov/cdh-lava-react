@@ -1,12 +1,14 @@
 {
     "name": "CDH Lava React",
     "runArgs": [
+        "--dns=8.8.8.8",
+        "--dns=8.8.4.4",
         "-v",
         "/var/run/docker.sock:/var/run/docker.sock"
     ],
     "build": {
-        "context": "..",
-        "dockerfile": ".devcontainer/Dockerfile"
+        "context": ".",
+        "dockerfile": "Dockerfile"
     },
     "workspaceFolder": "/${localWorkspaceFolderBasename}",
     "customizations": {
@@ -18,9 +20,7 @@
                 "editorconfig.editorconfig",
                 "mikestead.dotenv",
                 "ms-azuretools.vscode-docker",
-                "GitHub.copilot",
-                "eamodio.gitlens",
-                "wix.vscode-import-cost"
+                "GitHub.copilot"
             ],
             "forwardPorts": [
                 3000,
