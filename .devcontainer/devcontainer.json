@@ -1,5 +1,6 @@
 {
     "name": "CDH Lava React",
+    "remoteUser": "developer",
     "containerEnv": {
         "GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}"
       },
