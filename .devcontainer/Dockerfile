@@ -12,6 +12,10 @@ ARG GITHUB_TOKEN
 ARG USER_ID
 ARG GROUP_ID
 
+ENV USER_ID=${USER_ID}
+ENV GROUP_ID=${GROUP_ID}
+
+
 # Set the environment variables based on ARG values
 ENV CDH_LAVA_CORE_DEV_AZ_CLIENT_SECRET=${CDH_LAVA_CORE_DEV_AZ_CLIENT_SECRET} \
     APPS_CLIENT_SECRET=${APPS_CLIENT_SECRET} \
@@ -39,6 +43,8 @@ RUN install -m 0755 -d /etc/apt/keyrings && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 USER root
+
+RUN echo USER_ID=${USER_ID}, GROUP_ID=${GROUP_ID}
 
 # Creating a developer user
 RUN useradd -m -u ${USER_ID} -g ${GROUP_ID}  -s /bin/bash developer && \

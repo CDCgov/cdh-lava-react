@@ -52,7 +52,7 @@ docker-add-repo:
 
 docker-build:
 	@echo "Building Docker..."
-	@docker build -f .devcontainer/Dockerfile --build-arg USER_ID=$(id -u) --build-arg GROUP_ID=$(id -g)  -t test-build .
+	@docker build -f .devcontainer/Dockerfile --build-arg USER_ID="$(id -u)" --build-arg GROUP_ID="$(id -g)"  -t test-build .
 
 docker-install:
 	@echo "Installing Docker Engine and Docker Compose..."
