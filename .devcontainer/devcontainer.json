@@ -1,5 +1,8 @@
 {
     "name": "CDH Lava React",
+    "containerEnv": {
+        "GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}"
+      },
     "runArgs": [
         "--dns=8.8.8.8",
         "--dns=8.8.4.4",
