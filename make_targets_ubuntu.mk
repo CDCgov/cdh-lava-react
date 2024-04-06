@@ -15,3 +15,6 @@ ubuntu-print-tree:
 	@mkdir -p docs
 	@tree > docs/directory_structure.txt
 
+ubuntu-node-entrypoint:
+	sudo ./.devcontainer/script_node_app_entrypoint.sh
+
