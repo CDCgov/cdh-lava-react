@@ -8,6 +8,10 @@ ARG GIT_USER_NAME=jcbowyer
 ARG GIT_USER_EMAIL=jcbowyer@hotmail.com
 ARG TZ=America/New_York
 ARG DEBIAN_FRONTEND=noninteractive
+ARG GITHUB_TOKEN
+ARG USER_ID
+ARG GROUP_ID
+
 
 # Set the environment variables based on ARG values
 ENV CDH_LAVA_CORE_DEV_AZ_CLIENT_SECRET=${CDH_LAVA_CORE_DEV_AZ_CLIENT_SECRET} \
@@ -90,9 +94,10 @@ RUN apt-get clean \  && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 USER root
+ 
 
 # Creating a developer user
-RUN useradd -m -s /bin/bash developer \
+RUN useradd -m -u ${USER_ID} -g ${GROUP_ID}  -s /bin/bash developer \
     && echo 'developer ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers.d/developer \
     && chmod 0440 /etc/sudoers.d/developer
 
@@ -112,6 +117,13 @@ RUN chmod +x /home/developer/node_app/entrypoint.sh
 # Switch to the developer user
 USER developer
 
+WORKDIR /home/developer/projects/cdh_lava_react_app
+
+# Create the .npmrc file using the build argument
+RUN echo "@cdcent:registry=https://npm.pkg.github.com/" > .npmrc && \
+    echo "//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}" >> .npmrc && \
+    echo "always-auth=true" >> .npmrc
+
 # Set the working directory to the project directory
 WORKDIR /home/developer/projects/cdh_lava_react_app/cdc_react
 RUN if [ "$(ls -A )" ]; then \
@@ -122,6 +134,7 @@ RUN if [ "$(ls -A )" ]; then \
 
 RUN if [ -f package.json ]; then npm install; else echo "package.json not found"; exit 1; fi
 
-
 # Note: The Dockerfile should not include secrets directly for security reasons.
 # Pass secrets at runtime using environment variables or Docker secrets.
+# Use ENTRYPOINT to specify the startup command
+ENTRYPOINT ["../.devcontainer/script_node_app_entrypoint.sh"]
