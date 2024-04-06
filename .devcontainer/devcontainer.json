@@ -4,7 +4,8 @@
         "--dns=8.8.8.8",
         "--dns=8.8.4.4",
         "-v",
-        "/var/run/docker.sock:/var/run/docker.sock"
+        "/var/run/docker.sock:/var/run/docker.sock",
+        "--env-file", "${localWorkspaceFolder}/.env"
     ],
     "build": {
         "context": "..",
@@ -15,7 +16,7 @@
         "vscode": {
             "extensions": [
                 "dbaeumer.vscode-eslint",
-                "esbenp.prettier-vscode",
+                "esbenp.prettier-vscode", 
                 "stylelint.vscode-stylelint",
                 "editorconfig.editorconfig",
                 "mikestead.dotenv",
