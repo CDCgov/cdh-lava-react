@@ -44,12 +44,15 @@ RUN install -m 0755 -d /etc/apt/keyrings && \
 
 USER root
 
-RUN echo USER_ID=${USER_ID}, GROUP_ID=${GROUP_ID}
+RUN if [ -n "${USER_ID}" ] && [ -n "${GROUP_ID}" ]; then \
+        echo "Creating user with USER_ID=${USER_ID}, GROUP_ID=${GROUP_ID}"; \
+        useradd -m -u ${USER_ID} -g ${GROUP_ID} -s /bin/bash developer && \
+        echo 'developer ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers.d/developer && \
+        chmod 0440 /etc/sudoers.d/developer; \
+    else \
+        echo "USER_ID or GROUP_ID not set, skipping user creation"; \
+    fi
 
-# Creating a developer user
-RUN useradd -m -u ${USER_ID} -g ${GROUP_ID}  -s /bin/bash developer && \
-    echo 'developer ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers.d/developer && \
-    chmod 0440 /etc/sudoers.d/developer
 
 # Install NVM, Node.js, and npm
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash && \
