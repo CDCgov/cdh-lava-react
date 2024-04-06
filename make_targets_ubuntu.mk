@@ -8,8 +8,10 @@
 # Other targets as previously documented...
 ################################################################################
 
-# Checks if the `tree` command is available and installs it if not, then prints the directory tree
+# Checks if the `tree` command is available and installs it if not, then prints the directory tree to a file
 ubuntu-print-tree:
-	@which tree > /dev/null || (echo "Installing tree..." && sudo apt-get install -y tree)
-	@echo "Printing directory structure..."
-	@tree
+	@which tree > /dev/null || (echo "Installing tree..." && sudo apt-get update && sudo apt-get install -y tree)
+	@echo "Printing directory structure to docs/directory_structure.txt..."
+	@mkdir -p docs
+	@tree > docs/directory_structure.txt
+

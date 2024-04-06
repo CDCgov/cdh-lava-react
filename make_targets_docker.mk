@@ -51,8 +51,8 @@ docker-add-repo:
 	echo "deb [arch=$$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 docker-build:
-	@echo "Building Docker..."    
-	@cd .devcontainer && docker build -f Dockerfile -t test-build .
+	@echo "Building Docker..."
+	@docker build -f .devcontainer/Dockerfile -t test-build .
 
 docker-install:
 	@echo "Installing Docker Engine and Docker Compose..."

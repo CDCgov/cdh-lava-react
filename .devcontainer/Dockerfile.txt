@@ -20,7 +20,7 @@ ENV CDH_LAVA_CORE_DEV_AZ_CLIENT_SECRET=${CDH_LAVA_CORE_DEV_AZ_CLIENT_SECRET} \
 RUN apt-get update && apt-get install lsof -y --no-install-recommends
 
 # Install required packages
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN  apt-get update && apt-get install -y --no-install-recommends \
     bash \
     sudo \
     coreutils \
@@ -40,7 +40,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # Minimize the image and install basic packages
 # Minimize the image and install basic packages
-RUN apt-get update && \
+RUN  apt-get update && \
     apt-get install -y --no-install-recommends \
     git wget  build-essential libssl-dev zlib1g-dev \
     libbz2-dev libreadline-dev libsqlite3-dev llvm \
@@ -91,36 +91,32 @@ RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 USER root
 
+RUN mkdir -p /home/developer/projects/cdh_lava_react_app/ /home/developer/node_app
+
+ 
+COPY --chown=developer:developer script_node_app_entrypoint.sh /home/developer/node_app/entrypoint.sh
+COPY --chown=developer:developer . /home/developer/projects/cdh_lava_react_app
+RUN chmod +x /home/developer/node_app/entrypoint.sh
+
+
+
 # Creating a developer user
 RUN useradd -m -s /bin/bash developer \
     && echo 'developer ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers.d/developer \
     && chmod 0440 /etc/sudoers.d/developer
-
-# Debug: Before copying, list files in the current directory to see what will be copied
-RUN ls -la
-
-RUN mkdir -p /home/developer/projects/cdh_lava_react_app/ /home/developer/node_app
-
-COPY --chown=developer:developer .devcontainer/script_node_app_entrypoint.sh /home/developer/node_app/entrypoint.sh
-# Debug: After copying, check if the file exists in the target directory
-
-COPY --chown=developer:developer . /home/developer/projects/cdh_lava_react_app
-# Debug: After copying, list contents of the project directory
-
-RUN chmod +x /home/developer/node_app/entrypoint.sh
 
 # Switch to the developer user
 USER developer
 
 # Set the working directory to the project directory
 WORKDIR /home/developer/projects/cdh_lava_react_app/cdc_react
-RUN if [ "$(ls -A )" ]; then \
+RUN if [ "$(ls -A $PWD)" ]; then \
         ls -la; \
     else \
         echo "No files found in the directory"; \
     fi
 
-RUN if [ -f package.json ]; then npm install; else echo "package.json not found"; exit 1; fi
+RUN if [ -f $PWD/package.json ]; then npm install; else echo "package.json not found"; exit 1; fi
 
 
 # Note: The Dockerfile should not include secrets directly for security reasons.
