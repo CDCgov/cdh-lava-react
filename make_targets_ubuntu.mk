@@ -1,0 +1,15 @@
+################################################################################
+# Docker and System Configuration Makefile
+#
+# Simplifies Docker setup in WSL Ubuntu and includes system utility commands.
+#
+# Targets:
+# - `ubuntu-print-tree`: Displays the directory structure using the tree command. Installs `tree` if not present.
+# Other targets as previously documented...
+################################################################################
+
+# Checks if the `tree` command is available and installs it if not, then prints the directory tree
+ubuntu-print-tree:
+	@which tree > /dev/null || (echo "Installing tree..." && sudo apt-get install -y tree)
+	@echo "Printing directory structure..."
+	@tree

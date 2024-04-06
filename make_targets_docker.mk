@@ -20,57 +20,58 @@
 ################################################################################
 
 # Default target executed when no arguments are given to make.
-default: full_install
+default: 
+	@echo "Docker Full Install ..."
+	$(MAKE) docker-full-install
 
 check-wsl:
-    @echo "Checking WSL version..."
-    wsl --set-default-version 2
+	@echo "Checking WSL version..."
+	wsl --set-default-version 2
 
 docker-remove-old:
-    @echo "Removing any old Docker versions..."
-    sudo apt remove -y docker docker-engine docker.io containerd runc
+	@echo "Removing any old Docker versions..."
+	sudo apt remove -y docker docker-engine docker.io containerd runc
 
 docker-install-dependencies:
-    @echo "Updating and installing required packages..."
-    sudo apt-get update
-    sudo apt-get install -y \
-    ca-certificates \
-    curl \
-    gnupg \
-    lsb-release
+	@echo "Updating and installing required packages..."
+	sudo apt-get update
+	sudo apt-get install -y \
+	ca-certificates \
+	curl \
+	gnupg \
+	lsb-release
 
 docker-add-gpg-key:
-    @echo "Adding Docker's official GPG key..."
-    sudo mkdir -p /etc/apt/keyrings
-    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+	@echo "Adding Docker's official GPG key..."
+	sudo mkdir -p /etc/apt/keyrings
+	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 
 docker-add-repo:
-    @echo "Adding Docker's stable repository..."
-    echo "deb [arch=$$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+	@echo "Adding Docker's stable repository..."
+	echo "deb [arch=$$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+docker-build:
+	@echo "Building Docker..."    
+	@cd .devcontainer && docker build -f Dockerfile -t test-build .
 
 docker-install:
-    @echo "Installing Docker Engine and Docker Compose..."
-    sudo apt-get update
-    sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+	@echo "Installing Docker Engine and Docker Compose..."
+	sudo apt-get update
+	sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
-# Check if Docker is running and start Docker Desktop if not
 docker-start:
 	@echo "Ensuring Docker service is running..."
 	sudo service docker start
 	@echo "Docker is running."
 
-# Example target to launch a devcontainer task after ensuring Docker is running
 devcontainer: docker-start
 	@echo "Launching Dev Container..."
 	# Insert the command to launch your dev container here, for example:
 	# code --folder-uri vscode-remote://dev-container+$(shell wslpath -m .)
 
 docker-verify:
-    @echo "Verifying Docker installation..."
-    sudo docker run hello-world
+	@echo "Verifying Docker installation..."
+	sudo docker run hello-world
 
-# New target for full installation
-docker-full-install: verify_docker
-    @echo "Full installation completed successfully."
-
-.PHONY: default check_wsl remove_old_docker install_dependencies add_gpg_key add_docker_repo install_docker verify_docker full_install
+docker-full-install: check-wsl docker-remove-old docker-install-dependencies docker-add-gpg-key docker-add-repo docker-install docker-verify
+	@echo "Full installation completed successfully."
