@@ -1,0 +1,64 @@
+{
+    "name": "CDH Lava React",
+    "runArgs": [
+        "-v",
+        "/var/run/docker.sock:/var/run/docker.sock"
+    ],
+    "build": {
+        "context": "..",
+        "dockerfile": ".devcontainer/Dockerfile"
+    },
+    "workspaceFolder": "/${localWorkspaceFolderBasename}",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "stylelint.vscode-stylelint",
+                "editorconfig.editorconfig",
+                "mikestead.dotenv",
+                "ms-azuretools.vscode-docker",
+                "GitHub.copilot",
+                "eamodio.gitlens",
+                "wix.vscode-import-cost"
+            ],
+            "forwardPorts": [
+                3000,
+                5000,
+                8080
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash",
+                "[javascript]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode",
+                    "editor.formatOnSave": true
+                },
+                "[typescript]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode",
+                    "editor.formatOnSave": true
+                },
+                "[json]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode",
+                    "editor.formatOnSave": true
+                },
+                "eslint.alwaysShowStatus": true,
+                "eslint.validate": [
+                    "javascript",
+                    "javascriptreact",
+                    "typescript",
+                    "typescriptreact"
+                ],
+                "stylelint.validate": [
+                    "css",
+                    "scss"
+                ],
+                "editor.codeActionsOnSave": {
+                    "source.fixAll.eslint": true,
+                    "source.fixAll.stylelint": true
+                }
+            },
+            "postCreateCommand": "echo 'Node.js Container is ready!'",
+            "shutdownAction": "stopCompose"
+        }
+    }
+}
