@@ -37,17 +37,11 @@ GitHub has the latest instructions for installing packages from GitHub here:
 
 - [GitHub Installation](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package)
 
-Effectively:
 
-1. **Create token:*
+1. Recipe in GitHub to Generate Personal Access Token
 
-   -Go to [GithUb User Settings](https://github.com/settings/tokens) to create a Developer Access token. Your Token will only need `read:packages` scope permission. Better to use less than more.
-
-2. Once your token is created,
-
-   - *copy the token string value*, then
-   - click **Configure SSO**, and
-   - **Authorize*-for CDCEnt Github Org.
+- [Team Version](https://publichealthsurveillance.atlassian.net/wiki/x/AQALnw)
+- [Intranet Version](https://wcms-wp-intra.cdc.gov/datahub/dashboards/recipes/github_generate_personal_access_token.html)
 
 3. There's two ways to authenticate - use "token" for username and the token path for password, or use an `.npmrc` file.
 
