@@ -65,7 +65,7 @@
     "@types/react-dom": "^18.0.9",
     "@types/resize-observer-browser": "^0.1.5",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
-    "@typescript-eslint/parser": "^7.0.1",
+    "@typescript-eslint/parser": "^7.5.0",
     "@visx/group": "^3.0.0",
     "@visx/heatmap": "^3.0.0",
     "@visx/scale": "^3.0.0",
