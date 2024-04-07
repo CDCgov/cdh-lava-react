@@ -138,246 +138,246 @@
           },
           {
             "file": "packages/cdcsitetitle/package.json",
-            "hash": "11549887453304375360",
+            "hash": "7253167853053756624",
             "dependencies": [
               {
+                "source": "cdcsitetitle",
                 "target": "npm:@visx/legend",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:@visx/responsive",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:@visx/shape",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:chroma",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:chroma-js",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:html-react-parser",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:interweave",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:prop-types",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:react",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:react-dom",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:react-tooltip",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:sass",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:use-debounce",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:whatwg-fetch",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:@babel/core",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:@babel/preset-env",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:@babel/preset-react",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:@types/react",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:@types/react-dom",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:@types/resize-observer-browser",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:@visx/group",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:@visx/heatmap",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:@visx/scale",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:babel-eslint",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:d3-composite-projections",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:eslint",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:eslint-config-airbnb-typescript",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:eslint-config-prettier",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:eslint-config-react-app",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:eslint-plugin-flowtype",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:eslint-plugin-import",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:eslint-plugin-jsx-a11y",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:eslint-plugin-prettier",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:eslint-plugin-react",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:eslint-plugin-react-hooks",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:lint-staged",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:mini-svg-data-uri",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:pathe",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:pcf-scripts",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:prettier",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:react-accessible-accordion",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:react-dnd",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:react-visibility-sensor",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:resize-observer-polyfill",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:vite",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:vite-plugin-css-injected-by-js",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
+                "source": "cdcsitetitle",
                 "target": "npm:vite-plugin-svgr",
-                "source": "cdcsitetitle",
                 "type": "static"
               },
               {
-                "target": "npm:cacache",
                 "source": "cdcsitetitle",
+                "target": "npm:cacache",
                 "type": "static"
               }
             ]
@@ -479,15 +479,15 @@
         },
         "repository": {
           "type": "git",
-          "url": "git+https://github.com/cdcent/data-ecosystem-services/cdcmarkdown",
+          "url": "git+https://github.com/cdcgov/cdh-lava-react/cdcmarkdown",
           "directory": "packages/markup-include"
         },
         "author": "Rob Shelnutt <rob@blackairplane.com>",
         "bugs": {
-          "url": "https://github.com/cdcent/data-ecosystem-services/cdcmarkdown/issues"
+          "url": "https://github.com/cdcgov/cdh-lava-react/cdcmarkdown/issues"
         },
         "license": "Apache-2.0",
-        "homepage": "https://github.com/cdcent/data-ecosystem-services/cdcmarkdown#readme",
+        "homepage": "https://github.com/cdcgov/cdh-lava-react/cdcmarkdown#readme",
         "dependencies": {
           "axios": "^0.26.1",
           "chroma": "0.0.1",
@@ -580,58 +580,58 @@
           },
           {
             "file": "packages/cdcmarkdown/package.json",
-            "hash": "3261775071381537732",
+            "hash": "1076238495602916468",
             "dependencies": [
               {
+                "source": "@cdc/cdcmarkdown",
                 "target": "npm:axios",
-                "source": "@cdc/cdcmarkdown",
                 "type": "static"
               },
               {
+                "source": "@cdc/cdcmarkdown",
                 "target": "npm:chroma",
-                "source": "@cdc/cdcmarkdown",
                 "type": "static"
               },
               {
+                "source": "@cdc/cdcmarkdown",
                 "target": "npm:chroma-js",
-                "source": "@cdc/cdcmarkdown",
                 "type": "static"
               },
               {
+                "source": "@cdc/cdcmarkdown",
                 "target": "npm:html-react-parser",
-                "source": "@cdc/cdcmarkdown",
                 "type": "static"
               },
               {
+                "source": "@cdc/cdcmarkdown",
                 "target": "npm:interweave",
-                "source": "@cdc/cdcmarkdown",
                 "type": "static"
               },
               {
+                "source": "@cdc/cdcmarkdown",
                 "target": "npm:react-accessible-accordion",
-                "source": "@cdc/cdcmarkdown",
                 "type": "static"
               },
               {
+                "source": "@cdc/cdcmarkdown",
                 "target": "npm:cacache",
-                "source": "@cdc/cdcmarkdown",
                 "type": "static"
               },
               {
+                "source": "@cdc/cdcmarkdown",
                 "target": "npm:react",
-                "source": "@cdc/cdcmarkdown",
                 "type": "static"
               },
               {
-                "target": "npm:react-dom",
                 "source": "@cdc/cdcmarkdown",
+                "target": "npm:react-dom",
                 "type": "static"
               }
             ]
           },
           {
             "file": "packages/cdcmarkdown/project.json",
-            "hash": "5450053249678579524"
+            "hash": "30082056623046955"
           },
           {
             "file": "packages/cdcmarkdown/readme.md",
@@ -783,7 +783,7 @@
         "files": [
           {
             "file": "packages/cdcsidebar/CHANGELOG.md",
-            "hash": "5611746584480974985"
+            "hash": "12131322667847837560"
           },
           {
             "file": "packages/cdcsidebar/examples/example-config.json",
@@ -795,261 +795,261 @@
           },
           {
             "file": "packages/cdcsidebar/package.json",
-            "hash": "5716460058842079406",
+            "hash": "12184313588819993823",
             "dependencies": [
               {
+                "source": "cdcsidebar",
                 "target": "npm:@visx/legend",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:@visx/responsive",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:@visx/shape",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:chroma",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:chroma-js",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:html-react-parser",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:jquery",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:popper.js",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:react",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:react-bootstrap",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:react-dom",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:react-icons",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:react-router-dom",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:react-tooltip",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:sass",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:use-debounce",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:whatwg-fetch",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:@babel/core",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:@babel/preset-env",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:@babel/preset-react",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:@types/react",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:@types/react-dom",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:@types/resize-observer-browser",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:@visx/group",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:@visx/heatmap",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:@visx/scale",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:@vitejs/plugin-react",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:babel-eslint",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:d3-composite-projections",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:eslint",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:eslint-config-airbnb-typescript",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:eslint-config-prettier",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:eslint-config-react-app",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:eslint-plugin-flowtype",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:eslint-plugin-import",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:eslint-plugin-jsx-a11y",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:eslint-plugin-prettier",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:eslint-plugin-react",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:eslint-plugin-react-hooks",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:lint-staged",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:mini-svg-data-uri",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:pathe",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:prettier",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:react-accessible-accordion",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:react-dnd",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:react-visibility-sensor",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:resize-observer-polyfill",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:vite",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:vite-plugin-css-injected-by-js",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
+                "source": "cdcsidebar",
                 "target": "npm:vite-plugin-svgr",
-                "source": "cdcsidebar",
                 "type": "static"
               },
               {
-                "target": "npm:cacache",
                 "source": "cdcsidebar",
+                "target": "npm:cacache",
                 "type": "static"
               }
             ]
@@ -1174,7 +1174,7 @@
         "files": [
           {
             "file": "packages/cdcheader/CHANGELOG.md",
-            "hash": "12265296127178526288"
+            "hash": "4441452499840787933"
           },
           {
             "file": "packages/cdcheader/examples/example-config.json",
@@ -1190,66 +1190,66 @@
           },
           {
             "file": "packages/cdcheader/package.json",
-            "hash": "18214617200301498477",
+            "hash": "7317164246543986949",
             "dependencies": [
               {
+                "source": "cdcheader",
                 "target": "npm:@visx/shape",
-                "source": "cdcheader",
                 "type": "static"
               },
               {
+                "source": "cdcheader",
                 "target": "npm:chroma",
-                "source": "cdcheader",
                 "type": "static"
               },
               {
+                "source": "cdcheader",
                 "target": "npm:chroma-js",
-                "source": "cdcheader",
                 "type": "static"
               },
               {
+                "source": "cdcheader",
                 "target": "npm:html-react-parser",
-                "source": "cdcheader",
                 "type": "static"
               },
               {
+                "source": "cdcheader",
                 "target": "npm:prop-types",
-                "source": "cdcheader",
                 "type": "static"
               },
               {
+                "source": "cdcheader",
                 "target": "npm:react",
-                "source": "cdcheader",
                 "type": "static"
               },
               {
+                "source": "cdcheader",
                 "target": "npm:react-accessible-accordion",
-                "source": "cdcheader",
                 "type": "static"
               },
               {
+                "source": "cdcheader",
                 "target": "npm:react-dom",
-                "source": "cdcheader",
                 "type": "static"
               },
               {
+                "source": "cdcheader",
                 "target": "npm:react-tooltip",
-                "source": "cdcheader",
                 "type": "static"
               },
               {
+                "source": "cdcheader",
                 "target": "npm:use-debounce",
-                "source": "cdcheader",
                 "type": "static"
               },
               {
+                "source": "cdcheader",
                 "target": "npm:whatwg-fetch",
-                "source": "cdcheader",
                 "type": "static"
               },
               {
-                "target": "npm:cacache",
                 "source": "cdcheader",
+                "target": "npm:cacache",
                 "type": "static"
               }
             ]
@@ -1416,111 +1416,111 @@
           },
           {
             "file": "packages/cdccore/package.json",
-            "hash": "1144199822895872101",
+            "hash": "8272549320374660984",
             "dependencies": [
               {
+                "source": "cdccore",
                 "target": "npm:@npmcli/fs",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:@nrwl/react",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:@types/d3-scale",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:cacache",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:d3-scale",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:eslint",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:html2canvas",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:html2pdf.js",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:papaparse",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:prop-types",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:react",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:react-accessible-accordion",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:react-dom",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:react-select",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:react-tooltip",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:sass",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:sass-migrator",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:typescript",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:use-debounce",
-                "source": "cdccore",
                 "type": "static"
               },
               {
+                "source": "cdccore",
                 "target": "npm:node-sass",
-                "source": "cdccore",
                 "type": "static"
               },
               {
-                "target": "npm:pcf-scripts",
                 "source": "cdccore",
+                "target": "npm:pcf-scripts",
                 "type": "static"
               }
             ]
@@ -1975,15 +1975,15 @@
           },
           {
             "file": "packages/cdccore/styles/cdcapp/cdcapp-4.22.11/fonts/nunito-v12-latin-700.woff2",
-            "hash": "8623963337715228371"
+            "hash": "9022259329476872138"
           },
           {
             "file": "packages/cdccore/styles/cdcapp/cdcapp-4.22.11/fonts/nunito-v12-latin-800.woff2",
-            "hash": "14454523711969135130"
+            "hash": "6523313055143812933"
           },
           {
             "file": "packages/cdccore/styles/cdcapp/cdcapp-4.22.11/fonts/nunito-v12-latin-regular.woff2",
-            "hash": "12839223908177305628"
+            "hash": "99318054550822032"
           },
           {
             "file": "packages/cdccore/styles/cdcapp/cdcapp-4.22.11/fonts/open-sans-light-webfont copy.woff",
@@ -2015,11 +2015,11 @@
           },
           {
             "file": "packages/cdccore/styles/cdcapp/cdcapp-4.22.11/fonts/open-sans-v28-latin-500.woff",
-            "hash": "9029700687534327466"
+            "hash": "3861343845013827856"
           },
           {
             "file": "packages/cdccore/styles/cdcapp/cdcapp-4.22.11/fonts/open-sans-v28-latin-500.woff2",
-            "hash": "10827023665618259321"
+            "hash": "15797589194670963579"
           },
           {
             "file": "packages/cdccore/styles/cdcapp/cdcapp-4.22.11/fonts/open-sans-v28-latin-600.woff",
@@ -2043,7 +2043,7 @@
           },
           {
             "file": "packages/cdccore/styles/cdcapp/cdcapp-4.22.11/fonts/sourcesanspro-bold-webfont.woff2",
-            "hash": "17012919540155316135"
+            "hash": "3072444328732621746"
           },
           {
             "file": "packages/cdccore/styles/cdcapp/cdcapp-4.22.11/fonts/sourcesanspro-regular-webfont copy.woff2",
@@ -2051,7 +2051,7 @@
           },
           {
             "file": "packages/cdccore/styles/cdcapp/cdcapp-4.22.11/fonts/sourcesanspro-regular-webfont.woff2",
-            "hash": "2352722910420341184"
+            "hash": "11244310855771765469"
           },
           {
             "file": "packages/cdccore/styles/cdcapp/cdcapp-4.22.11/scss/cdcapp.scss",
@@ -2111,7 +2111,7 @@
           },
           {
             "file": "packages/cdccore/styles/icomoon/icomoon-1.0.0/scss/icomoon-free.ttf",
-            "hash": "474456924420093572"
+            "hash": "14599912048502593583"
           },
           {
             "file": "packages/cdccore/styles/icomoon/icomoon-1.0.0/scss/icomoon.scss",
@@ -3377,6 +3377,33 @@
         "hash": "sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw=="
       }
     },
+    "npm:@cspotcode/source-map-support": {
+      "type": "npm",
+      "name": "npm:@cspotcode/source-map-support",
+      "data": {
+        "version": "0.8.1",
+        "packageName": "@cspotcode/source-map-support",
+        "hash": "sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw=="
+      }
+    },
+    "npm:@jridgewell/trace-mapping@0.3.9": {
+      "type": "npm",
+      "name": "npm:@jridgewell/trace-mapping@0.3.9",
+      "data": {
+        "version": "0.3.9",
+        "packageName": "@jridgewell/trace-mapping",
+        "hash": "sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ=="
+      }
+    },
+    "npm:@jridgewell/trace-mapping": {
+      "type": "npm",
+      "name": "npm:@jridgewell/trace-mapping",
+      "data": {
+        "version": "0.3.22",
+        "packageName": "@jridgewell/trace-mapping",
+        "hash": "sha512-Wf963MzWtA2sjrNt+g18IAln9lKnlRp+K2eH4jjIoF1wYeq3aMREpG09xhlhdzS0EjwU7qmUJYangWa+151vZw=="
+      }
+    },
     "npm:@emotion/babel-plugin": {
       "type": "npm",
       "name": "npm:@emotion/babel-plugin",
@@ -4547,15 +4574,6 @@
         "hash": "sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg=="
       }
     },
-    "npm:@jridgewell/trace-mapping": {
-      "type": "npm",
-      "name": "npm:@jridgewell/trace-mapping",
-      "data": {
-        "version": "0.3.22",
-        "packageName": "@jridgewell/trace-mapping",
-        "hash": "sha512-Wf963MzWtA2sjrNt+g18IAln9lKnlRp+K2eH4jjIoF1wYeq3aMREpG09xhlhdzS0EjwU7qmUJYangWa+151vZw=="
-      }
-    },
     "npm:@juggle/resize-observer": {
       "type": "npm",
       "name": "npm:@juggle/resize-observer",
@@ -4970,13 +4988,13 @@
         "hash": "sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg=="
       }
     },
-    "npm:axios@1.6.7": {
+    "npm:axios@1.6.8": {
       "type": "npm",
-      "name": "npm:axios@1.6.7",
+      "name": "npm:axios@1.6.8",
       "data": {
-        "version": "1.6.7",
+        "version": "1.6.8",
         "packageName": "axios",
-        "hash": "sha512-/hDJGff6/c7u0hDkvkGxR/oy6CbCs8ziCsC7SqmhjfozqiJGc8Z11wrv9z9lYfY4K8l+H9TpjcMDX0xOZmx+RA=="
+        "hash": "sha512-v/ZHtJDU39mDpyBoFVkETcd/uNdxrWRrg3bKpOKzXFA6Bvqopts6ALSMU3y6ijYxbw2B+wPrIv46egTzJXCLGQ=="
       }
     },
     "npm:axios": {
@@ -5760,6 +5778,42 @@
         "version": "0.2.0",
         "packageName": "@trysound/sax",
         "hash": "sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA=="
+      }
+    },
+    "npm:@tsconfig/node10": {
+      "type": "npm",
+      "name": "npm:@tsconfig/node10",
+      "data": {
+        "version": "1.0.11",
+        "packageName": "@tsconfig/node10",
+        "hash": "sha512-DcRjDCujK/kCk/cUe8Xz8ZSpm8mS3mNNpta+jGCA6USEDfktlNvm1+IuZ9eTcDbNk41BHwpHHeW+N1lKCz4zOw=="
+      }
+    },
+    "npm:@tsconfig/node12": {
+      "type": "npm",
+      "name": "npm:@tsconfig/node12",
+      "data": {
+        "version": "1.0.11",
+        "packageName": "@tsconfig/node12",
+        "hash": "sha512-cqefuRsh12pWyGsIoBKJA9luFu3mRxCA+ORZvA4ktLSzIuCUtWVxGIuXigEwO5/ywWFMZ2QEGKWvkZG1zDMTag=="
+      }
+    },
+    "npm:@tsconfig/node14": {
+      "type": "npm",
+      "name": "npm:@tsconfig/node14",
+      "data": {
+        "version": "1.0.3",
+        "packageName": "@tsconfig/node14",
+        "hash": "sha512-ysT8mhdixWK6Hw3i1V2AeRqZ5WfXg1G43mqoYlM2nc6388Fq5jcXyr5mRsqViLx/GJYdoL0bfXD8nmF+Zn/Iow=="
+      }
+    },
+    "npm:@tsconfig/node16": {
+      "type": "npm",
+      "name": "npm:@tsconfig/node16",
+      "data": {
+        "version": "1.0.4",
+        "packageName": "@tsconfig/node16",
+        "hash": "sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA=="
       }
     },
     "npm:@types/aria-query": {
@@ -8201,6 +8255,15 @@
         "hash": "sha512-Adz2bdH0Vq3F53KEMJOoftQFutWCukm6J24wbPWRO4k1kMY7gS7ds/uoJkNuV8wDCtWWnuwGcJwpWcih+zEW1Q=="
       }
     },
+    "npm:create-require": {
+      "type": "npm",
+      "name": "npm:create-require",
+      "data": {
+        "version": "1.1.1",
+        "packageName": "create-require",
+        "hash": "sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ=="
+      }
+    },
     "npm:cross-spawn": {
       "type": "npm",
       "name": "npm:cross-spawn",
@@ -9537,9 +9600,9 @@
       "type": "npm",
       "name": "npm:follow-redirects",
       "data": {
-        "version": "1.15.5",
+        "version": "1.15.6",
         "packageName": "follow-redirects",
-        "hash": "sha512-vSFWUON1B+yAw1VN4xMfxgn5fTUiaOzAJCKBwIIgT/+7CuGy9+r+5gITvP62j3RmaD5Ph65UaERdOSRGUzZtgw=="
+        "hash": "sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA=="
       }
     },
     "npm:for-each": {
@@ -10212,9 +10275,9 @@
       "type": "npm",
       "name": "npm:ip",
       "data": {
-        "version": "2.0.0",
+        "version": "2.0.1",
         "packageName": "ip",
-        "hash": "sha512-WKa+XuLG1A1R0UWhl2+1XQSi+fZWMsYKffMZTTYsiZaUD8k2yDAj5atimTUD2TZkyCkNEeYE5NhFZmupOGtjYQ=="
+        "hash": "sha512-lJUL9imLTNi1ZfXT+DU6rBBdbiKGBuay9B6xGSPVjUeQwaH1RIGqef8RZkUtHioLmSNpPR5M4HVKJGm1j8FWVQ=="
       }
     },
     "npm:is-arguments": {
@@ -12125,6 +12188,24 @@
         "hash": "sha512-+yu1tGgVqcAaP2wLRzdM3ruznwgltSxCIOLovOrcVKeitqapYjrTUjjogK+W4fc1buyao2//yBHJErTsOpNtFg=="
       }
     },
+    "npm:ts-node@8.10.2": {
+      "type": "npm",
+      "name": "npm:ts-node@8.10.2",
+      "data": {
+        "version": "8.10.2",
+        "packageName": "ts-node",
+        "hash": "sha512-ISJJGgkIpDdBhWVu3jufsWpK3Rzo7bdiIXJjQc0ynKxVOVcg2oIrf2H2cejminGrptVc6q6/uynAHNCuWGbpVA=="
+      }
+    },
+    "npm:ts-node": {
+      "type": "npm",
+      "name": "npm:ts-node",
+      "data": {
+        "version": "10.9.2",
+        "packageName": "ts-node",
+        "hash": "sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ=="
+      }
+    },
     "npm:universalify@0.1.2": {
       "type": "npm",
       "name": "npm:universalify@0.1.2",
@@ -13763,15 +13844,6 @@
         "hash": "sha512-rNH3sK9kGZcH9dYzC7CewQm4NtxJTjSEVRJ2DyBZR7f8/wcta+iV44UPCXc5+nzDzivKtlzV6c9P4e+oFhDLYg=="
       }
     },
-    "npm:ts-node": {
-      "type": "npm",
-      "name": "npm:ts-node",
-      "data": {
-        "version": "8.10.2",
-        "packageName": "ts-node",
-        "hash": "sha512-ISJJGgkIpDdBhWVu3jufsWpK3Rzo7bdiIXJjQc0ynKxVOVcg2oIrf2H2cejminGrptVc6q6/uynAHNCuWGbpVA=="
-      }
-    },
     "npm:tsutils": {
       "type": "npm",
       "name": "npm:tsutils",
@@ -13970,6 +14042,15 @@
         "hash": "sha512-1MLa5ouZiOmQzUbjbu9VmjLzn1QLXBhwpUa7kdLUQK+KQ5KA9I1vk5U4YHe/X2Ch7PYnJfWuWT+VbuxbGwljhw=="
       }
     },
+    "npm:v8-compile-cache-lib": {
+      "type": "npm",
+      "name": "npm:v8-compile-cache-lib",
+      "data": {
+        "version": "3.0.1",
+        "packageName": "v8-compile-cache-lib",
+        "hash": "sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg=="
+      }
+    },
     "npm:v8-to-istanbul": {
       "type": "npm",
       "name": "npm:v8-to-istanbul",
@@ -13992,9 +14073,9 @@
       "type": "npm",
       "name": "npm:vite",
       "data": {
-        "version": "4.5.2",
+        "version": "4.5.3",
         "packageName": "vite",
-        "hash": "sha512-tBCZBNSBbHQkaGyhGCDUGqeo2ph8Fstyp6FMSvTtsXeZSPpSMGlviAOav2hxVTqFcx8Hj/twtWKsMJXNY0xI8w=="
+        "hash": "sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg=="
       }
     },
     "npm:vite-node": {
@@ -16928,6 +17009,25 @@
         "type": "static"
       }
     ],
+    "npm:@cspotcode/source-map-support": [
+      {
+        "source": "npm:@cspotcode/source-map-support",
+        "target": "npm:@jridgewell/trace-mapping@0.3.9",
+        "type": "static"
+      }
+    ],
+    "npm:@jridgewell/trace-mapping@0.3.9": [
+      {
+        "source": "npm:@jridgewell/trace-mapping@0.3.9",
+        "target": "npm:@jridgewell/resolve-uri",
+        "type": "static"
+      },
+      {
+        "source": "npm:@jridgewell/trace-mapping@0.3.9",
+        "target": "npm:@jridgewell/sourcemap-codec",
+        "type": "static"
+      }
+    ],
     "npm:@emotion/babel-plugin": [
       {
         "source": "npm:@emotion/babel-plugin",
@@ -18014,19 +18114,19 @@
         "type": "static"
       }
     ],
-    "npm:axios@1.6.7": [
+    "npm:axios@1.6.8": [
       {
-        "source": "npm:axios@1.6.7",
+        "source": "npm:axios@1.6.8",
         "target": "npm:follow-redirects",
         "type": "static"
       },
       {
-        "source": "npm:axios@1.6.7",
+        "source": "npm:axios@1.6.8",
         "target": "npm:form-data",
         "type": "static"
       },
       {
-        "source": "npm:axios@1.6.7",
+        "source": "npm:axios@1.6.8",
         "target": "npm:proxy-from-env",
         "type": "static"
       }
@@ -18088,7 +18188,7 @@
       },
       {
         "source": "npm:nx@15.9.7",
-        "target": "npm:axios@1.6.7",
+        "target": "npm:axios@1.6.8",
         "type": "static"
       },
       {
@@ -25778,6 +25878,11 @@
       },
       {
         "source": "npm:jest-config",
+        "target": "npm:ts-node",
+        "type": "static"
+      },
+      {
+        "source": "npm:jest-config",
         "target": "npm:@babel/core",
         "type": "static"
       },
@@ -28036,7 +28141,7 @@
       },
       {
         "source": "npm:nx",
-        "target": "npm:axios@1.6.7",
+        "target": "npm:axios@1.6.8",
         "type": "static"
       },
       {
@@ -28601,7 +28706,7 @@
       },
       {
         "source": "npm:pcf-scripts",
-        "target": "npm:ts-node",
+        "target": "npm:ts-node@8.10.2",
         "type": "static"
       },
       {
@@ -28651,6 +28756,38 @@
       {
         "source": "npm:jsonfile@4.0.0",
         "target": "npm:graceful-fs",
+        "type": "static"
+      }
+    ],
+    "npm:ts-node@8.10.2": [
+      {
+        "source": "npm:ts-node@8.10.2",
+        "target": "npm:typescript",
+        "type": "static"
+      },
+      {
+        "source": "npm:ts-node@8.10.2",
+        "target": "npm:arg",
+        "type": "static"
+      },
+      {
+        "source": "npm:ts-node@8.10.2",
+        "target": "npm:diff",
+        "type": "static"
+      },
+      {
+        "source": "npm:ts-node@8.10.2",
+        "target": "npm:make-error",
+        "type": "static"
+      },
+      {
+        "source": "npm:ts-node@8.10.2",
+        "target": "npm:source-map-support",
+        "type": "static"
+      },
+      {
+        "source": "npm:ts-node@8.10.2",
+        "target": "npm:yn",
         "type": "static"
       }
     ],
@@ -30427,12 +30564,57 @@
     "npm:ts-node": [
       {
         "source": "npm:ts-node",
+        "target": "npm:@types/node",
+        "type": "static"
+      },
+      {
+        "source": "npm:ts-node",
         "target": "npm:typescript",
         "type": "static"
       },
       {
         "source": "npm:ts-node",
+        "target": "npm:@cspotcode/source-map-support",
+        "type": "static"
+      },
+      {
+        "source": "npm:ts-node",
+        "target": "npm:@tsconfig/node10",
+        "type": "static"
+      },
+      {
+        "source": "npm:ts-node",
+        "target": "npm:@tsconfig/node12",
+        "type": "static"
+      },
+      {
+        "source": "npm:ts-node",
+        "target": "npm:@tsconfig/node14",
+        "type": "static"
+      },
+      {
+        "source": "npm:ts-node",
+        "target": "npm:@tsconfig/node16",
+        "type": "static"
+      },
+      {
+        "source": "npm:ts-node",
+        "target": "npm:acorn@8.11.3",
+        "type": "static"
+      },
+      {
+        "source": "npm:ts-node",
+        "target": "npm:acorn-walk",
+        "type": "static"
+      },
+      {
+        "source": "npm:ts-node",
         "target": "npm:arg",
+        "type": "static"
+      },
+      {
+        "source": "npm:ts-node",
+        "target": "npm:create-require",
         "type": "static"
       },
       {
@@ -30447,7 +30629,7 @@
       },
       {
         "source": "npm:ts-node",
-        "target": "npm:source-map-support",
+        "target": "npm:v8-compile-cache-lib",
         "type": "static"
       },
       {
