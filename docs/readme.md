@@ -3,7 +3,7 @@
 
 - **Open Source Project Name**: GIFT/DAVT Gold Ideas First Templates
 - **CDC Internal Project Name**: Data Analytics and Visualization Templates
-- **GitHub Repository URL**: [CDC Internal Repository](https://github.com/cdcent/davt)
+- **GitHub Repository URL**: [CDC Internal Repository](https://github.com/cdcgov/davt)
 
 ![The GIFT Principle](_images/slide13.png "The GIFT Principle")
 

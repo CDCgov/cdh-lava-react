@@ -73,7 +73,7 @@ USER developer
 WORKDIR /home/developer/projects/cdh_lava_react_app
 
 # Create the .npmrc file using the build argument
-RUN echo "@cdcent:registry=https://npm.pkg.github.com/" > .npmrc && \
+RUN echo "@cdcgov:registry=https://npm.pkg.github.com/" > .npmrc && \
     echo "//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}" >> .npmrc && \
     echo "always-auth=true" >> .npmrc
 
