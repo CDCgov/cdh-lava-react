@@ -20,7 +20,7 @@ ReactDOM.render(
 				This page is a demonstration of the Template Package React app available at
 			</p>
 			<p>
-				<code>@cdcent/templatepackage-react</code>
+				<code>@cdcgov/templatepackage-react</code>
 			</p>
 			<p>More information is available in TP Gallery and Github.</p>
 		</CDCBody>

@@ -22,7 +22,7 @@ else
 fi
 
 npm set //npm.pkg.github.com/:_authToken $GITHUB_TOKEN
-echo "@cdcent:registry=https://npm.pkg.github.com/" > .npmrc
+echo "@cdcgov:registry=https://npm.pkg.github.com/" > .npmrc
 echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" >> .npmrc
 echo "always-auth=true" >> .npmrc
 
@@ -34,7 +34,7 @@ service docker start
 # Navigate to a specific package, if needed
 cd cdc_react
 
-npm install cdcent/cdcreact
+npm install cdcgov/cdcreact
 
 # Start the development server. Adjust this command according to your setup.
 npm start

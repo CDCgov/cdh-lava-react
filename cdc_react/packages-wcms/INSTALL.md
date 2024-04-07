@@ -1,4 +1,4 @@
-## To install @cdcent/templatepackage-react
+## To install @cdcgov/templatepackage-react
 
 Full information on installing packages from GitHub can be [found here](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#authenticating-to-github-packages).
 
@@ -32,7 +32,7 @@ Where `TOKEN` is your personal access token.
 Run this command, supplying your GitHub username, personal access token, and GitHub email address.
 
 ```
-$ npm login --scope=@cdcent --registry=https://npm.pkg.github.com
+$ npm login --scope=@cdcgov --registry=https://npm.pkg.github.com
 
 > Username: USERNAME
 > Password: TOKEN
@@ -41,8 +41,8 @@ $ npm login --scope=@cdcent --registry=https://npm.pkg.github.com
 
 ### 5. Install your dependencies
 
-At this point you'll have access to `@cdcent` packages. You can add to `package.json` and `npm install`, or run:
+At this point you'll have access to `@cdcgov` packages. You can add to `package.json` and `npm install`, or run:
 
 ```
-npm install @cdcent/templatepackage-react
+npm install @cdcgov/templatepackage-react
 ```

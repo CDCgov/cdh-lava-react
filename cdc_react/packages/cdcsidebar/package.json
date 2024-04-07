@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cdcent/data-ecosystem-services.git",
+    "url": "git+https://github.com/cdcgov/data-ecosystem-services.git",
     "directory": "cdc-react/packages/cdcsidebar"
   },
   "author": "jcbowyer <zfi4@cdc.gov>",
   "bugs": {
-    "url": "https://github.com/cdcent/data-ecosystem-services/issues"
+    "url": "https://github.com/cdcgov/data-ecosystem-services/issues"
   },
   "license": "Apache-2.0",
-  "homepage": "https://github.com/cdcent/data-ecosystem-services#readme",
+  "homepage": "https://github.com/cdcgov/data-ecosystem-services#readme",
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
