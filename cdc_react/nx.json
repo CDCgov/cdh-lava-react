@@ -43,7 +43,7 @@
       }
     },
     "namedInputs": {
-      "cdcreact": {
+      "cdh-lava-react": {
         "dependencies": {
           "package.json": true
         },

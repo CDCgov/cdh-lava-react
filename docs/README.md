@@ -68,7 +68,7 @@ GitHub has the latest instructions for installing packages from GitHub here:
 4. If you've done this successfully, you should be able to install this like any other npm library:
 
     ```bash
-    npm install cdcgov/cdcreact
+    npm install cdcgov/cdh-lava-react
     ```
 
 ### Requirements
@@ -91,10 +91,10 @@ There are 2 SVG assets included in `CDCHeader`. If you're using webpack, you'll 
 Once you've installed this package in your local JS project via `npm`, you can include these modules in your main js file:
 
 ``` js
-import { CDCHeader, CDCSiteTitle, CDCBody, CDCFooter } from '@cdcgov/cdcreact';
+import { CDCHeader, CDCSiteTitle, CDCBody, CDCFooter } from '@cdcgov/cdh-lava-react';
 // This includes the built CSS files
-import '@cdcgov/cdcreact/assets/css/bootstrap.min.css';
-import '@cdcgov/cdcreact/assets/css/app.min.css';
+import '@cdcgov/cdh-lava-react/assets/css/bootstrap.min.css';
+import '@cdcgov/cdh-lava-react/assets/css/app.min.css';
 ```
 
 #### Themes
