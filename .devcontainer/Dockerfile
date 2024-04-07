@@ -78,7 +78,7 @@ RUN echo "@cdcgov:registry=https://npm.pkg.github.com/" > .npmrc && \
     echo "always-auth=true" >> .npmrc
 
 # Set the working directory to the project directory
-WORKDIR /home/developer/projects/cdh_lava_react_app/cdc_react
+WORKDIR /home/developer/projects/cdh_lava_react_app
 
 # Install project dependencies
 RUN if [ -f package.json ]; then npm install; else echo "package.json not found"; exit 1; fi

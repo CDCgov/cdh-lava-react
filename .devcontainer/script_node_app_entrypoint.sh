@@ -31,8 +31,6 @@ chmod 600  .npmrc
 
 service docker start
 
-# Navigate to a specific package, if needed
-cd cdc_react
 
 npm install cdcgov/cdh-lava-react
 

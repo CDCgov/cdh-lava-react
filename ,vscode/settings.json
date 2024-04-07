@@ -123,23 +123,23 @@
           "description": "Visual Studio Code related files and configurations"
         },
         {
-          "label": "cdc_react\\packages\\cdcheader",
-          "value": "cdc_react\\packages\\cdcheader",
+          "label": "packages\\cdcheader",
+          "value": "packages\\cdcheader",
           "description": "Header Menu React Package for CDH LAVA Python"
         },
         {
-          "label": "cdc_react\\packages\\cdcmarkdown",
-          "value": "cdc_react\\packages\\cdcmarkdown",
+          "label": "packages\\cdcmarkdown",
+          "value": "packages\\cdcmarkdown",
           "description": "Markdown React Package for CDH LAVA Python"
         },
         {
-          "label": "cdc_react\\packages\\cdcsidebar",
-          "value": "cdc_react\\packages\\cdcsidebar",
+          "label": "packages\\cdcsidebar",
+          "value": "packages\\cdcsidebar",
           "description": "Sidebar React Package for CDH LAVA Python"
         },
         {
-          "label": "cdc_react\\packages\\cdcsitetitle",
-          "value": "cdc_react\\packages\\cdcsitetitle",
+          "label": "packages\\cdcsitetitle",
+          "value": "packages\\cdcsitetitle",
           "description": "Site Title React Package for CDH LAVA Python"
         },
         {
@@ -180,23 +180,5 @@
       "multiline": true
     }
   ],
-
-  "python.pythonPath": "~/Envs/WONDER_METADATA_DEV/Scripts",
-  "python.testing.pytestArgs": ["cdh_lava_core_lib"],
-  "python.autoComplete.extraPaths": ["cdh_lava_core/cdh_lava_core"],
-  "python.testing.unittestEnabled": false,
-  "python.testing.pytestEnabled": true,
-  "python.testing.cwd": "${workspaceFolder}/cdh_lava_core",
-  "esbonio.sphinx.confDir": "",
-  "python.analysis.typeCheckingMode": "off",
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
-  },
-  "python.envFile": "${workspaceFolder}\\.databricks\\.databricks.env",
-  "databricks.python.envFile": "${workspaceFolder}/.env",
-  "jupyter.interactiveWindow.cellMarker.codeRegex": "^# COMMAND ----------|^# Databricks notebook source|^(#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
-  "jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------",
-  "databricks.sync.destinationType": "repo",
-  "python.analysis.inlayHints.pytestParameters": true,
-  "pythonTestExplorer.testFramework": "pytest"
+  "esbonio.sphinx.confDir": ""
 }
