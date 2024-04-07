@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cdcgov/data-ecosystem-services/cdcmarkdown",
+    "url": "git+https://github.com/cdcgov/cdh-lava-react/cdcmarkdown",
     "directory": "packages/markup-include"
   },
   "author": "Rob Shelnutt <rob@blackairplane.com>",
   "bugs": {
-    "url": "https://github.com/cdcgov/data-ecosystem-services/cdcmarkdown/issues"
+    "url": "https://github.com/cdcgov/cdh-lava-react/cdcmarkdown/issues"
   },
   "license": "Apache-2.0",
-  "homepage": "https://github.com/cdcgov/data-ecosystem-services/cdcmarkdown#readme",
+  "homepage": "https://github.com/cdcgov/cdh-lava-react/cdcmarkdown#readme",
   "dependencies": {
     "axios": "^1.6.0",
     "chroma": "0.0.1",

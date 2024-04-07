@@ -5,15 +5,15 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cdcgov/data-ecosystem-services.git",
+    "url": "git://github.com/cdcgov/cdh-lava-react.git",
     "directory": "cdc_react"
   },
   "author": "CDC",
   "bugs": {
-    "url": "https://github.com/cdcgov/data-ecosystem-services/issues"
+    "url": "https://github.com/cdcgov/cdh-lava-react/issues"
   },
   "license": "Apache-2.0",
-  "homepage": "https://github.com/cdcgov/data-ecosystem-services#readme",
+  "homepage": "https://github.com/cdcgov/cdh-lava-react#readme",
   "private": false,
   "workspaces": [
     "packages/*"
