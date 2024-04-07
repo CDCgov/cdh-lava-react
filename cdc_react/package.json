@@ -1,5 +1,5 @@
 {
-  "name": "@cdcgov/cdcreact",
+  "name": "@cdcgov/cdh-lava-react",
   "version": "202401.0.1",
   "description": "CDC React components for CDC Data Hub LAVA",
   "type": "module",
