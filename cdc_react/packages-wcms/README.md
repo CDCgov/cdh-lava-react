@@ -10,7 +10,7 @@ GitHub has the latest instructions for installing packages from GitHub here:
 Effectively:
 
 1. **Create token:** Go to https://github.com/settings/tokens to create a Developer Access token. Your Token will only need `read:packages` scope permission. Better to use less than more.
-2. Once your token is created, *copy the token string value*, then click **Configure SSO**, and **Authorize** for CDCEnt Github Org.
+2. Once your token is created, *copy the token string value*, then click **Configure SSO**, and **Authorize** for cdcgov Github Org.
 3. There's two ways to authenticate from here:
    - **npm login:** From your root repo, commandline, run <br/>
    ```
