@@ -1,26 +1,31 @@
 {
     "name": "CDH Lava React",
+    "remoteUser": "developer",
+    "containerEnv": {
+        "GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}"
+      },
     "runArgs": [
+        "--dns=8.8.8.8",
+        "--dns=8.8.4.4",
         "-v",
-        "/var/run/docker.sock:/var/run/docker.sock"
+        "/var/run/docker.sock:/var/run/docker.sock",
+        "--env-file", "${localWorkspaceFolder}/.env"
     ],
     "build": {
         "context": "..",
-        "dockerfile": ".devcontainer/Dockerfile"
+        "dockerfile": "Dockerfile"
     },
     "workspaceFolder": "/${localWorkspaceFolderBasename}",
     "customizations": {
         "vscode": {
             "extensions": [
                 "dbaeumer.vscode-eslint",
-                "esbenp.prettier-vscode",
+                "esbenp.prettier-vscode", 
                 "stylelint.vscode-stylelint",
                 "editorconfig.editorconfig",
                 "mikestead.dotenv",
                 "ms-azuretools.vscode-docker",
-                "GitHub.copilot",
-                "eamodio.gitlens",
-                "wix.vscode-import-cost"
+                "GitHub.copilot"
             ],
             "forwardPorts": [
                 3000,
