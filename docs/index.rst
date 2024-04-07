@@ -19,7 +19,7 @@ GIFT/DAVT Documentation
     * - **CDC Internal Project Name**
       - Data Analytics and Visualization Templates
     * - **GitHub Repository URL**
-      - `github davt <https://github.com/cdcent/davt>`_
+      - `github davt <https://github.com/cdcgov/davt>`_
 
 .. image:: _images/slide13.png
     :alt: The GIFT Principle
@@ -70,14 +70,14 @@ To get access the GIFT/DAVT resources on github.
 - For existing users: Log in with your existing personal GitHub account with your personal email login or CDC email login
 - For new users: Register your personal or CDC email with GitHub account following the `GitHub Onboarding Instructions <https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account>`_.
 
-2. Associate GitHub Account with the CDCEnt Organization
+2. Associate GitHub Account with the cdcgov Organization
 
 - `Complete GitHub Enterprise Cloud Access Request <https://forms.office.com/Pages/ResponsePage.aspx?id=aQjnnNtg_USr6NJ2cHf8j44WSiOI6uNOvdWse4I-C2NUQjVJVDlKS1c0SlhQSUxLNVBaOEZCNUczVS4u&wdLOR=c68990C94-A46B-467C-A841-B58D7BD9721D>`_
-- You will receive email with instructions after completing the form: if you are approved for GitHub Enterprise Cloud usage as official user - you will receive an invite from GitHub to join the GitHub/CDCent organization using your username@cdc.gov email account (some invites get caught in our junk mail folders; and when you accept the invitation in your email, don"t use Internet Explorer\*). Your invitation expires in 7 days, so please accept. If it expires, we can recreate it, but then that will use up more time that we could be using on interesting things.
-- VERY IMPORTANT: Be sure to accept the invite to join the cdcent organization. This is the step where many users experience problems.
+- You will receive email with instructions after completing the form: if you are approved for GitHub Enterprise Cloud usage as official user - you will receive an invite from GitHub to join the GitHub/cdcgov organization using your username@cdc.gov email account (some invites get caught in our junk mail folders; and when you accept the invitation in your email, don"t use Internet Explorer\*). Your invitation expires in 7 days, so please accept. If it expires, we can recreate it, but then that will use up more time that we could be using on interesting things.
+- VERY IMPORTANT: Be sure to accept the invite to join the cdcgov organization. This is the step where many users experience problems.
 - You can confirm your membership to the CDC organization by validating that there is a blue cdc badge at the bottom left of your github profile:
 - First Steps: If you"d like to use your existing GitHub handle, please add and confirm your CDC email address with your GitHub account before you click the invite link. If you prefer, you can also create a 2nd GitHub account specifically for CDC projects, though this can be unwieldy to keep track of and so we do not recommend it.
-- Once you accept your invite, you"re a member of the CDCent github organization. Please set up your profile with enough info to help you work better with your CDC colleagues, so people aren"t scratching their heads thinking "who the heck is washyohands77?" Complete your profile with at least the following information: more info
+- Once you accept your invite, you"re a member of the cdcgov github organization. Please set up your profile with enough info to help you work better with your CDC colleagues, so people aren"t scratching their heads thinking "who the heck is washyohands77?" Complete your profile with at least the following information: more info
 
 .............................................................................
 

@@ -1,42 +1,42 @@
 {
-  "name": "@cdcent/cdcreact",
+  "name": "@cdcgov/cdcreact",
   "version": "202401.0.35",
   "description": "CDC React components for CDC Data Hub LAVA",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cdcent/data-ecosystem-services.git",
+    "url": "git://github.com/cdcgov/data-ecosystem-services.git",
     "directory": "cdc_react"
   },
   "author": "CDC",
   "bugs": {
-    "url": "https://github.com/cdcent/data-ecosystem-services/issues"
+    "url": "https://github.com/cdcgov/data-ecosystem-services/issues"
   },
   "license": "Apache-2.0",
-  "homepage": "https://github.com/cdcent/data-ecosystem-services#readme",
+  "homepage": "https://github.com/cdcgov/data-ecosystem-services#readme",
   "private": false,
   "workspaces": [
     "packages/*"
   ],
   "packages": [
     {
-      "name": "@cdcent/cdcore",
+      "name": "@cdcgov/cdcore",
       "root": "packages/cdcore"
     },
     {
-      "name": "@cdcent/cdcheader",
+      "name": "@cdcgov/cdcheader",
       "root": "packages/cdcheader"
     },
     {
-      "name": "@cdcent/cdcmarkdown",
+      "name": "@cdcgov/cdcmarkdown",
       "root": "packages/cdcmarkdown"
     },
     {
-      "name": "@cdcent/cdcsidebar",
+      "name": "@cdcgov/cdcsidebar",
       "root": "packages/cdcsidebar"
     },
     {
-      "name": "@cdcent/cdcsitetitle",
+      "name": "@cdcgov/cdcsitetitle",
       "root": "packages/cdcsitetitle"
     }
   ],

@@ -10,23 +10,23 @@ GitHub has the latest instructions for installing packages from GitHub here:
 Effectively:
 
 1. **Create token:** Go to https://github.com/settings/tokens to create a Developer Access token. Your Token will only need `read:packages` scope permission. Better to use less than more.
-2. Once your token is created, *copy the token string value*, then click **Configure SSO**, and **Authorize** for CDCEnt Github Org.
+2. Once your token is created, *copy the token string value*, then click **Configure SSO**, and **Authorize** for cdcgov Github Org.
 3. There's two ways to authenticate from here:
    - **npm login:** From your root repo, commandline, run <br/>
    ```
-	 npm login --auth-type=legacy --registry=https://npm.pkg.github.com  --scope=@cdcent --always-auth
+	 npm login --auth-type=legacy --registry=https://npm.pkg.github.com  --scope=@cdcgov --always-auth
 	```
 	It will ask for login info, and you'll use your token as the account password.
    - **.npmrc file:** Create an `.npmrc` file in your root with these contents (replace TOKEN with your token):
    ```
    cd cdc-react
-  echo " @cdcent:registry=https://npm.pkg.github.com/" > .npmrc
+  echo " @cdcgov:registry=https://npm.pkg.github.com/" > .npmrc
   echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > .npmrc
    ```
    ⚠️ **Important:** Make sure `.npmrc` is in your `.gitignore`. It's your login credentials, shouldn't exist in your repo.
 4. If you've done this successfully, you should be able to install this like any other npm library:
    ```bash
-	npm install @cdcent/templatepackage-react
+	npm install @cdcgov/templatepackage-react
 	```
 
 ## Requirements
@@ -48,10 +48,10 @@ There are 2 SVG assets included in `CDCHeader`. If you're using webpack, you'll 
 Once you've installed this package in your local JS project via `npm`, you can include these modules in your main js file:
 
 ```js
-import { CDCHeader, CDCSiteTitle, CDCBody, CDCFooter } from '@cdcent/templatepackage-react';
+import { CDCHeader, CDCSiteTitle, CDCBody, CDCFooter } from '@cdcgov/templatepackage-react';
 // This includes the built CSS files
-import '@cdcent/templatepackage-react/assets/css/bootstrap.min.css';
-import '@cdcent/templatepackage-react/assets/css/app.min.css';
+import '@cdcgov/templatepackage-react/assets/css/bootstrap.min.css';
+import '@cdcgov/templatepackage-react/assets/css/app.min.css';
 ```
 
 ### Themes
@@ -190,7 +190,7 @@ Accepts no props.
 ## More Information
 
 Template Package is maintained by the WCMS / TP team with OADC, in the repo:
-https://github.com/cdcent/TemplatePackage
+https://github.com/cdcgov/TemplatePackage
 
 Feel free to submit issues to this repo. More information is available here:
 

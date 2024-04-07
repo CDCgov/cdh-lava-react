@@ -1,7 +1,7 @@
 # CDC Data Hub React Web Components
 
 - Project Name: CDC Data Hub Analytics and Visualization Documentation
-- GitHub Link: [cdh-dav](https://github.com/cdcent/cdh-dav)
+- GitHub Link: [cdh-dav](https://github.com/cdcgov/cdh-dav)
 - Point of contact: [Nishant Nepal](mailto:mailto:zfi4@cdc.gov) [John Bowyer](mailto:zfi4@cdc.gov)
 - Organizational unit: DDPHSS/IAD/ADB
 - Related projects: OPHDST/IAD/ADB/CDH
@@ -48,7 +48,7 @@ GitHub has the latest instructions for installing packages from GitHub here:
    - **npm login:*-From your root repo, commandline, run this command:
 
     ```bash
-    npm login --scope=cdcent --registry=https://npm.pkg.github.com
+    npm login --scope=cdcgov --registry=https://npm.pkg.github.com
     ```
 
     It will ask for login info, and you'll use your token as the account password.
@@ -58,7 +58,7 @@ GitHub has the latest instructions for installing packages from GitHub here:
     ```bash
     cd <your-repo-project dir>
     npm set //npm.pkg.github.com/:_authToken $GITHUB_TOKEN
-    echo "@cdcent:registry=https://npm.pkg.github.com/" > .npmrc
+    echo "@cdcgov:registry=https://npm.pkg.github.com/" > .npmrc
     echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" >> .npmrc
     echo "always-auth=true" >> .npmrc
     ```
@@ -68,7 +68,7 @@ GitHub has the latest instructions for installing packages from GitHub here:
 4. If you've done this successfully, you should be able to install this like any other npm library:
 
     ```bash
-    npm install cdcent/cdcreact
+    npm install cdcgov/cdcreact
     ```
 
 ### Requirements
@@ -91,10 +91,10 @@ There are 2 SVG assets included in `CDCHeader`. If you're using webpack, you'll 
 Once you've installed this package in your local JS project via `npm`, you can include these modules in your main js file:
 
 ``` js
-import { CDCHeader, CDCSiteTitle, CDCBody, CDCFooter } from '@cdcent/cdcreact';
+import { CDCHeader, CDCSiteTitle, CDCBody, CDCFooter } from '@cdcgov/cdcreact';
 // This includes the built CSS files
-import '@cdcent/cdcreact/assets/css/bootstrap.min.css';
-import '@cdcent/cdcreact/assets/css/app.min.css';
+import '@cdcgov/cdcreact/assets/css/bootstrap.min.css';
+import '@cdcgov/cdcreact/assets/css/app.min.css';
 ```
 
 #### Themes
@@ -632,14 +632,14 @@ Navigate to your project directory and create `.npmrc`:
 
 ```sh
 cd path\to\your\project
-echo "@cdcent:registry=https://npm.pkg.github.com/" > .npmrc
+echo "@cdcgov:registry=https://npm.pkg.github.com/" > .npmrc
 echo "//npm.pkg.github.com/:_authToken=%NODE_AUTH_TOKEN%" >> .npmrc
 ```
 
 ## 4. Login to NPM with GitHub Registry
 
 ```sh
-npm login --registry=https://npm.pkg.github.com/ --scope=@cdcent --always-auth
+npm login --registry=https://npm.pkg.github.com/ --scope=@cdcgov --always-auth
 ```
 
 When prompted, enter your GitHub username, GitHub token as the password, and your email address.
@@ -667,14 +667,14 @@ lerna version --major 202304
 - Publish your package:
 
 ```sh
-npm publish --registry https://npm.pkg.github.com/@cdcent
+npm publish --registry https://npm.pkg.github.com/@cdcgov
 ```
 
 ## 6. Check Package Access and Status
 
 ```sh
-npm access list packages --scope=@cdcent
-npm access get status @cdcent/cdc-react
+npm access list packages --scope=@cdcgov
+npm access get status @cdcgov/cdc-react
 ```
 
 Remember to replace placeholders like `path\to\your\project` and `Your_GitHub_Token` with your actual project path and GitHub personal access token.
@@ -702,14 +702,14 @@ To publish an NPM package to GitHub, you will first need to create an NPM accoun
 
     ```sh
     cd cdc-react
-    echo "@cdcent:registry=https://npm.pkg.github.com/" > .npmrc
+    echo "@cdcgov:registry=https://npm.pkg.github.com/" > .npmrc
     echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" >> .npmrc
     ```
 
 4. Login
 
     ```sh
-    npm login --registry=https://npm.pkg.github.com/ --scope=@cdcent --always-auth --_authToken=<YOUR_GITHUB_TOKEN>
+    npm login --registry=https://npm.pkg.github.com/ --scope=@cdcgov --always-auth --_authToken=<YOUR_GITHUB_TOKEN>
     ```
 
 5. Create your NPM package: Once your repository is created, you can start creating your NPM package. You can do this by running the npm init command in your terminal to create a new package.json file. Then, you can add your code and dependencies as you normally would.  For PADE, our NPM Package is stored in the cdc-react folder.
@@ -724,14 +724,14 @@ To publish an NPM package to GitHub, you will first need to create an NPM accoun
 6. Publish your package to NPM: To publish your NPM package to the NPM registry, run npm login to log in to your NPM account and authenticate yourself. Then, run npm publish to publish your package to the registry. Make sure to specify the correct version number in your package.json file before publishing.
 
     ```sh
-    npm access list packages scope:@cdcent
-    npm access get status @cdcent/cdc-react
-    npm publish -registry https://npm.pkg.github.com/cdcent --scope=cdcent
+    npm access list packages scope:@cdcgov
+    npm access get status @cdcgov/cdc-react
+    npm publish -registry https://npm.pkg.github.com/cdcgov --scope=cdcgov
     ```
 
 ### More Information
 
-Template Package is maintained by the WCMS / TP team with OADC, in the repo: [CDC WCMS Template Repository](https://github.com/cdcent/TemplatePackage)
+Template Package is maintained by the WCMS / TP team with OADC, in the repo: [CDC WCMS Template Repository](https://github.com/cdcgov/TemplatePackage)
 
 Feel free to submit issues to this repo. More information is available here:
 

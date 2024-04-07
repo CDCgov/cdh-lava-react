@@ -3,11 +3,11 @@
   "name": "cdc-react-app",
   "packages": ["packages/*"],
   "publish": {
-    "registry": "https://npm.pkg.github.com/cdcent",
+    "registry": "https://npm.pkg.github.com/cdcgov",
     "otp": "$GITHUB_TOKEN",
     "distTag": "latest",
     "npmClientArgs": [
-      "--registry=https://npm.pkg.github.com/cdcent"
+      "--registry=https://npm.pkg.github.com/cdcgov"
     ]
   },
   "npmClient": "yarn",
